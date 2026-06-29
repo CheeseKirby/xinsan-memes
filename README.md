@@ -2,6 +2,8 @@
 
 An online meme index for skills and agents.
 
+[中文说明](README.zh-CN.md)
+
 The repository stores lightweight meme metadata: title, tags, language, tone,
 source, and image URL. The first version does not mirror large image files, so
 the repo stays cheap and easy to share.
