@@ -93,14 +93,12 @@ The current updater supports Reddit JSON listing URLs:
 
 ## GitHub Pages
 
-The repository includes `.github/workflows/pages.yml`, which deploys the
-static browser viewer when GitHub Pages is available for the repository.
-
-If the Pages URL is still 404, open the repository settings once:
+To publish the simple browser viewer:
 
 1. Open repository settings on GitHub.
 2. Go to **Pages**.
-3. Select **GitHub Actions** as the source.
+3. Select **Deploy from a branch**.
+4. Choose branch `main`, folder `/root`.
 5. Save.
 
 After that, open:
