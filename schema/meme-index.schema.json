@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CheeseKirby/memes/schema/v1",
+  "title": "CheeseKirby Meme Index",
+  "type": "object",
+  "required": ["schema", "updated_at", "item_count", "items"],
+  "properties": {
+    "schema": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": ["string", "null"]
+    },
+    "source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "pack": {
+      "type": "string"
+    },
+    "item_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "tags",
+          "tone",
+          "language",
+          "safe",
+          "image_url",
+          "source_url",
+          "source",
+          "added_at"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tone": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "language": {
+            "type": "string"
+          },
+          "safe": {
+            "type": "boolean"
+          },
+          "image_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "thumbnail_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "source": {
+            "type": "string"
+          },
+          "score": {
+            "type": "integer"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "added_at": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
+
