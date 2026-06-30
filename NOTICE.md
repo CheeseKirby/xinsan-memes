@@ -1,14 +1,13 @@
-# Content Notice
+# 内容声明
 
-This repository is an index of meme metadata and public image URLs. It does
-not claim ownership over indexed meme images.
+这个仓库是《新三国》相关梗的元数据索引，不是图片、视频或截图仓库。
 
-- `index.json` and files under `packs/` are metadata intended for skill and
-  agent lookup.
-- `image_url` and `source_url` point back to the source where the item was
-  discovered.
-- Public skills should prefer items with `"safe": true`.
-- Do not use indexed content in a commercial, defamatory, harassing, private,
-  or policy-violating context without checking the source rights and context.
-- If a listed item should be removed, open an issue or submit a pull request.
+仓库不声称拥有被索引内容的版权。
+
+- `index.json` 和 `packs/` 下的文件主要给 skills / agents 检索使用。
+- `source_url` 指向梗、视频或资料的来源页面。
+- `image_url` 如果存在，只表示可引用的图片地址，不表示本仓库拥有该图片。
+- 默认公开调用时，应优先使用 `"safe": true` 的条目。
+- 不要把索引内容用于骚扰、诽谤、侵犯隐私、商业侵权或其他不合适场景。
+- 如果某个条目不适合继续收录，可以提交 issue 或 pull request 删除。
 

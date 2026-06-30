@@ -1,45 +1,147 @@
-# Skill Integration
+# Skill 接入说明
 
-This repository is now a focused `新三国` meme index.
+这个仓库现在是 **新三国专属梗索引库**。
 
-## Endpoint
+skill 不需要自己去网上乱搜新三国梗，只需要读取这个公开 JSON：
 
 ```text
 https://raw.githubusercontent.com/CheeseKirby/memes/main/index.json
 ```
 
-## Lookup Rule
+## 基本规则
 
-When a skill needs a `新三国` meme:
+当 skill 需要一个《新三国》相关梗时：
 
-1. Download the index JSON.
-2. Keep only items where `safe` is `true`.
-3. Score `title`, `summary`, `aliases`, `tags`, `tone`, and `usage` against the user's intent.
-4. Prefer `item_type: meme` for actual meme answers.
-5. Use `source_episode` items only as source references.
-6. If `image_url` is missing, return `source_url` or `primary_bvid` as a reference instead of pretending there is a ready meme image.
+1. 下载 `index.json`。
+2. 只使用 `safe: true` 的条目。
+3. 优先使用 `item_type: meme` 的条目。
+4. 用用户意图匹配 `title`、`summary`、`aliases`、`tags`、`tone`、`usage`。
+5. `source_episode` 条目只当作视频出处，不要当成梗本体。
+6. 如果 `image_url` 为空，不要假装有现成梗图，返回来源链接或 BVID 即可。
 
-## Important Fields
+## 重要字段
 
 ```text
-title          meme name
-summary        short explanation
-aliases        alternate names
-tags           category labels
-tone           conversational tone
-usage          use cases
-image_url      curated image URL, may be null
-thumbnail_url  Bilibili cover/reference preview, may be null
-source_url     source page
-primary_bvid   Bilibili video id
-image_status   image readiness state
+id             条目 ID
+item_type      条目类型，meme 表示梗，source_episode 表示视频来源
+title          梗名或视频标题
+summary        简短解释
+aliases        别名
+tags           标签
+tone           语气
+usage          适用场景
+language       语言，目前主要是 zh
+safe           是否适合默认公开调用
+image_url      整理好的梗图 URL，可能为空
+thumbnail_url  B 站封面或预览图，可能为空
+source_url     来源链接
+primary_bvid   B 站视频 ID
+image_status   梗图整理状态
 ```
 
-## Simple Strategy
+## 推荐检索方式
+
+把用户需求和这些字段拼在一起做匹配：
 
 ```text
-query: "剧情太离谱，只能说是天意"
-match: title/aliases/tags include "天意"
-return: item title, summary, source_url, image_url if available
+title
+summary
+aliases
+tags
+tone
+usage
+episode_title
+```
+
+例如用户说：
+
+```text
+找一个表示“剧情太离谱，只能说是天意”的梗
+```
+
+应该匹配：
+
+```text
+天意
+```
+
+例如用户说：
+
+```text
+找一个表示“我不接受这个结果”的回复梗
+```
+
+可能匹配：
+
+```text
+不可能，绝对不可能
+```
+
+## 返回结果建议
+
+如果条目有 `image_url`：
+
+```json
+{
+  "title": "天意",
+  "summary": "用于解释新三国剧情突然拐弯、人物突然被安排、历史线被强行拨动的核心世界观梗。",
+  "image_url": "https://example.com/image.jpg",
+  "source_url": "https://example.com/source"
+}
+```
+
+如果条目没有 `image_url`：
+
+```json
+{
+  "title": "天意",
+  "summary": "用于解释新三国剧情突然拐弯、人物突然被安排、历史线被强行拨动的核心世界观梗。",
+  "image_status": "needs_curated_image",
+  "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/...",
+  "primary_bvid": "BVxxxx"
+}
+```
+
+## 不要做的事
+
+不要让 skill：
+
+```text
+直接批量下载 B 站视频画面
+把 source_episode 当成梗图
+忽略 safe 字段
+在没有 image_url 时谎称有现成图片
+把评论区原文大规模复制进输出
+```
+
+## 最小实现逻辑
+
+```python
+def score(item, query):
+    text = " ".join([
+        item.get("title", ""),
+        item.get("summary", ""),
+        " ".join(item.get("aliases", [])),
+        " ".join(item.get("tags", [])),
+        " ".join(item.get("tone", [])),
+        " ".join(item.get("usage", [])),
+        item.get("episode_title") or "",
+    ]).lower()
+
+    return sum(1 for word in query.lower().split() if word in text)
+```
+
+## 一句话
+
+skill 查这个库时，应该把它当成：
+
+```text
+新三国梗名 + 解释 + 来源 + 梗图状态 的索引
+```
+
+而不是：
+
+```text
+一个已经存满图片的图床
 ```
 
