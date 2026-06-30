@@ -1,0 +1,314 @@
+{
+  "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+  "project": {
+    "name": "新三国专属梗库",
+    "english_name": "New Three Kingdoms Meme Index",
+    "focus": "中文互联网近年的《新三国》相关梗，重点参考 B 站 UP 主“吃蛋挞的折棒”的《三国杀up锐评新三国 / 吐槽新三国》系列。",
+    "primary_index": "index.json",
+    "notes": [
+      "本库优先保存梗条目、出处、标签、适用语境和截图引用位，不批量转载视频画面。",
+      "B 站评论区内容只做低频候选提取，入库前需要人工复核。",
+      "如需梗图，请在条目里补充授权图片 URL 或视频时间点，不要直接提交大批量截图。"
+    ]
+  },
+  "updated_at": "2026-06-30T02:21:22Z",
+  "pack": "characters",
+  "item_count": 5,
+  "items": [
+    {
+      "id": "xsg-character-chen-gong-bug-master",
+      "title": "虫系宝可梦大师陈宫",
+      "item_type": "meme",
+      "summary": "折棒系列早期对陈宫相关桥段的二创称呼，适合收录为角色绰号梗。",
+      "aliases": [
+        "陈宫虫系大师"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "人物梗",
+        "角色梗",
+        "陈宫",
+        "视频来源"
+      ],
+      "tone": [
+        "二创",
+        "吐槽",
+        "绰号"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "提到新三国陈宫时使用",
+        "角色绰号"
+      ],
+      "primary_bvid": "BV1N11xYMEoE",
+      "source_url": "https://www.bilibili.com/video/BV1N11xYMEoE",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i1.hdslb.com/bfs/archive/7db6838807e71e56031ac9f2ce1e4ccd28a885ee.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1N11xYMEoE",
+      "episode": 4,
+      "episode_title": "三国杀up锐评新三国04：虫系宝可梦大师陈宫登场",
+      "episode_pubdate": "2024-10-27T02:00:00Z",
+      "episode_stats": {
+        "view": 3151288,
+        "danmaku": 12654,
+        "reply": 1713,
+        "favorite": 7024,
+        "coin": 10427,
+        "share": 3847,
+        "like": 53054
+      },
+      "search_text": "虫系宝可梦大师陈宫 折棒系列早期对陈宫相关桥段的二创称呼，适合收录为角色绰号梗。 陈宫虫系大师 新三国 折棒 人物梗 角色梗 陈宫 视频来源 二创 吐槽 绰号 提到新三国陈宫时使用 角色绰号 三国杀up锐评新三国04：虫系宝可梦大师陈宫登场"
+    },
+    {
+      "id": "xsg-character-hua-xiong-centaur",
+      "title": "华雄人马兽",
+      "item_type": "meme",
+      "summary": "折棒系列中针对华雄相关镜头和表现的绰号梗。",
+      "aliases": [
+        "人马兽华雄"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "人物梗",
+        "角色梗",
+        "华雄",
+        "视频来源"
+      ],
+      "tone": [
+        "吐槽",
+        "绰号",
+        "抽象"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "吐槽华雄出场",
+        "角色造型/镜头调侃"
+      ],
+      "primary_bvid": "BV1XKDWY9EQQ",
+      "source_url": "https://www.bilibili.com/video/BV1XKDWY9EQQ",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i0.hdslb.com/bfs/archive/09645277a39bd12bb4c54294eb66d27bae8a0bfa.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1XKDWY9EQQ",
+      "episode": 8,
+      "episode_title": "三国杀up锐评新三国08：华雄变身人马兽，关羽的酒也没了？",
+      "episode_pubdate": "2024-11-05T02:00:00Z",
+      "episode_stats": {
+        "view": 3020187,
+        "danmaku": 16666,
+        "reply": 2067,
+        "favorite": 7153,
+        "coin": 25898,
+        "share": 3369,
+        "like": 66006
+      },
+      "search_text": "华雄人马兽 折棒系列中针对华雄相关镜头和表现的绰号梗。 人马兽华雄 新三国 折棒 人物梗 角色梗 华雄 视频来源 吐槽 绰号 抽象 吐槽华雄出场 角色造型/镜头调侃 三国杀up锐评新三国08：华雄变身人马兽，关羽的酒也没了？"
+    },
+    {
+      "id": "xsg-episode-cao-cao-fadian",
+      "title": "曹操发癫",
+      "item_type": "meme",
+      "summary": "折棒系列中曹操相关抽象表现的集中吐槽，可用于形容角色突然失控。",
+      "aliases": [
+        "曹操抽疯",
+        "发癫曹操"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "视频来源",
+        "人物梗",
+        "曹操",
+        "反应图"
+      ],
+      "tone": [
+        "失控",
+        "癫狂",
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "形容人突然发疯",
+        "角色行为失控"
+      ],
+      "primary_bvid": "BV1dzRqYVEcR",
+      "source_url": "https://www.bilibili.com/video/BV1dzRqYVEcR",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i1.hdslb.com/bfs/archive/db0c44d5e2ec6004efe48290da3c52d53e868834.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1dzRqYVEcR",
+      "episode": 85,
+      "episode_title": "三国杀up锐评新三国85：抽疯仍未停止，曹操发癫发出新高度",
+      "episode_pubdate": "2025-04-07T02:00:00Z",
+      "episode_stats": {
+        "view": 1941381,
+        "danmaku": 17886,
+        "reply": 3909,
+        "favorite": 5080,
+        "coin": 20207,
+        "share": 1751,
+        "like": 43610
+      },
+      "search_text": "曹操发癫 折棒系列中曹操相关抽象表现的集中吐槽，可用于形容角色突然失控。 曹操抽疯 发癫曹操 新三国 折棒 视频来源 人物梗 曹操 反应图 失控 癫狂 吐槽 形容人突然发疯 角色行为失控 三国杀up锐评新三国85：抽疯仍未停止，曹操发癫发出新高度"
+    },
+    {
+      "id": "xsg-episode-dong-zhuo-ten-attendants",
+      "title": "董卓成了十常侍之首",
+      "item_type": "meme",
+      "summary": "用于吐槽身份关系和历史设定错位。",
+      "aliases": [
+        "十常侍之首董卓"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "视频来源",
+        "历史梗",
+        "人物梗"
+      ],
+      "tone": [
+        "错位",
+        "离谱",
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "身份错位",
+        "设定乱套"
+      ],
+      "primary_bvid": "BV1Y1yjYpE7L",
+      "source_url": "https://www.bilibili.com/video/BV1Y1yjYpE7L",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i1.hdslb.com/bfs/archive/cd108a8d5bb2e4ea07edb26550d3d2c8fdcfd944.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1Y1yjYpE7L",
+      "episode": 2,
+      "episode_title": "三国杀up锐评新三国02：董卓怎么变成十常侍之首了？",
+      "episode_pubdate": "2024-10-22T02:00:00Z",
+      "episode_stats": {
+        "view": 3887978,
+        "danmaku": 11051,
+        "reply": 1922,
+        "favorite": 9234,
+        "coin": 15952,
+        "share": 3290,
+        "like": 71368
+      },
+      "search_text": "董卓成了十常侍之首 用于吐槽身份关系和历史设定错位。 十常侍之首董卓 新三国 折棒 视频来源 历史梗 人物梗 错位 离谱 吐槽 身份错位 设定乱套 三国杀up锐评新三国02：董卓怎么变成十常侍之首了？"
+    },
+    {
+      "id": "xsg-episode-guan-yu-stand-in",
+      "title": "关羽的替身又增加了",
+      "item_type": "meme",
+      "summary": "用于吐槽角色替身、错认、重复身份或镜头替代。",
+      "aliases": [
+        "关羽替身"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "视频来源",
+        "人物梗",
+        "角色梗",
+        "关羽"
+      ],
+      "tone": [
+        "吐槽",
+        "替身",
+        "错认"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "角色像另一个人",
+        "替代品越来越多"
+      ],
+      "primary_bvid": "BV1YjEp6vEEG",
+      "source_url": "https://www.bilibili.com/video/BV1YjEp6vEEG",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i2.hdslb.com/bfs/archive/f4e6b3950803bd8f615ffc2e52819e92fb6ad8cd.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1YjEp6vEEG",
+      "episode": 7,
+      "episode_title": "三国杀up锐评新三国re07：关羽的替身又增加了",
+      "episode_pubdate": "2026-06-07T02:00:00Z",
+      "episode_stats": {
+        "view": 980464,
+        "danmaku": 8996,
+        "reply": 3022,
+        "favorite": 3537,
+        "coin": 10396,
+        "share": 568,
+        "like": 33016
+      },
+      "search_text": "关羽的替身又增加了 用于吐槽角色替身、错认、重复身份或镜头替代。 关羽替身 新三国 折棒 视频来源 人物梗 角色梗 关羽 吐槽 替身 错认 角色像另一个人 替代品越来越多 三国杀up锐评新三国re07：关羽的替身又增加了"
+    }
+  ]
+}

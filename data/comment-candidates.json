@@ -1,0 +1,25 @@
+{
+  "schema": "https://github.com/CheeseKirby/memes/schema/bilibili-comment-candidates/v1",
+  "updated_at": "2026-06-30T02:18:28Z",
+  "notes": [
+    "Only aggregate phrase counts are stored.",
+    "Do not promote candidates into the main index without human review."
+  ],
+  "videos": [
+    {
+      "bvid": "BV1rjyYYjEjQ",
+      "url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
+      "hits": []
+    },
+    {
+      "bvid": "BV1dzRqYVEcR",
+      "url": "https://www.bilibili.com/video/BV1dzRqYVEcR",
+      "hits": []
+    },
+    {
+      "bvid": "BV1kCLb68E9X",
+      "url": "https://www.bilibili.com/video/BV1kCLb68E9X",
+      "hits": []
+    }
+  ]
+}

@@ -1,45 +1,28 @@
 #!/usr/bin/env python3
-"""Update the public meme index from configured sources.
+"""Build the New Three Kingdoms meme index.
 
-The updater intentionally uses only the Python standard library so it can run
-on GitHub Actions without dependency setup.
+The index is curated first. Automated sources are used only as references:
+Bilibili season metadata can enrich entries with episode title, cover URL, and
+source links, but this script does not download video frames or bulk comments.
 """
 
 from __future__ import annotations
 
 import argparse
 import datetime as dt
-import hashlib
-import html
 import json
-import os
 import re
-import shutil
-import subprocess
-import sys
-import time
-import tempfile
-import urllib.error
 import urllib.parse
-import urllib.request
 from pathlib import Path
 from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA = "https://github.com/CheeseKirby/memes/schema/v1"
-IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".gif", ".webp")
-DEFAULT_USER_AGENT = "CheeseKirby-meme-index/0.1 (+https://github.com/CheeseKirby/memes)"
+SCHEMA = "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1"
 
 
 def utc_now() -> str:
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
-
-def from_unix(timestamp: int | float | None) -> str | None:
-    if timestamp is None:
-        return None
-    return dt.datetime.fromtimestamp(float(timestamp), dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
 def load_json(path: Path, fallback: Any) -> Any:
@@ -74,348 +57,194 @@ def unique_strings(values: list[str]) -> list[str]:
     return result
 
 
-def fetch_json(url: str, user_agent: str) -> Any:
-    headers = {
-        "Accept": "application/json",
-        "User-Agent": user_agent,
-    }
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-    parsed = urllib.parse.urlparse(url)
-    if token and parsed.netloc.lower() == "api.github.com":
-        headers["Authorization"] = f"Bearer {token}"
-        headers["X-GitHub-Api-Version"] = "2022-11-28"
-
-    request = urllib.request.Request(
-        url,
-        headers=headers,
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return json.loads(response.read().decode(charset, errors="replace"))
+def bvid_url(bvid: str) -> str:
+    return f"https://www.bilibili.com/video/{bvid}"
 
 
-def clean_url(value: str | None) -> str | None:
-    if not value:
-        return None
-    value = html.unescape(value.strip())
-    parsed = urllib.parse.urlparse(value)
-    if parsed.scheme not in {"http", "https"}:
-        return None
-    return urllib.parse.urlunparse(parsed)
+def load_bilibili_episode_map(path: Path) -> dict[str, dict[str, Any]]:
+    payload = load_json(path, {"episodes": []})
+    episodes = payload.get("episodes", [])
+    return {episode["bvid"]: episode for episode in episodes if episode.get("bvid")}
 
 
-def is_image_url(value: str | None) -> bool:
-    if not value:
-        return False
-    path = urllib.parse.urlparse(value).path.lower()
-    return path.endswith(IMAGE_EXTENSIONS)
+def enrich_with_bilibili(item: dict[str, Any], episodes_by_bvid: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    bvid = item.get("primary_bvid")
+    if not bvid:
+        return item
+
+    episode = episodes_by_bvid.get(bvid)
+    item.setdefault("source_url", bvid_url(bvid))
+    item.setdefault("bilibili_url", bvid_url(bvid))
+
+    if not episode:
+        return item
+
+    item["bilibili_url"] = episode.get("url") or bvid_url(bvid)
+    item["episode"] = episode.get("episode")
+    item["episode_title"] = episode.get("title")
+    item["episode_pubdate"] = episode.get("pubdate")
+    item["episode_stats"] = episode.get("stat")
+
+    cover = episode.get("cover_url")
+    if cover:
+        item.setdefault("thumbnail_url", cover)
+        item.setdefault("image_refs", [])
+        if not any(ref.get("url") == cover for ref in item["image_refs"]):
+            item["image_refs"].append(
+                {
+                    "kind": "bilibili_cover",
+                    "status": "reference_only",
+                    "url": cover,
+                    "note": "Bilibili video cover URL; not rehosted by this repository."
+                }
+            )
+
+    return item
 
 
-def reddit_image_url(post: dict[str, Any]) -> str | None:
-    candidates: list[str | None] = [
-        post.get("url_overridden_by_dest"),
-        post.get("url"),
-    ]
-
-    preview = post.get("preview", {})
-    images = preview.get("images", []) if isinstance(preview, dict) else []
-    if images:
-        source = images[0].get("source", {})
-        candidates.append(source.get("url"))
-
-    media_metadata = post.get("media_metadata")
-    if isinstance(media_metadata, dict):
-        for media in media_metadata.values():
-            if isinstance(media, dict):
-                source = media.get("s") or {}
-                candidates.append(source.get("u"))
-
-    for candidate in candidates:
-        url = clean_url(candidate)
-        if is_image_url(url):
-            return url
-    return None
-
-
-def reddit_thumbnail_url(post: dict[str, Any], image_url: str) -> str:
-    thumbnail = clean_url(post.get("thumbnail"))
-    if is_image_url(thumbnail):
-        return thumbnail
-    return image_url
-
-
-def reddit_source_url(permalink: str | None) -> str:
-    if not permalink:
-        return "https://www.reddit.com/"
-    return urllib.parse.urljoin("https://www.reddit.com/", permalink)
-
-
-def quote_path(path: str) -> str:
-    return "/".join(urllib.parse.quote(part) for part in path.split("/"))
-
-
-def title_from_path(path: str) -> str:
-    stem = Path(path).stem
-    stem = re.sub(r"[_\-]+", " ", stem)
-    stem = re.sub(r"\s+", " ", stem).strip()
-    return stem or "Untitled meme"
-
-
-def github_entries_from_api(repo: str, branch: str | None, user_agent: str) -> tuple[str, list[dict[str, Any]]]:
-    repo_payload = fetch_json(f"https://api.github.com/repos/{repo}", user_agent)
-    resolved_branch = branch or repo_payload.get("default_branch") or "main"
-    tree_url = f"https://api.github.com/repos/{repo}/git/trees/{urllib.parse.quote(resolved_branch, safe='')}?recursive=1"
-    tree_payload = fetch_json(tree_url, user_agent)
-    return resolved_branch, list(tree_payload.get("tree", []))
-
-
-def github_entries_from_git(repo: str, branch: str | None) -> tuple[str, list[dict[str, Any]]]:
-    git = shutil.which("git")
-    if not git:
-        raise RuntimeError("git is not available for GitHub tree fallback")
-
-    with tempfile.TemporaryDirectory(prefix="meme-index-") as tmp:
-        clone_cmd = [
-            git,
-            "clone",
-            "--depth",
-            "1",
-            "--filter=blob:none",
-            "--no-checkout",
+def normalize_item(item: dict[str, Any], source_id: str, now: str, episodes_by_bvid: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    item = dict(item)
+    item["schema"] = SCHEMA
+    item["source"] = source_id
+    item["language"] = item.get("language") or "zh"
+    item["safe"] = bool(item.get("safe", True))
+    item["tags"] = unique_strings(list(item.get("tags", [])))
+    item["tone"] = unique_strings(list(item.get("tone", [])))
+    item["aliases"] = list(dict.fromkeys(item.get("aliases", [])))
+    item["usage"] = list(dict.fromkeys(item.get("usage", [])))
+    item["added_at"] = item.get("added_at") or now
+    item["updated_at"] = now
+    item.setdefault("image_url", None)
+    item.setdefault("thumbnail_url", None)
+    item.setdefault("image_refs", [])
+    item.setdefault("source_url", item.get("bilibili_url"))
+    item.setdefault("summary", item.get("title", ""))
+    item = enrich_with_bilibili(item, episodes_by_bvid)
+    item["search_text"] = " ".join(
+        [
+            item.get("title", ""),
+            item.get("summary", ""),
+            " ".join(item.get("aliases", [])),
+            " ".join(item.get("tags", [])),
+            " ".join(item.get("tone", [])),
+            " ".join(item.get("usage", [])),
+            item.get("episode_title") or "",
         ]
-        if branch:
-            clone_cmd.extend(["--branch", branch])
-        clone_cmd.extend([f"https://github.com/{repo}.git", tmp])
-        subprocess.run(clone_cmd, check=True, capture_output=True, text=True, timeout=180)
-
-        branch_result = subprocess.run(
-            [git, "-C", tmp, "rev-parse", "--abbrev-ref", "HEAD"],
-            check=True,
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
-        resolved_branch = branch or branch_result.stdout.strip() or "main"
-        paths_result = subprocess.run(
-            [git, "-C", tmp, "ls-tree", "-r", "--name-only", "HEAD"],
-            check=True,
-            capture_output=True,
-            text=True,
-            timeout=60,
-        )
-
-    entries = [{"type": "blob", "path": line.strip()} for line in paths_result.stdout.splitlines() if line.strip()]
-    return resolved_branch, entries
+    )
+    return item
 
 
-def summarize(title: str, tags: list[str], tone: list[str]) -> str:
-    pieces = []
-    if tags:
-        pieces.append(", ".join(tags[:4]))
-    if tone:
-        pieces.append(", ".join(tone[:3]))
-    if not pieces:
-        return title
-    return f"{title} ({'; '.join(pieces)})"
-
-
-def fetch_reddit_source(source: dict[str, Any], user_agent: str) -> list[dict[str, Any]]:
-    payload = fetch_json(source["url"], user_agent)
-    children = payload.get("data", {}).get("children", [])
+def load_curated_items(config: dict[str, Any], episodes_by_bvid: dict[str, dict[str, Any]], now: str) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
-    min_score = int(source.get("min_score", 0))
-    allow_nsfw = bool(source.get("allow_nsfw", False))
-    tags = unique_strings(list(source.get("default_tags", [])))
-    tone = unique_strings(list(source.get("tone", [])))
-    language = source.get("language", "en")
-    safe = bool(source.get("safe", True))
-
-    for child in children:
-        post = child.get("data", {})
-        if not isinstance(post, dict):
+    for source in config.get("sources", []):
+        if source.get("type") != "curated_json":
             continue
-        if post.get("stickied"):
-            continue
-        if post.get("over_18") and not allow_nsfw:
-            continue
-        score = int(post.get("score") or 0)
-        if score < min_score:
-            continue
-
-        image_url = reddit_image_url(post)
-        if not image_url:
-            continue
-
-        reddit_id = post.get("name") or f"t3_{post.get('id')}"
-        title = str(post.get("title") or "").strip()
-        if not title:
-            title = "Untitled meme"
-
-        item = {
-            "id": f"{source['id']}_{reddit_id}",
-            "title": title,
-            "summary": summarize(title, tags, tone),
-            "tags": tags,
-            "tone": tone,
-            "language": language,
-            "safe": safe and not bool(post.get("over_18")),
-            "image_url": image_url,
-            "thumbnail_url": reddit_thumbnail_url(post, image_url),
-            "source_url": reddit_source_url(post.get("permalink")),
-            "source": source["id"],
-            "score": score,
-            "created_at": from_unix(post.get("created_utc")),
-            "added_at": utc_now(),
-        }
-        items.append(item)
+        source_path = ROOT / source["file"]
+        payload = load_json(source_path, {"items": []})
+        for item in payload.get("items", []):
+            items.append(normalize_item(item, source["id"], now, episodes_by_bvid))
     return items
 
 
-def fetch_github_source(source: dict[str, Any], user_agent: str) -> list[dict[str, Any]]:
-    repo = source["repo"].strip("/")
-    configured_branch = source.get("branch")
-    try:
-        branch, tree = github_entries_from_api(repo, configured_branch, user_agent)
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
-        print(f"{source.get('id')}: GitHub API fallback to git ({exc})", file=sys.stderr)
-        branch, tree = github_entries_from_git(repo, configured_branch)
-
-    tags = unique_strings(list(source.get("default_tags", [])))
-    tone = unique_strings(list(source.get("tone", [])))
-    language = source.get("language", "en")
-    safe = bool(source.get("safe", True))
-    max_items = int(source.get("max_items", 250))
-    path_prefixes = [prefix.lower() for prefix in source.get("path_prefixes", [])]
-    exclude_parts = [part.lower() for part in source.get("exclude_paths", [".git/", "node_modules/"])]
-
+def load_episode_reference_items(config: dict[str, Any], now: str) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
-    for entry in tree:
-        if entry.get("type") != "blob":
+    for source in config.get("sources", []):
+        if source.get("type") != "bilibili_season_reference":
             continue
-        path = str(entry.get("path") or "")
-        lower_path = path.lower()
-        if not is_image_url(f"https://example.com/{path}"):
+        if not source.get("enabled", True):
             continue
-        if path_prefixes and not any(lower_path.startswith(prefix) for prefix in path_prefixes):
-            continue
-        if any(part in lower_path for part in exclude_parts):
-            continue
-
-        encoded_path = quote_path(path)
-        branch_for_url = urllib.parse.quote(branch, safe="")
-        raw_url = f"https://raw.githubusercontent.com/{repo}/{branch_for_url}/{encoded_path}"
-        source_url = f"https://github.com/{repo}/blob/{branch_for_url}/{encoded_path}"
-        stable_hash = hashlib.sha1(f"{repo}:{branch}:{path}".encode("utf-8")).hexdigest()[:12]
-        title = title_from_path(path)
-
-        items.append(
-            {
-                "id": f"{source['id']}_{stable_hash}",
-                "title": title,
-                "summary": summarize(title, tags, tone),
-                "tags": tags,
-                "tone": tone,
-                "language": language,
-                "safe": safe,
-                "image_url": raw_url,
-                "thumbnail_url": raw_url,
-                "source_url": source_url,
+        payload = load_json(ROOT / source["file"], {"episodes": [], "series": {}})
+        series = payload.get("series", {})
+        for episode in payload.get("episodes", []):
+            bvid = episode.get("bvid")
+            if not bvid:
+                continue
+            title = episode.get("title") or f"Episode {episode.get('episode')}"
+            item = {
+                "id": f"xsg-source-video-{bvid}",
+                "schema": SCHEMA,
                 "source": source["id"],
-                "score": 0,
-                "created_at": None,
-                "added_at": utc_now(),
+                "item_type": "source_episode",
+                "title": title,
+                "summary": f"吃蛋挞的折棒《{series.get('title', source.get('series_title', '吐槽新三国'))}》第 {episode.get('episode')} 期视频来源。",
+                "tags": ["新三国", "折棒", "视频来源"],
+                "tone": ["source"],
+                "language": "zh",
+                "safe": True,
+                "image_url": None,
+                "thumbnail_url": episode.get("cover_url"),
+                "source_url": episode.get("url") or bvid_url(bvid),
+                "bilibili_url": episode.get("url") or bvid_url(bvid),
+                "primary_bvid": bvid,
+                "episode": episode.get("episode"),
+                "episode_title": title,
+                "episode_pubdate": episode.get("pubdate"),
+                "episode_stats": episode.get("stat"),
+                "image_refs": [
+                    {
+                        "kind": "bilibili_cover",
+                        "status": "reference_only",
+                        "url": episode.get("cover_url"),
+                        "note": "Bilibili video cover URL; not rehosted by this repository."
+                    }
+                ] if episode.get("cover_url") else [],
+                "added_at": now,
+                "updated_at": now,
             }
-        )
-        if len(items) >= max_items:
-            break
-
+            item["search_text"] = " ".join([item["title"], item["summary"], " ".join(item["tags"])])
+            items.append(item)
     return items
-
-
-def fetch_source(source: dict[str, Any], user_agent: str) -> list[dict[str, Any]]:
-    source_type = source.get("type")
-    if source_type == "reddit_json":
-        return fetch_reddit_source(source, user_agent)
-    if source_type == "github_tree":
-        return fetch_github_source(source, user_agent)
-    print(f"Unsupported source type: {source_type}", file=sys.stderr)
-    return []
-
-
-def merge_items(existing: list[dict[str, Any]], discovered: list[dict[str, Any]], max_items: int) -> list[dict[str, Any]]:
-    by_id: dict[str, dict[str, Any]] = {}
-    for item in existing:
-        if item.get("id"):
-            by_id[item["id"]] = item
-
-    for item in discovered:
-        item_id = item.get("id")
-        if not item_id:
-            continue
-        previous = by_id.get(item_id, {})
-        if previous.get("added_at"):
-            item["added_at"] = previous["added_at"]
-        by_id[item_id] = {**previous, **item}
-
-    def sort_key(item: dict[str, Any]) -> tuple[int, str]:
-        return (int(item.get("score") or 0), str(item.get("created_at") or item.get("added_at") or ""))
-
-    items = sorted(by_id.values(), key=sort_key, reverse=True)
-    return items[:max_items]
 
 
 def matches_pack(item: dict[str, Any], rule: dict[str, Any]) -> bool:
-    language = rule.get("language")
-    if language and item.get("language") != language:
-        return False
-
     tags_any = set(unique_strings(list(rule.get("tags_any", []))))
     if tags_any:
         item_tags = set(unique_strings(list(item.get("tags", []))))
         if not item_tags.intersection(tags_any):
             return False
 
-    tone_any = set(unique_strings(list(rule.get("tone_any", []))))
-    if tone_any:
-        item_tone = set(unique_strings(list(item.get("tone", []))))
-        if not item_tone.intersection(tone_any):
-            return False
+    item_types = set(rule.get("item_types", []))
+    if item_types and item.get("item_type") not in item_types:
+        return False
 
     return True
 
 
-def build_index(config_path: Path, index_path: Path, packs_dir: Path, user_agent: str) -> int:
+def sort_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    def key(item: dict[str, Any]) -> tuple[int, str]:
+        type_rank = {
+            "meme": 0,
+            "source_episode": 1,
+        }.get(item.get("item_type"), 9)
+        return (type_rank, item.get("id", ""))
+
+    return sorted(items, key=key)
+
+
+def build_index(config_path: Path, index_path: Path, packs_dir: Path, series_path: Path) -> int:
     config = load_json(config_path, {})
-    existing_index = load_json(index_path, {"items": []})
-    max_items = int(config.get("max_items", 1500))
     now = utc_now()
+    episodes_by_bvid = load_bilibili_episode_map(series_path)
 
-    discovered: list[dict[str, Any]] = []
-    sources = config.get("sources", [])
-    for source in sources:
-        try:
-            source_items = fetch_source(source, user_agent)
-            discovered.extend(source_items)
-            print(f"{source.get('id')}: {len(source_items)} items")
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, KeyError) as exc:
-            print(f"{source.get('id')}: skipped ({exc})", file=sys.stderr)
-        time.sleep(1)
+    items = load_curated_items(config, episodes_by_bvid, now)
+    items.extend(load_episode_reference_items(config, now))
+    items = sort_items(items)[: int(config.get("max_items", 1000))]
 
-    items = merge_items(existing_index.get("items", []), discovered, max_items)
     index = {
         "schema": SCHEMA,
+        "project": config.get("project", {}),
         "updated_at": now,
-        "source_count": len(sources),
+        "source_count": len(config.get("sources", [])),
         "item_count": len(items),
         "items": items,
     }
     write_json(index_path, index)
 
-    pack_rules = config.get("packs", {})
-    for pack_name, rule in pack_rules.items():
+    for pack_name, rule in config.get("packs", {}).items():
         pack_items = [item for item in items if matches_pack(item, rule)]
         pack = {
             "schema": SCHEMA,
+            "project": config.get("project", {}),
             "updated_at": now,
             "pack": pack_name,
             "item_count": len(pack_items),
@@ -423,24 +252,24 @@ def build_index(config_path: Path, index_path: Path, packs_dir: Path, user_agent
         }
         write_json(packs_dir / f"{pack_name}.json", pack)
 
-    return len(discovered)
+    return len(items)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Update the CheeseKirby meme index.")
+    parser = argparse.ArgumentParser(description="Build the New Three Kingdoms meme index.")
     parser.add_argument("--config", default=str(ROOT / "sources.json"))
     parser.add_argument("--index", default=str(ROOT / "index.json"))
     parser.add_argument("--packs-dir", default=str(ROOT / "packs"))
-    parser.add_argument("--user-agent", default=DEFAULT_USER_AGENT)
+    parser.add_argument("--series", default=str(ROOT / "data" / "bilibili-series.json"))
     args = parser.parse_args()
 
-    discovered = build_index(
+    count = build_index(
         config_path=Path(args.config),
         index_path=Path(args.index),
         packs_dir=Path(args.packs_dir),
-        user_agent=args.user_agent,
+        series_path=Path(args.series),
     )
-    print(f"Discovered {discovered} candidate items")
+    print(f"Built {count} New Three Kingdoms index items")
     return 0
 
 

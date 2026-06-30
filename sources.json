@@ -1,80 +1,47 @@
 {
-  "max_items": 1500,
+  "project": {
+    "name": "新三国专属梗库",
+    "english_name": "New Three Kingdoms Meme Index",
+    "focus": "中文互联网近年的《新三国》相关梗，重点参考 B 站 UP 主“吃蛋挞的折棒”的《三国杀up锐评新三国 / 吐槽新三国》系列。",
+    "primary_index": "index.json",
+    "notes": [
+      "本库优先保存梗条目、出处、标签、适用语境和截图引用位，不批量转载视频画面。",
+      "B 站评论区内容只做低频候选提取，入库前需要人工复核。",
+      "如需梗图，请在条目里补充授权图片 URL 或视频时间点，不要直接提交大批量截图。"
+    ]
+  },
+  "max_items": 1000,
   "packs": {
-    "coding": {
-      "tags_any": ["coding", "programming", "developer"]
+    "worldview": {
+      "tags_any": ["世界观", "理论梗", "定律", "天意学"]
+    },
+    "quotes": {
+      "tags_any": ["台词梗", "短句", "复读"]
+    },
+    "characters": {
+      "tags_any": ["人物梗", "角色梗"]
+    },
+    "episodes": {
+      "item_types": ["source_episode"]
     },
     "reaction": {
-      "tags_any": ["reaction"]
-    },
-    "zh": {
-      "language": "zh"
-    },
-    "en": {
-      "language": "en"
+      "tags_any": ["反应图", "回复", "吐槽"]
     }
   },
   "sources": [
     {
-      "id": "github_codewithpom_dev_meme",
-      "type": "github_tree",
-      "repo": "codewithpom/dev-meme",
-      "default_tags": ["coding", "programming", "developer", "meme", "reaction"],
-      "tone": ["humor", "reaction"],
-      "language": "en",
-      "safe": true,
-      "max_items": 120
+      "id": "curated_xin_sanguo_memes",
+      "type": "curated_json",
+      "file": "data/xin-sanguo-memes.json"
     },
     {
-      "id": "github_deep5050_programming_memes",
-      "type": "github_tree",
-      "repo": "deep5050/programming-memes",
-      "default_tags": ["coding", "programming", "developer", "meme"],
-      "tone": ["humor", "reaction"],
-      "language": "en",
-      "safe": true,
-      "max_items": 300
-    },
-    {
-      "id": "github_atanet90_expression_pack",
-      "type": "github_tree",
-      "repo": "atanet90/expression-pack",
-      "path_prefixes": ["img/", "images/", "static/"],
-      "default_tags": ["zh", "reaction", "expression-pack", "meme"],
-      "tone": ["reaction", "chat"],
-      "language": "zh",
-      "safe": true,
-      "max_items": 300
-    },
-    {
-      "id": "reddit_programmerhumor",
-      "type": "reddit_json",
-      "url": "https://www.reddit.com/r/ProgrammerHumor/top.json?t=day&limit=50",
-      "default_tags": ["coding", "programming", "developer", "meme"],
-      "tone": ["humor", "reaction"],
-      "language": "en",
-      "safe": true,
-      "min_score": 100
-    },
-    {
-      "id": "reddit_memes",
-      "type": "reddit_json",
-      "url": "https://www.reddit.com/r/memes/top.json?t=day&limit=50",
-      "default_tags": ["meme", "reaction", "internet"],
-      "tone": ["humor", "reaction"],
-      "language": "en",
-      "safe": true,
-      "min_score": 500
-    },
-    {
-      "id": "reddit_wholesomememes",
-      "type": "reddit_json",
-      "url": "https://www.reddit.com/r/wholesomememes/top.json?t=day&limit=50",
-      "default_tags": ["meme", "reaction", "wholesome"],
-      "tone": ["wholesome", "friendly"],
-      "language": "en",
-      "safe": true,
-      "min_score": 300
+      "id": "zhebang_bilibili_series",
+      "type": "bilibili_season_reference",
+      "seed_bvid": "BV1dzRqYVEcR",
+      "file": "data/bilibili-series.json",
+      "creator": "吃蛋挞的折棒",
+      "series_title": "吐槽新三国",
+      "enabled": true
     }
   ]
 }

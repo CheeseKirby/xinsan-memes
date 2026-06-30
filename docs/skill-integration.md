@@ -1,6 +1,6 @@
 # Skill Integration
 
-Use the meme index as a read-only online catalog.
+This repository is now a focused `新三国` meme index.
 
 ## Endpoint
 
@@ -8,58 +8,38 @@ Use the meme index as a read-only online catalog.
 https://raw.githubusercontent.com/CheeseKirby/memes/main/index.json
 ```
 
-Use the GitHub Pages endpoint when Pages is enabled:
-
-```text
-https://cheesekirby.github.io/memes/index.json
-```
-
 ## Lookup Rule
 
-When a skill needs a meme:
+When a skill needs a `新三国` meme:
 
 1. Download the index JSON.
-2. Keep only items where `safe` is `true` unless the user explicitly wants a
-   less restricted context.
-3. Filter by `language` if the user asked for Chinese, English, or mixed usage.
-4. Score title, summary, tags, and tone against the user's intent.
-5. Return `image_url` and keep `source_url` for attribution.
+2. Keep only items where `safe` is `true`.
+3. Score `title`, `summary`, `aliases`, `tags`, `tone`, and `usage` against the user's intent.
+4. Prefer `item_type: meme` for actual meme answers.
+5. Use `source_episode` items only as source references.
+6. If `image_url` is missing, return `source_url` or `primary_bvid` as a reference instead of pretending there is a ready meme image.
 
-## Simple Scoring
+## Important Fields
 
-```python
-def score(item, query):
-    haystack = " ".join([
-        item.get("title", ""),
-        item.get("summary", ""),
-        " ".join(item.get("tags", [])),
-        " ".join(item.get("tone", [])),
-    ]).lower()
-    return sum(1 for word in query.lower().split() if word in haystack)
+```text
+title          meme name
+summary        short explanation
+aliases        alternate names
+tags           category labels
+tone           conversational tone
+usage          use cases
+image_url      curated image URL, may be null
+thumbnail_url  Bilibili cover/reference preview, may be null
+source_url     source page
+primary_bvid   Bilibili video id
+image_status   image readiness state
 ```
 
-## Suggested Skill Contract
+## Simple Strategy
 
-```json
-{
-  "query": "deadline panic but funny",
-  "language": "en",
-  "safe": true,
-  "limit": 3
-}
-```
-
-Expected result:
-
-```json
-[
-  {
-    "title": "Example meme",
-    "image_url": "https://example.com/meme.jpg",
-    "source_url": "https://example.com/post",
-    "tags": ["coding", "panic"],
-    "tone": ["humor", "reaction"]
-  }
-]
+```text
+query: "剧情太离谱，只能说是天意"
+match: title/aliases/tags include "天意"
+return: item title, summary, source_url, image_url if available
 ```
 

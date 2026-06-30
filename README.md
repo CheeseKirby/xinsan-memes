@@ -1,110 +1,89 @@
-# CheeseKirby Meme Index
-
-An online meme index for skills and agents.
+# CheeseKirby New Three Kingdoms Meme Index
 
 [中文说明](README.zh-CN.md)
 
-The repository stores lightweight meme metadata: title, tags, language, tone,
-source, and image URL. The first version does not mirror large image files, so
-the repo stays cheap and easy to share.
+This repository is a focused meme index for the Chinese internet's recent
+`新三国` meme culture.
+
+It now focuses on:
+
+- memes from and around the 2010 TV drama `新三国`
+- recent Chinese internet usage
+- Bilibili creator `吃蛋挞的折棒`
+- the `三国杀up锐评新三国 / 吐槽新三国` series
+- comment-section candidate phrases and manually reviewed meme entries
+
+The repository stores metadata, source links, tags, usage notes, Bilibili video
+references, and image reference slots. It does not bulk rehost screenshots or
+video frames.
 
 ## Public Endpoints
 
-Use this endpoint from skills:
+Main index:
 
 ```text
 https://raw.githubusercontent.com/CheeseKirby/memes/main/index.json
 ```
 
-If GitHub Pages is enabled for the repository, this endpoint will also work:
+Dedicated packs:
 
 ```text
-https://cheesekirby.github.io/memes/index.json
-```
-
-Pack endpoints:
-
-```text
-https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/coding.json
+https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/worldview.json
+https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/quotes.json
+https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/characters.json
+https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/episodes.json
 https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/reaction.json
-https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/zh.json
-https://raw.githubusercontent.com/CheeseKirby/memes/main/packs/en.json
 ```
 
-## Skill Usage
+## What Is Stored
 
-When a skill needs a meme:
-
-1. Fetch `index.json`.
-2. Filter by `safe`, `language`, `tags`, or `tone`.
-3. Match the user intent against `title`, `tags`, `tone`, and `summary`.
-4. Return the selected item's `image_url` and keep `source_url` for attribution.
-
-Minimal item shape:
+The index stores entries like:
 
 ```json
 {
-  "id": "reddit_programmerhumor_t3_example",
-  "title": "When the build passes on the first try",
-  "summary": "A programming meme suitable for coding success reactions.",
-  "tags": ["coding", "programming", "developer"],
-  "tone": ["reaction", "humor"],
-  "language": "en",
+  "id": "xsg-worldview-tianyi",
+  "title": "天意",
+  "summary": "用于解释新三国剧情突然拐弯、人物突然被安排、历史线被强行拨动的核心世界观梗。",
+  "tags": ["新三国", "折棒", "世界观", "理论梗", "天意学"],
+  "tone": ["解释", "吐槽", "抽象"],
+  "language": "zh",
   "safe": true,
-  "image_url": "https://example.com/meme.jpg",
-  "thumbnail_url": "https://example.com/meme.jpg",
-  "source_url": "https://reddit.com/r/ProgrammerHumor/comments/example",
-  "source": "reddit_programmerhumor",
-  "score": 1200,
-  "created_at": "2026-06-29T00:00:00Z",
-  "added_at": "2026-06-29T00:00:00Z"
+  "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/...",
+  "image_status": "needs_curated_image"
 }
 ```
 
-## Daily Updates
+For Bilibili video references, the index stores BVID, episode title, cover URL,
+source URL, and stats when available.
 
-GitHub Actions runs `scripts/update_index.py` every day. It reads
-`sources.json`, discovers new public meme image URLs, updates `index.json`,
-and regenerates files in `packs/`.
+## Update Flow
 
-Run it manually:
+Daily GitHub Actions runs:
 
 ```bash
+python scripts/update_bilibili_series.py
 python scripts/update_index.py
 ```
 
-## Add Sources
+Optional low-volume comment candidate extraction:
 
-Edit `sources.json`. Keep sources public, low-volume, and respectful of each
-site's rules.
-
-The current updater supports Reddit JSON listing URLs:
-
-```json
-{
-  "id": "reddit_programmerhumor",
-  "type": "reddit_json",
-  "url": "https://www.reddit.com/r/ProgrammerHumor/top.json?t=day&limit=50",
-  "default_tags": ["coding", "programming", "developer", "meme"],
-  "tone": ["humor", "reaction"],
-  "language": "en",
-  "safe": true,
-  "min_score": 100
-}
+```bash
+python scripts/collect_bilibili_candidates.py --max-pages 1 --page-size 20
 ```
 
-## GitHub Pages
+Comment extraction stores aggregate phrase counts only, not bulk comment text.
 
-To publish the simple browser viewer:
+## Skill Usage
 
-1. Open repository settings on GitHub.
-2. Go to **Pages**.
-3. Select **Deploy from a branch**.
-4. Choose branch `main`, folder `/root`.
-5. Save.
+When a skill needs a `新三国` meme:
 
-After that, open:
+1. Fetch `index.json`.
+2. Filter `safe: true`.
+3. Match user intent against `title`, `summary`, `aliases`, `tags`, `tone`, and `usage`.
+4. Prefer entries with `image_url` if a real curated image is needed.
+5. If `image_url` is missing, use `source_url`, `thumbnail_url`, or `primary_bvid` as a reference.
 
-```text
-https://cheesekirby.github.io/memes/
-```
+## Important
+
+This repository is an index, not a screenshot dump. Add curated image URLs only
+when rights and context are acceptable.

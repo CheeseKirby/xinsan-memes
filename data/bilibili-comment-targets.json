@@ -1,0 +1,24 @@
+{
+  "notes": [
+    "这里放准备抽样评论区的 BVID。脚本默认只统计候选关键词命中，不保存大量评论原文。",
+    "添加新视频时优先选折棒《吐槽新三国》系列里的代表集。"
+  ],
+  "targets": [
+    {
+      "bvid": "BV1rjyYYjEjQ",
+      "episode": 1,
+      "reason": "系列第一期，适合观察早期评论区梗。"
+    },
+    {
+      "bvid": "BV1dzRqYVEcR",
+      "episode": 85,
+      "reason": "曹操发癫相关梗集中。"
+    },
+    {
+      "bvid": "BV1kCLb68E9X",
+      "episode": 290,
+      "reason": "完结期，评论区总结性梗多。"
+    }
+  ]
+}
+

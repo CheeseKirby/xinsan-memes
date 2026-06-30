@@ -1,12 +1,15 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/CheeseKirby/memes/schema/v1",
-  "title": "CheeseKirby Meme Index",
+  "$id": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+  "title": "CheeseKirby New Three Kingdoms Meme Index",
   "type": "object",
   "required": ["schema", "updated_at", "item_count", "items"],
   "properties": {
     "schema": {
       "type": "string"
+    },
+    "project": {
+      "type": "object"
     },
     "updated_at": {
       "type": ["string", "null"]
@@ -29,24 +32,37 @@
         "required": [
           "id",
           "title",
+          "summary",
           "tags",
           "tone",
           "language",
           "safe",
-          "image_url",
-          "source_url",
           "source",
-          "added_at"
+          "added_at",
+          "updated_at"
         ],
         "properties": {
           "id": {
             "type": "string"
+          },
+          "schema": {
+            "type": "string"
+          },
+          "item_type": {
+            "type": "string",
+            "enum": ["meme", "source_episode"]
           },
           "title": {
             "type": "string"
           },
           "summary": {
             "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           },
           "tags": {
             "type": "array",
@@ -60,6 +76,12 @@
               "type": "string"
             }
           },
+          "usage": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "language": {
             "type": "string"
           },
@@ -67,27 +89,55 @@
             "type": "boolean"
           },
           "image_url": {
-            "type": "string",
+            "type": ["string", "null"],
             "format": "uri"
           },
           "thumbnail_url": {
-            "type": "string",
+            "type": ["string", "null"],
             "format": "uri"
           },
+          "image_status": {
+            "type": "string"
+          },
+          "image_refs": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
           "source_url": {
-            "type": "string",
+            "type": ["string", "null"],
             "format": "uri"
+          },
+          "bilibili_url": {
+            "type": ["string", "null"],
+            "format": "uri"
+          },
+          "primary_bvid": {
+            "type": "string"
+          },
+          "episode": {
+            "type": ["integer", "null"]
+          },
+          "episode_title": {
+            "type": ["string", "null"]
+          },
+          "episode_pubdate": {
+            "type": ["string", "null"]
+          },
+          "episode_stats": {
+            "type": ["object", "null"]
           },
           "source": {
             "type": "string"
           },
-          "score": {
-            "type": "integer"
-          },
-          "created_at": {
+          "search_text": {
             "type": "string"
           },
           "added_at": {
+            "type": "string"
+          },
+          "updated_at": {
             "type": "string"
           }
         },

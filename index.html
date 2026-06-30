@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CheeseKirby Meme Index</title>
+    <title>新三国梗库</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -171,15 +171,15 @@
   <body>
     <main>
       <header>
-        <h1>Meme Index</h1>
+        <h1>新三国梗库</h1>
         <div class="toolbar">
-          <input id="query" type="search" placeholder="Search title, tags, or tone" autocomplete="off">
-          <select id="language" aria-label="Language">
-            <option value="">All</option>
-            <option value="zh">ZH</option>
-            <option value="en">EN</option>
+          <input id="query" type="search" placeholder="搜索梗名、标签、语气或用途" autocomplete="off">
+          <select id="type" aria-label="Type">
+            <option value="">全部</option>
+            <option value="meme">梗</option>
+            <option value="source_episode">视频来源</option>
           </select>
-          <button id="shuffle" type="button">Random</button>
+          <button id="shuffle" type="button">随机</button>
         </div>
         <div class="meta" id="meta"></div>
       </header>
@@ -190,28 +190,31 @@
       const state = {
         items: [],
         query: "",
-        language: ""
+        type: ""
       };
 
       const grid = document.querySelector("#grid");
       const meta = document.querySelector("#meta");
       const queryInput = document.querySelector("#query");
-      const languageSelect = document.querySelector("#language");
+      const typeSelect = document.querySelector("#type");
       const shuffleButton = document.querySelector("#shuffle");
 
       function textFor(item) {
         return [
           item.title || "",
           item.summary || "",
+          ...(item.aliases || []),
           ...(item.tags || []),
-          ...(item.tone || [])
+          ...(item.tone || []),
+          ...(item.usage || []),
+          item.episode_title || ""
         ].join(" ").toLowerCase();
       }
 
       function filteredItems() {
         const query = state.query.trim().toLowerCase();
         return state.items.filter((item) => {
-          if (state.language && item.language !== state.language) return false;
+          if (state.type && item.item_type !== state.type) return false;
           if (!query) return true;
           return query.split(/\s+/).every((part) => textFor(item).includes(part));
         });
@@ -232,15 +235,19 @@
         for (const item of items.slice(0, 80)) {
           const article = document.createElement("article");
           const link = document.createElement("a");
-          link.href = item.image_url;
+          link.href = item.image_url || item.source_url || item.bilibili_url || "#";
           link.target = "_blank";
           link.rel = "noreferrer";
 
-          const img = document.createElement("img");
-          img.className = "thumb";
-          img.loading = "lazy";
-          img.alt = item.title || "Meme";
-          img.src = item.thumbnail_url || item.image_url;
+          const preview = item.thumbnail_url || item.image_url;
+          if (preview) {
+            const img = document.createElement("img");
+            img.className = "thumb";
+            img.loading = "lazy";
+            img.alt = item.title || "Meme";
+            img.src = preview;
+            link.appendChild(img);
+          }
 
           const body = document.createElement("div");
           body.className = "body";
@@ -258,7 +265,15 @@
           }
 
           body.append(title, tags);
-          link.append(img, body);
+          if (item.summary) {
+            const summary = document.createElement("p");
+            summary.textContent = item.summary;
+            summary.style.margin = "0";
+            summary.style.color = "var(--muted)";
+            summary.style.fontSize = "0.9rem";
+            body.appendChild(summary);
+          }
+          link.appendChild(body);
           article.appendChild(link);
           grid.appendChild(article);
         }
@@ -269,8 +284,8 @@
         render(filteredItems());
       });
 
-      languageSelect.addEventListener("change", (event) => {
-        state.language = event.target.value;
+      typeSelect.addEventListener("change", (event) => {
+        state.type = event.target.value;
         render(filteredItems());
       });
 
@@ -295,4 +310,3 @@
     </script>
   </body>
 </html>
-

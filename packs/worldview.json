@@ -1,0 +1,381 @@
+{
+  "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+  "project": {
+    "name": "新三国专属梗库",
+    "english_name": "New Three Kingdoms Meme Index",
+    "focus": "中文互联网近年的《新三国》相关梗，重点参考 B 站 UP 主“吃蛋挞的折棒”的《三国杀up锐评新三国 / 吐槽新三国》系列。",
+    "primary_index": "index.json",
+    "notes": [
+      "本库优先保存梗条目、出处、标签、适用语境和截图引用位，不批量转载视频画面。",
+      "B 站评论区内容只做低频候选提取，入库前需要人工复核。",
+      "如需梗图，请在条目里补充授权图片 URL 或视频时间点，不要直接提交大批量截图。"
+    ]
+  },
+  "updated_at": "2026-06-30T02:21:22Z",
+  "pack": "worldview",
+  "item_count": 8,
+  "items": [
+    {
+      "id": "xsg-episode-new-three-theory",
+      "title": "新三学理论取得重大突破",
+      "item_type": "meme",
+      "summary": "用于表示对新三国式规律的研究又发现了新的解释框架。",
+      "aliases": [
+        "新三学重大突破"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "视频来源",
+        "世界观",
+        "理论梗",
+        "天意学"
+      ],
+      "tone": [
+        "学术化",
+        "抽象",
+        "总结"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "发现新规律",
+        "严肃分析离谱剧情"
+      ],
+      "primary_bvid": "BV17PG46BEer",
+      "source_url": "https://www.bilibili.com/video/BV17PG46BEer",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i2.hdslb.com/bfs/archive/200cf45fa553c1174c0aec0414e49e1558b45299.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV17PG46BEer",
+      "episode": 2,
+      "episode_title": "三国杀up锐评新三国re02：新三学理论取得重大突破",
+      "episode_pubdate": "2026-05-26T02:00:00Z",
+      "episode_stats": {
+        "view": 1197220,
+        "danmaku": 10564,
+        "reply": 5024,
+        "favorite": 5116,
+        "coin": 17202,
+        "share": 1192,
+        "like": 44616
+      },
+      "search_text": "新三学理论取得重大突破 用于表示对新三国式规律的研究又发现了新的解释框架。 新三学重大突破 新三国 折棒 视频来源 世界观 理论梗 天意学 学术化 抽象 总结 发现新规律 严肃分析离谱剧情 三国杀up锐评新三国re02：新三学理论取得重大突破"
+    },
+    {
+      "id": "xsg-episode-time-rewind",
+      "title": "回溯时光",
+      "item_type": "meme",
+      "summary": "折棒 re 系列相关梗，适合表示回看后发现早有伏笔或处处不对。",
+      "aliases": [
+        "回溯时光处处惊喜"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "视频来源",
+        "时间线",
+        "世界观"
+      ],
+      "tone": [
+        "复盘",
+        "惊喜",
+        "抽象"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "回看旧内容发现新问题",
+        "复盘时挖出伏笔"
+      ],
+      "primary_bvid": "BV1R8GU6FE7X",
+      "source_url": "https://www.bilibili.com/video/BV1R8GU6FE7X",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i1.hdslb.com/bfs/archive/3e6266c202acf4cfd809a26c81f52ee360bce7c5.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1R8GU6FE7X",
+      "episode": 3,
+      "episode_title": "三国杀up锐评新三国re03：回溯时光，果然处处都是惊喜",
+      "episode_pubdate": "2026-05-28T02:00:00Z",
+      "episode_stats": {
+        "view": 1059131,
+        "danmaku": 7560,
+        "reply": 3390,
+        "favorite": 3960,
+        "coin": 12192,
+        "share": 701,
+        "like": 36384
+      },
+      "search_text": "回溯时光 折棒 re 系列相关梗，适合表示回看后发现早有伏笔或处处不对。 回溯时光处处惊喜 新三国 折棒 视频来源 时间线 世界观 复盘 惊喜 抽象 回看旧内容发现新问题 复盘时挖出伏笔 三国杀up锐评新三国re03：回溯时光，果然处处都是惊喜"
+    },
+    {
+      "id": "xsg-law-eavesdrop",
+      "title": "窃听定律",
+      "item_type": "meme",
+      "summary": "指关键密谋总能被该听见的人听见，适合吐槽信息泄漏和剧情偷听桥段。",
+      "aliases": [
+        "偷听定律"
+      ],
+      "tags": [
+        "新三国",
+        "定律",
+        "世界观",
+        "理论梗",
+        "吐槽"
+      ],
+      "tone": [
+        "吐槽",
+        "阴谋",
+        "离谱"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "密谋被偷听",
+        "信息莫名传出去",
+        "角色刚说完就被抓包"
+      ],
+      "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/%E7%AA%83%E5%90%AC%E5%AE%9A%E5%BE%8B",
+      "image_status": "needs_curated_image",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [],
+      "search_text": "窃听定律 指关键密谋总能被该听见的人听见，适合吐槽信息泄漏和剧情偷听桥段。 偷听定律 新三国 定律 世界观 理论梗 吐槽 吐槽 阴谋 离谱 密谋被偷听 信息莫名传出去 角色刚说完就被抓包 "
+    },
+    {
+      "id": "xsg-law-shi-bu-guo-san",
+      "title": "事不过三",
+      "item_type": "meme",
+      "summary": "新三国式重复桥段被观众总结成规律时使用，适合标注同一套路第三次出现。",
+      "aliases": [
+        "三次定律"
+      ],
+      "tags": [
+        "新三国",
+        "定律",
+        "理论梗",
+        "复读",
+        "吐槽"
+      ],
+      "tone": [
+        "总结",
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "同类剧情反复出现",
+        "某个梗第三次复现"
+      ],
+      "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/%E4%BA%8B%E4%B8%8D%E8%BF%87%E4%B8%89",
+      "image_status": "needs_curated_image",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [],
+      "search_text": "事不过三 新三国式重复桥段被观众总结成规律时使用，适合标注同一套路第三次出现。 三次定律 新三国 定律 理论梗 复读 吐槽 总结 吐槽 同类剧情反复出现 某个梗第三次复现 "
+    },
+    {
+      "id": "xsg-worldview-portal",
+      "title": "传送门",
+      "item_type": "meme",
+      "summary": "用于吐槽角色空间移动过快、场景切换过猛，像是开了传送。",
+      "aliases": [
+        "新三国传送门"
+      ],
+      "tags": [
+        "新三国",
+        "世界观",
+        "理论梗",
+        "场面调度",
+        "吐槽"
+      ],
+      "tone": [
+        "离谱",
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "角色瞬移",
+        "剧情地点跳跃",
+        "军队移动不讲距离"
+      ],
+      "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/%E4%BC%A0%E9%80%81%E9%97%A8",
+      "image_status": "needs_curated_image",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [],
+      "search_text": "传送门 用于吐槽角色空间移动过快、场景切换过猛，像是开了传送。 新三国传送门 新三国 世界观 理论梗 场面调度 吐槽 离谱 吐槽 角色瞬移 剧情地点跳跃 军队移动不讲距离 "
+    },
+    {
+      "id": "xsg-worldview-tianyi",
+      "title": "天意",
+      "item_type": "meme",
+      "summary": "用于解释新三国剧情突然拐弯、人物突然被安排、历史线被强行拨动的核心世界观梗。",
+      "aliases": [
+        "天意学",
+        "天意爷"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "世界观",
+        "理论梗",
+        "天意学",
+        "回复"
+      ],
+      "tone": [
+        "解释",
+        "吐槽",
+        "抽象"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "解释强行剧情",
+        "吐槽角色被剧情推着走",
+        "把离谱桥段归因给天意"
+      ],
+      "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/%E5%A4%A9%E6%84%8F",
+      "image_status": "needs_curated_image",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [],
+      "search_text": "天意 用于解释新三国剧情突然拐弯、人物突然被安排、历史线被强行拨动的核心世界观梗。 天意学 天意爷 新三国 折棒 世界观 理论梗 天意学 回复 解释 吐槽 抽象 解释强行剧情 吐槽角色被剧情推着走 把离谱桥段归因给天意 "
+    },
+    {
+      "id": "xsg-worldview-tianyi-erosion",
+      "title": "天意侵蚀",
+      "item_type": "meme",
+      "summary": "指人物、台词或剧情被新三国式逻辑逐渐改造，适合形容原本正常的东西开始变味。",
+      "aliases": [
+        "被天意侵蚀",
+        "开局被天意侵蚀"
+      ],
+      "tags": [
+        "新三国",
+        "折棒",
+        "世界观",
+        "理论梗",
+        "天意学",
+        "反应图"
+      ],
+      "tone": [
+        "吐槽",
+        "抽象",
+        "失控"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "形容设定崩坏",
+        "形容人开始新三国化"
+      ],
+      "primary_bvid": "BV1DHG66YE1i",
+      "source_url": "https://www.bilibili.com/video/BV1DHG66YE1i",
+      "image_status": "video_frame_needed",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [
+        {
+          "kind": "bilibili_cover",
+          "status": "reference_only",
+          "url": "https://i2.hdslb.com/bfs/archive/9bd14ae32bb182f41ca71498e77434f567bf4ad7.jpg",
+          "note": "Bilibili video cover URL; not rehosted by this repository."
+        }
+      ],
+      "bilibili_url": "https://www.bilibili.com/video/BV1DHG66YE1i",
+      "episode": 1,
+      "episode_title": "三国杀up锐评新三国re01：重生新三国之开局被天意侵蚀",
+      "episode_pubdate": "2026-05-24T02:00:00Z",
+      "episode_stats": {
+        "view": 2040730,
+        "danmaku": 14696,
+        "reply": 6989,
+        "favorite": 14208,
+        "coin": 45253,
+        "share": 13583,
+        "like": 91037
+      },
+      "search_text": "天意侵蚀 指人物、台词或剧情被新三国式逻辑逐渐改造，适合形容原本正常的东西开始变味。 被天意侵蚀 开局被天意侵蚀 新三国 折棒 世界观 理论梗 天意学 反应图 吐槽 抽象 失控 形容设定崩坏 形容人开始新三国化 三国杀up锐评新三国re01：重生新三国之开局被天意侵蚀"
+    },
+    {
+      "id": "xsg-worldview-toilet",
+      "title": "厕所",
+      "item_type": "meme",
+      "summary": "新三国相关讨论中的场景/空间梗，适合收录后继续细分具体出处。",
+      "aliases": [
+        "厕所宇宙"
+      ],
+      "tags": [
+        "新三国",
+        "世界观",
+        "空间梗",
+        "吐槽"
+      ],
+      "tone": [
+        "抽象",
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "需要补充具体视频出处的空间类梗"
+      ],
+      "source_url": "https://new-three-kingdoms.fandom.com/zh/wiki/%E5%8E%95%E6%89%80",
+      "image_status": "needs_source_review",
+      "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
+      "source": "curated_xin_sanguo_memes",
+      "added_at": "2026-06-30T02:21:22Z",
+      "updated_at": "2026-06-30T02:21:22Z",
+      "image_url": null,
+      "thumbnail_url": null,
+      "image_refs": [],
+      "search_text": "厕所 新三国相关讨论中的场景/空间梗，适合收录后继续细分具体出处。 厕所宇宙 新三国 世界观 空间梗 吐槽 抽象 吐槽 需要补充具体视频出处的空间类梗 "
+    }
+  ]
+}
