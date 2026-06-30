@@ -19,6 +19,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1"
+RAW_BASE_URL = "https://raw.githubusercontent.com/CheeseKirby/memes/main"
 
 
 def utc_now() -> str:
@@ -120,6 +121,23 @@ def normalize_item(item: dict[str, Any], source_id: str, now: str, episodes_by_b
     item.setdefault("source_url", item.get("bilibili_url"))
     item.setdefault("summary", item.get("title", ""))
     item = enrich_with_bilibili(item, episodes_by_bvid)
+    if item.get("item_type") == "meme" and not item.get("image_url"):
+        card_path = f"assets/cards/{item['id']}.svg"
+        card_url = f"{RAW_BASE_URL}/{card_path}"
+        item["image_url"] = card_url
+        item["thumbnail_url"] = item.get("thumbnail_url") or card_url
+        item["image_status"] = item.get("image_status") or "generated_card"
+        item.setdefault("image_refs", [])
+        if not any(ref.get("url") == card_url for ref in item["image_refs"]):
+            item["image_refs"].append(
+                {
+                    "kind": "generated_card",
+                    "status": "repo_owned",
+                    "path": card_path,
+                    "url": card_url,
+                    "note": "仓库生成的文字梗图卡，不是视频截图。"
+                }
+            )
     item["search_text"] = " ".join(
         [
             item.get("title", ""),

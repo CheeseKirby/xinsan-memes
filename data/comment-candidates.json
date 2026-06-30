@@ -1,6 +1,6 @@
 {
   "schema": "https://github.com/CheeseKirby/memes/schema/bilibili-comment-candidates/v1",
-  "updated_at": "2026-06-30T02:18:28Z",
+  "updated_at": "2026-06-30T06:50:20Z",
   "notes": [
     "Only aggregate phrase counts are stored.",
     "Do not promote candidates into the main index without human review."
@@ -9,17 +9,1308 @@
     {
       "bvid": "BV1rjyYYjEjQ",
       "url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
-      "hits": []
+      "lexicon_hits": [
+        {
+          "phrase": "这20年来犯的最大的错误",
+          "count": 1
+        },
+        {
+          "phrase": "小馋猫",
+          "count": 1
+        },
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "这20年来犯的最大的错误",
+          "count": 1,
+          "like_sum": 21783
+        },
+        {
+          "phrase": "就是回村没啥信号的情况下",
+          "count": 1,
+          "like_sum": 21783
+        },
+        {
+          "phrase": "缓存了全集的新三国",
+          "count": 1,
+          "like_sum": 21783
+        },
+        {
+          "phrase": "虽然很快乐了",
+          "count": 1,
+          "like_sum": 3282
+        },
+        {
+          "phrase": "小馋猫",
+          "count": 1,
+          "like_sum": 1063
+        },
+        {
+          "phrase": "那吃得很快乐了",
+          "count": 1,
+          "like_sum": 5540
+        },
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1,
+          "like_sum": 920
+        },
+        {
+          "phrase": "聋，是帝皇之征啊",
+          "count": 1,
+          "like_sum": 991
+        },
+        {
+          "phrase": "是帝皇之征啊",
+          "count": 1,
+          "like_sum": 991
+        },
+        {
+          "phrase": "聋，可是帝王之征啊",
+          "count": 1,
+          "like_sum": 57
+        },
+        {
+          "phrase": "可是帝王之征啊",
+          "count": 1,
+          "like_sum": 57
+        },
+        {
+          "phrase": "其实王允说忌日哪里没什么问题",
+          "count": 1,
+          "like_sum": 4073
+        },
+        {
+          "phrase": "王允55岁死的",
+          "count": 1,
+          "like_sum": 4073
+        },
+        {
+          "phrase": "现在在过60大寿",
+          "count": 1,
+          "like_sum": 4073
+        },
+        {
+          "phrase": "这不已经死了五年了吗",
+          "count": 1,
+          "like_sum": 4073
+        },
+        {
+          "phrase": "我真蚌埠住了",
+          "count": 1,
+          "like_sum": 794
+        },
+        {
+          "phrase": "我看纪录片",
+          "count": 1,
+          "like_sum": 794
+        },
+        {
+          "phrase": "这片子的编剧还委屈呢“干嘛骂我”",
+          "count": 1,
+          "like_sum": 794
+        },
+        {
+          "phrase": "本来原著对于岁数其实就有一些问题",
+          "count": 1,
+          "like_sum": 56
+        },
+        {
+          "phrase": "关羽历史上是比刘备要大的",
+          "count": 1,
+          "like_sum": 56
+        }
+      ]
+    },
+    {
+      "bvid": "BV1N11xYMEoE",
+      "url": "https://www.bilibili.com/video/BV1N11xYMEoE",
+      "lexicon_hits": [
+        {
+          "phrase": "是啊吃什么",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "破案了",
+          "count": 2,
+          "like_sum": 810
+        },
+        {
+          "phrase": "是啊，吃什么",
+          "count": 2,
+          "like_sum": 715
+        },
+        {
+          "phrase": "吃什么",
+          "count": 2,
+          "like_sum": 715
+        },
+        {
+          "phrase": "破案了，吕布是虫格斗一级神",
+          "count": 1,
+          "like_sum": 192
+        },
+        {
+          "phrase": "吕布是虫格斗一级神",
+          "count": 1,
+          "like_sum": 192
+        },
+        {
+          "phrase": "一想到我还有200集可以看我就想笑",
+          "count": 1,
+          "like_sum": 3234
+        },
+        {
+          "phrase": "一起笑",
+          "count": 1,
+          "like_sum": 156
+        },
+        {
+          "phrase": "与列位诸公同乐",
+          "count": 1,
+          "like_sum": 531
+        },
+        {
+          "phrase": "是啊吃什么",
+          "count": 1,
+          "like_sum": 0
+        },
+        {
+          "phrase": "陈宫拜别蛐蛐那段太搞了蛐蛐",
+          "count": 1,
+          "like_sum": 2338
+        },
+        {
+          "phrase": "别走啊",
+          "count": 1,
+          "like_sum": 2338
+        },
+        {
+          "phrase": "你走了",
+          "count": 1,
+          "like_sum": 2338
+        },
+        {
+          "phrase": "我们吃什么",
+          "count": 1,
+          "like_sum": 2338
+        },
+        {
+          "phrase": "。把那些正人君子的肉炖汤喝。",
+          "count": 1,
+          "like_sum": 18
+        },
+        {
+          "phrase": "把那些正人君子的肉炖汤喝",
+          "count": 1,
+          "like_sum": 18
+        }
+      ]
+    },
+    {
+      "bvid": "BV1XKDWY9EQQ",
+      "url": "https://www.bilibili.com/video/BV1XKDWY9EQQ",
+      "lexicon_hits": [],
+      "short_phrase_candidates": [
+        {
+          "phrase": "看得出来，替身确实很开心。",
+          "count": 1,
+          "like_sum": 4496
+        },
+        {
+          "phrase": "看得出来",
+          "count": 1,
+          "like_sum": 4496
+        },
+        {
+          "phrase": "替身确实很开心",
+          "count": 1,
+          "like_sum": 4496
+        },
+        {
+          "phrase": "讓你演關羽你開不開心",
+          "count": 1,
+          "like_sum": 2116
+        },
+        {
+          "phrase": "新三好几个主演不会骑马",
+          "count": 1,
+          "like_sum": 785
+        },
+        {
+          "phrase": "其实挺离谱的",
+          "count": 1,
+          "like_sum": 114
+        },
+        {
+          "phrase": "别人不说",
+          "count": 1,
+          "like_sum": 114
+        },
+        {
+          "phrase": "谁知道在自习室憋笑有多难受吗",
+          "count": 1,
+          "like_sum": 3454
+        },
+        {
+          "phrase": "替身：我演关公？真的假的",
+          "count": 1,
+          "like_sum": 1226
+        },
+        {
+          "phrase": "我演关公",
+          "count": 1,
+          "like_sum": 1226
+        },
+        {
+          "phrase": "真的假的",
+          "count": 1,
+          "like_sum": 1226
+        },
+        {
+          "phrase": "笑拉了",
+          "count": 1,
+          "like_sum": 358
+        },
+        {
+          "phrase": "说实话，你让我来我也笑",
+          "count": 1,
+          "like_sum": 65
+        },
+        {
+          "phrase": "说实话",
+          "count": 1,
+          "like_sum": 65
+        },
+        {
+          "phrase": "你让我来我也笑",
+          "count": 1,
+          "like_sum": 65
+        },
+        {
+          "phrase": "珍惜这三人同框的镜头吧，全剧屈指可数",
+          "count": 1,
+          "like_sum": 3705
+        },
+        {
+          "phrase": "珍惜这三人同框的镜头吧",
+          "count": 1,
+          "like_sum": 3705
+        },
+        {
+          "phrase": "全剧屈指可数",
+          "count": 1,
+          "like_sum": 3705
+        },
+        {
+          "phrase": "刘关张不知道这是最后一面，他们三知道",
+          "count": 1,
+          "like_sum": 1405
+        },
+        {
+          "phrase": "刘关张不知道这是最后一面",
+          "count": 1,
+          "like_sum": 1405
+        }
+      ]
+    },
+    {
+      "bvid": "BV1K2DLYsE4a",
+      "url": "https://www.bilibili.com/video/BV1K2DLYsE4a",
+      "lexicon_hits": [],
+      "short_phrase_candidates": [
+        {
+          "phrase": "应该不至于这么离谱虽然确实挺离谱",
+          "count": 1,
+          "like_sum": 236
+        },
+        {
+          "phrase": "不是说他拍的第一场戏是白帝城吗",
+          "count": 1,
+          "like_sum": 1487
+        },
+        {
+          "phrase": "导演剧情还安排的刀斧手",
+          "count": 1,
+          "like_sum": 1487
+        },
+        {
+          "phrase": "于和伟劝下来以后就摆烂了",
+          "count": 1,
+          "like_sum": 1487
+        },
+        {
+          "phrase": "那陈建斌怎么说",
+          "count": 1,
+          "like_sum": 135
+        },
+        {
+          "phrase": "他别的剧几乎没有全超神啊",
+          "count": 1,
+          "like_sum": 135
+        },
+        {
+          "phrase": "新三国平均十秒就有一个槽点",
+          "count": 1,
+          "like_sum": 2017
+        },
+        {
+          "phrase": "有的地方甚至一秒，半秒",
+          "count": 1,
+          "like_sum": 231
+        },
+        {
+          "phrase": "有的地方甚至一秒",
+          "count": 1,
+          "like_sum": 231
+        },
+        {
+          "phrase": "徐州城是中原第一雄关，这都三个了。",
+          "count": 1,
+          "like_sum": 568
+        },
+        {
+          "phrase": "徐州城是中原第一雄关",
+          "count": 1,
+          "like_sum": 568
+        },
+        {
+          "phrase": "这都三个了",
+          "count": 1,
+          "like_sum": 568
+        },
+        {
+          "phrase": "这句话至少有四个错误",
+          "count": 1,
+          "like_sum": 174
+        },
+        {
+          "phrase": "第一徐州不是城池",
+          "count": 1,
+          "like_sum": 174
+        },
+        {
+          "phrase": "第二徐州不在中原",
+          "count": 1,
+          "like_sum": 174
+        },
+        {
+          "phrase": "第三徐州也不是关隘",
+          "count": 1,
+          "like_sum": 174
+        },
+        {
+          "phrase": "第四徐州是四战之地也不雄",
+          "count": 1,
+          "like_sum": 174
+        },
+        {
+          "phrase": "这一对比倒显得袁绍宰相肚量了",
+          "count": 1,
+          "like_sum": 1341
+        },
+        {
+          "phrase": "四世三公千金之子为了大义忍辱负重",
+          "count": 1,
+          "like_sum": 1341
+        },
+        {
+          "phrase": "袁绍虽然自己正常但手下也很抽象",
+          "count": 1,
+          "like_sum": 118
+        }
+      ]
+    },
+    {
+      "bvid": "BV1eEDaYmENQ",
+      "url": "https://www.bilibili.com/video/BV1eEDaYmENQ",
+      "lexicon_hits": [],
+      "short_phrase_candidates": [
+        {
+          "phrase": "刘备曹操等死后",
+          "count": 1,
+          "like_sum": 3906
+        },
+        {
+          "phrase": "更是变成一般俗剧了",
+          "count": 1,
+          "like_sum": 3906
+        },
+        {
+          "phrase": "赤壁之后就是单纯的史了",
+          "count": 1,
+          "like_sum": 893
+        },
+        {
+          "phrase": "看完了除了红温啥也看不出来",
+          "count": 1,
+          "like_sum": 893
+        },
+        {
+          "phrase": "赤壁之后很长一段时间纯纯宫斗剧",
+          "count": 1,
+          "like_sum": 1476
+        },
+        {
+          "phrase": "桃园三傻欺负诸葛",
+          "count": 1,
+          "like_sum": 1476
+        },
+        {
+          "phrase": "曹大佐三子夺嫡",
+          "count": 1,
+          "like_sum": 1476
+        },
+        {
+          "phrase": "孙构鲁桧周羹尧大混战",
+          "count": 1,
+          "like_sum": 1476
+        },
+        {
+          "phrase": "谐星三分天下是吧……",
+          "count": 1,
+          "like_sum": 265
+        },
+        {
+          "phrase": "一想到后面还有216集没看就想笑",
+          "count": 1,
+          "like_sum": 2306
+        },
+        {
+          "phrase": "饭后小甜点😋",
+          "count": 1,
+          "like_sum": 200
+        },
+        {
+          "phrase": "现在是217集了",
+          "count": 1,
+          "like_sum": 112
+        },
+        {
+          "phrase": "上瘾了，天天看",
+          "count": 1,
+          "like_sum": 9
+        },
+        {
+          "phrase": "上瘾了",
+          "count": 1,
+          "like_sum": 9
+        },
+        {
+          "phrase": "天天看",
+          "count": 1,
+          "like_sum": 9
+        },
+        {
+          "phrase": "千斤粮食",
+          "count": 1,
+          "like_sum": 1720
+        },
+        {
+          "phrase": "百斤熟肉确实没啥",
+          "count": 1,
+          "like_sum": 1720
+        },
+        {
+          "phrase": "曹操后来不是说过嘛",
+          "count": 1,
+          "like_sum": 1720
+        },
+        {
+          "phrase": "八万个馒头刘备得啃半个月",
+          "count": 1,
+          "like_sum": 1720
+        },
+        {
+          "phrase": "也就是说",
+          "count": 1,
+          "like_sum": 1720
+        }
+      ]
     },
     {
       "bvid": "BV1dzRqYVEcR",
       "url": "https://www.bilibili.com/video/BV1dzRqYVEcR",
-      "hits": []
+      "lexicon_hits": [
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "一个赞当一天头像",
+          "count": 1,
+          "like_sum": 7012
+        },
+        {
+          "phrase": "lz还是个忠厚人呐",
+          "count": 1,
+          "like_sum": 309
+        },
+        {
+          "phrase": "恭喜布雷德坎普可以撑地了",
+          "count": 1,
+          "like_sum": 627
+        },
+        {
+          "phrase": "兄弟们",
+          "count": 1,
+          "like_sum": 127
+        },
+        {
+          "phrase": "别赞了🙌",
+          "count": 1,
+          "like_sum": 127
+        },
+        {
+          "phrase": "头像要用到2027年了",
+          "count": 1,
+          "like_sum": 127
+        },
+        {
+          "phrase": "韩腹都说了",
+          "count": 1,
+          "like_sum": 2076
+        },
+        {
+          "phrase": "“太阳从西边升起来了",
+          "count": 1,
+          "like_sum": 2076
+        },
+        {
+          "phrase": "那句话应该是张邈说的吧",
+          "count": 1,
+          "like_sum": 146
+        },
+        {
+          "phrase": "以为是感叹，原来是叙述",
+          "count": 1,
+          "like_sum": 416
+        },
+        {
+          "phrase": "以为是感叹",
+          "count": 1,
+          "like_sum": 416
+        },
+        {
+          "phrase": "原来是叙述",
+          "count": 1,
+          "like_sum": 416
+        },
+        {
+          "phrase": "你岂不知这个剧里面韩馥和张邈是一个人",
+          "count": 1,
+          "like_sum": 26
+        },
+        {
+          "phrase": "只是用了两个镜头",
+          "count": 1,
+          "like_sum": 26
+        },
+        {
+          "phrase": "我悟了",
+          "count": 1,
+          "like_sum": 2161
+        },
+        {
+          "phrase": "可以随意缩成荆州城",
+          "count": 1,
+          "like_sum": 2161
+        },
+        {
+          "phrase": "还可以打展开基地刘备占人和",
+          "count": 1,
+          "like_sum": 2161
+        },
+        {
+          "phrase": "指的是刘备拥有顶尖的心灵控制之力",
+          "count": 1,
+          "like_sum": 2161
+        },
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1,
+          "like_sum": 279
+        },
+        {
+          "phrase": "这就不奇怪了（大佐音）",
+          "count": 1,
+          "like_sum": 279
+        }
+      ]
+    },
+    {
+      "bvid": "BV111GNzgEJk",
+      "url": "https://www.bilibili.com/video/BV111GNzgEJk",
+      "lexicon_hits": [
+        {
+          "phrase": "天意",
+          "count": 1
+        },
+        {
+          "phrase": "天意侵蚀",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "我记得之前有人说",
+          "count": 1,
+          "like_sum": 2269
+        },
+        {
+          "phrase": "从这一集来看",
+          "count": 1,
+          "like_sum": 2269
+        },
+        {
+          "phrase": "折棒的san值已经开始动摇了",
+          "count": 1,
+          "like_sum": 2269
+        },
+        {
+          "phrase": "新三真的很像某种克苏鲁怪物",
+          "count": 1,
+          "like_sum": 2269
+        },
+        {
+          "phrase": "各位且看且珍惜",
+          "count": 1,
+          "like_sum": 2269
+        },
+        {
+          "phrase": "那很大概率是已经被影响了",
+          "count": 1,
+          "like_sum": 7
+        },
+        {
+          "phrase": "孙权称帝后",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "年纪渐大",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "越发力不从心",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "东吴真就有宫斗",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "新三偏偏不拍了",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "编剧导演的知识储备",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "赶不上一个小学初中的三国爱好者",
+          "count": 1,
+          "like_sum": 712
+        },
+        {
+          "phrase": "人生有梦，各自精彩",
+          "count": 1,
+          "like_sum": 66
+        },
+        {
+          "phrase": "人生有梦",
+          "count": 1,
+          "like_sum": 66
+        },
+        {
+          "phrase": "各自精彩",
+          "count": 1,
+          "like_sum": 66
+        },
+        {
+          "phrase": "后期的角色不够有名编剧",
+          "count": 1,
+          "like_sum": 43
+        },
+        {
+          "phrase": "只是把历史稍稍提前",
+          "count": 1,
+          "like_sum": 43
+        },
+        {
+          "phrase": "我可能被玷污了",
+          "count": 1,
+          "like_sum": 2231
+        },
+        {
+          "phrase": "我明明没看过新三国",
+          "count": 1,
+          "like_sum": 2231
+        }
+      ]
+    },
+    {
+      "bvid": "BV11PAszqEDW",
+      "url": "https://www.bilibili.com/video/BV11PAszqEDW",
+      "lexicon_hits": [],
+      "short_phrase_candidates": [
+        {
+          "phrase": "列位诸公，在下找到乌角鲨了",
+          "count": 1,
+          "like_sum": 960
+        },
+        {
+          "phrase": "列位诸公",
+          "count": 1,
+          "like_sum": 960
+        },
+        {
+          "phrase": "在下找到乌角鲨了",
+          "count": 1,
+          "like_sum": 960
+        },
+        {
+          "phrase": "（~~滑动变阻器~~↑）",
+          "count": 1,
+          "like_sum": 98
+        },
+        {
+          "phrase": "乌角鲨不愧是中原第一雄关！",
+          "count": 1,
+          "like_sum": 164
+        },
+        {
+          "phrase": "乌角鲨不愧是中原第一雄关",
+          "count": 1,
+          "like_sum": 164
+        },
+        {
+          "phrase": "帅台设酒宴，为P将军庆功！",
+          "count": 1,
+          "like_sum": 21
+        },
+        {
+          "phrase": "帅台设酒宴",
+          "count": 1,
+          "like_sum": 21
+        },
+        {
+          "phrase": "为P将军庆功",
+          "count": 1,
+          "like_sum": 21
+        },
+        {
+          "phrase": "给我请的高人看死了",
+          "count": 1,
+          "like_sum": 805
+        },
+        {
+          "phrase": "曹真：给我这么大一个军师说死了",
+          "count": 1,
+          "like_sum": 167
+        },
+        {
+          "phrase": "给我这么大一个军师说死了",
+          "count": 1,
+          "like_sum": 167
+        },
+        {
+          "phrase": "曹真：还我军师来！还我军师来！",
+          "count": 1,
+          "like_sum": 141
+        },
+        {
+          "phrase": "还我军师来",
+          "count": 1,
+          "like_sum": 141
+        },
+        {
+          "phrase": "这真的不是喜剧片吗",
+          "count": 1,
+          "like_sum": 22
+        },
+        {
+          "phrase": "这什么演的这么搞笑",
+          "count": 1,
+          "like_sum": 22
+        },
+        {
+          "phrase": "我看医官的笑点在于",
+          "count": 1,
+          "like_sum": 820
+        },
+        {
+          "phrase": "诊断半天来了句死了",
+          "count": 1,
+          "like_sum": 820
+        },
+        {
+          "phrase": "瞬间绷不住",
+          "count": 1,
+          "like_sum": 820
+        },
+        {
+          "phrase": "你好歹分析些专业原因啊",
+          "count": 1,
+          "like_sum": 820
+        }
+      ]
     },
     {
       "bvid": "BV1kCLb68E9X",
       "url": "https://www.bilibili.com/video/BV1kCLb68E9X",
-      "hits": []
+      "lexicon_hits": [
+        {
+          "phrase": "天意",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "列位诸公",
+          "count": 1,
+          "like_sum": 5524
+        },
+        {
+          "phrase": "新三国其实是一个时间循环",
+          "count": 1,
+          "like_sum": 5524
+        },
+        {
+          "phrase": "最后一集的结尾就是第一集的开头",
+          "count": 1,
+          "like_sum": 5524
+        },
+        {
+          "phrase": "又要开始了吗",
+          "count": 1,
+          "like_sum": 3276
+        },
+        {
+          "phrase": "这绝望的轮回",
+          "count": 1,
+          "like_sum": 3276
+        },
+        {
+          "phrase": "（摆烂）",
+          "count": 1,
+          "like_sum": 3276
+        },
+        {
+          "phrase": "已有的事",
+          "count": 1,
+          "like_sum": 271
+        },
+        {
+          "phrase": "后必再有",
+          "count": 1,
+          "like_sum": 271
+        },
+        {
+          "phrase": "已行的事",
+          "count": 1,
+          "like_sum": 271
+        },
+        {
+          "phrase": "后必再行",
+          "count": 1,
+          "like_sum": 271
+        },
+        {
+          "phrase": "从这一刻起",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "历史发生了巨变",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "吐槽新三国成为千古名典",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "为后世久久传颂列位诸公",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "没抢到第一期前排的可以来这里",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "这样我们就是历史的一部分了",
+          "count": 1,
+          "like_sum": 3565
+        },
+        {
+          "phrase": "这事恐怕会流传百年了！（指天意论）",
+          "count": 1,
+          "like_sum": 47
+        },
+        {
+          "phrase": "这事恐怕会流传百年了",
+          "count": 1,
+          "like_sum": 47
+        },
+        {
+          "phrase": "（指天意论）",
+          "count": 1,
+          "like_sum": 47
+        },
+        {
+          "phrase": "系列结束了，我真是...心痛欲裂",
+          "count": 1,
+          "like_sum": 222
+        }
+      ]
+    },
+    {
+      "bvid": "BV1DHG66YE1i",
+      "url": "https://www.bilibili.com/video/BV1DHG66YE1i",
+      "lexicon_hits": [
+        {
+          "phrase": "天意",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "这么说起来",
+          "count": 1,
+          "like_sum": 6516
+        },
+        {
+          "phrase": "何进的胜利条件是不是杀掉十常侍",
+          "count": 1,
+          "like_sum": 6516
+        },
+        {
+          "phrase": "他之所以没有出现",
+          "count": 1,
+          "like_sum": 6516
+        },
+        {
+          "phrase": "是因为他成功脱离了轮回",
+          "count": 1,
+          "like_sum": 6516
+        },
+        {
+          "phrase": "有点带感",
+          "count": 1,
+          "like_sum": 3148
+        },
+        {
+          "phrase": "那些没出现的人物都是因为完成了任务",
+          "count": 1,
+          "like_sum": 3148
+        },
+        {
+          "phrase": "太史慈：哈哈哈哈哈哈哈哈！",
+          "count": 1,
+          "like_sum": 537
+        },
+        {
+          "phrase": "太史慈",
+          "count": 1,
+          "like_sum": 537
+        },
+        {
+          "phrase": "居然还有重制重制版",
+          "count": 1,
+          "like_sum": 10183
+        },
+        {
+          "phrase": "让我们看看首播版折棒爷怎么说的",
+          "count": 1,
+          "like_sum": 10183
+        },
+        {
+          "phrase": "一版仁播版，一版义播版。",
+          "count": 1,
+          "like_sum": 648
+        },
+        {
+          "phrase": "一版仁播版",
+          "count": 1,
+          "like_sum": 648
+        },
+        {
+          "phrase": "一版义播版",
+          "count": 1,
+          "like_sum": 648
+        },
+        {
+          "phrase": "有没有真首播版",
+          "count": 1,
+          "like_sum": 3083
+        },
+        {
+          "phrase": "有的，直播间第一次看就是真首播版",
+          "count": 1,
+          "like_sum": 70
+        },
+        {
+          "phrase": "直播间第一次看就是真首播版",
+          "count": 1,
+          "like_sum": 70
+        },
+        {
+          "phrase": "刘备在白帝城被诸葛亮和刘禅气死",
+          "count": 1,
+          "like_sum": 8669
+        },
+        {
+          "phrase": "一觉醒来发现自己又刷新在了桃园",
+          "count": 1,
+          "like_sum": 8669
+        },
+        {
+          "phrase": "和两个不认识的人开始结义",
+          "count": 1,
+          "like_sum": 8669
+        },
+        {
+          "phrase": "明白又开始踏上一个新的轮回",
+          "count": 1,
+          "like_sum": 8669
+        }
+      ]
+    },
+    {
+      "bvid": "BV17PG46BEer",
+      "url": "https://www.bilibili.com/video/BV17PG46BEer",
+      "lexicon_hits": [
+        {
+          "phrase": "天意",
+          "count": 3
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "还真是",
+          "count": 2,
+          "like_sum": 2224
+        },
+        {
+          "phrase": "放游戏里谁能忍住不选呱和企鹅步呢",
+          "count": 1,
+          "like_sum": 1389
+        },
+        {
+          "phrase": "反正有存档",
+          "count": 1,
+          "like_sum": 835
+        },
+        {
+          "phrase": "看见选项里面有狗叫企鹅步谁能忍住不选",
+          "count": 1,
+          "like_sum": 835
+        },
+        {
+          "phrase": "你知道上课的时候憋笑有多难吗",
+          "count": 1,
+          "like_sum": 6
+        },
+        {
+          "phrase": "看完这第二集我也仿佛更懂了一些",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "董卓也携带了些许上周目的记忆",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "这次周目一来就杀掉了王允",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "但天意又把王允复活成了一具行尸走肉",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "就是所谓的天意傀儡",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "董卓见一计不成",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "又先让傀儡王允喝血(实则是黑狗血",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "再把貂蝉献给汉献帝",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "做了很多事情来自救",
+          "count": 1,
+          "like_sum": 1849
+        },
+        {
+          "phrase": "董太师尽力了",
+          "count": 1,
+          "like_sum": 610
+        },
+        {
+          "phrase": "但是天意爷是不可战胜的",
+          "count": 1,
+          "like_sum": 610
+        },
+        {
+          "phrase": "贼吕布太坏了😭",
+          "count": 1,
+          "like_sum": 42
+        },
+        {
+          "phrase": "折棒爷提出轮回理论后",
+          "count": 1,
+          "like_sum": 1844
+        },
+        {
+          "phrase": "新三国缺乏下人也就不难理解了",
+          "count": 1,
+          "like_sum": 1844
+        },
+        {
+          "phrase": "丁原何进这些人完成对应任务后脱离轮回",
+          "count": 1,
+          "like_sum": 1844
+        }
+      ]
+    },
+    {
+      "bvid": "BV1BvV66mEBr",
+      "url": "https://www.bilibili.com/video/BV1BvV66mEBr",
+      "lexicon_hits": [
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1
+        }
+      ],
+      "short_phrase_candidates": [
+        {
+          "phrase": "朱大文豪真是多才多艺啊",
+          "count": 1,
+          "like_sum": 327
+        },
+        {
+          "phrase": "这倪小红和司马大强是什么关系",
+          "count": 1,
+          "like_sum": 231
+        },
+        {
+          "phrase": "有人查了，编剧表上写的不是他",
+          "count": 1,
+          "like_sum": 36
+        },
+        {
+          "phrase": "有人查了",
+          "count": 1,
+          "like_sum": 36
+        },
+        {
+          "phrase": "编剧表上写的不是他",
+          "count": 1,
+          "like_sum": 36
+        },
+        {
+          "phrase": "倪大红小时候",
+          "count": 1,
+          "like_sum": 21
+        },
+        {
+          "phrase": "列位诸公",
+          "count": 1,
+          "like_sum": 61
+        },
+        {
+          "phrase": "我做了一个新三国的小测试",
+          "count": 1,
+          "like_sum": 61
+        },
+        {
+          "phrase": "都做对的可以称帝了",
+          "count": 1,
+          "like_sum": 61
+        },
+        {
+          "phrase": "竟然不做！",
+          "count": 1,
+          "like_sum": 11
+        },
+        {
+          "phrase": "竟然不做",
+          "count": 1,
+          "like_sum": 11
+        },
+        {
+          "phrase": "啊哈哈哈哈哈哈哈哈哈",
+          "count": 1,
+          "like_sum": 36
+        },
+        {
+          "phrase": "不做(摇头)",
+          "count": 1,
+          "like_sum": 36
+        },
+        {
+          "phrase": "多选都是张飞还都是全选没绷住",
+          "count": 1,
+          "like_sum": 1
+        },
+        {
+          "phrase": "众所周知",
+          "count": 1,
+          "like_sum": 16
+        },
+        {
+          "phrase": "公孙瓒的配音配过加菲猫",
+          "count": 1,
+          "like_sum": 16
+        },
+        {
+          "phrase": "难怪天天吃什么",
+          "count": 1,
+          "like_sum": 16
+        },
+        {
+          "phrase": "这就不奇怪了",
+          "count": 1,
+          "like_sum": 0
+        },
+        {
+          "phrase": "这就不奇怪了（撤回一碗饭）",
+          "count": 1,
+          "like_sum": 0
+        }
+      ]
     }
   ]
 }

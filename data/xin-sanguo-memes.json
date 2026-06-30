@@ -408,7 +408,70 @@
       "primary_bvid": "BV1kCLb68E9X",
       "source_url": "https://www.bilibili.com/video/BV1kCLb68E9X",
       "image_status": "video_frame_needed"
+    },
+    {
+      "id": "xsg-comment-cache-full-series",
+      "title": "缓存全集新三国",
+      "item_type": "meme",
+      "summary": "评论区自嘲式灾难体验梗，适合形容自己在错误时机主动选择了精神折磨。",
+      "aliases": ["回村缓存新三国", "缓存了全集的新三国"],
+      "tags": ["新三国", "折棒", "评论区梗", "自嘲", "反应图"],
+      "tone": ["后悔", "自嘲", "好笑"],
+      "language": "zh",
+      "safe": true,
+      "usage": ["自嘲做了错误选择", "明知会被折磨还看完", "精神污染式娱乐"],
+      "primary_bvid": "BV1rjyYYjEjQ",
+      "source_url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
+      "source_kind": "bilibili_comment_candidate",
+      "image_status": "generated_card"
+    },
+    {
+      "id": "xsg-comment-little-glutton",
+      "title": "小馋猫",
+      "item_type": "meme",
+      "summary": "评论区用于调侃“你还挺爱看/挺爱吃这口”的短回复梗。",
+      "aliases": ["馋这口"],
+      "tags": ["新三国", "折棒", "评论区梗", "短句", "回复", "反应图"],
+      "tone": ["调侃", "亲昵", "阴阳怪气"],
+      "language": "zh",
+      "safe": true,
+      "usage": ["调侃对方明明痛苦但还想看", "看到别人主动找乐子时回复"],
+      "primary_bvid": "BV1rjyYYjEjQ",
+      "source_url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
+      "source_kind": "bilibili_comment_candidate",
+      "image_status": "generated_card"
+    },
+    {
+      "id": "xsg-comment-deaf-emperor-sign",
+      "title": "聋，可是帝王之征啊",
+      "item_type": "meme",
+      "summary": "评论区对新三国保密逻辑的二创延伸，适合吐槽离谱设定被强行合理化。",
+      "aliases": ["聋是帝王之征"],
+      "tags": ["新三国", "折棒", "评论区梗", "理论梗", "回复"],
+      "tone": ["一本正经", "荒诞", "强行解释"],
+      "language": "zh",
+      "safe": true,
+      "usage": ["用荒诞理论解释离谱设定", "把漏洞硬圆成设定"],
+      "primary_bvid": "BV1rjyYYjEjQ",
+      "source_url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
+      "source_kind": "bilibili_comment_candidate",
+      "image_status": "generated_card"
+    },
+    {
+      "id": "xsg-comment-wang-yun-birthday-deathday",
+      "title": "王允六十大寿忌日",
+      "item_type": "meme",
+      "summary": "评论区对年龄、寿宴和忌日错位的二创吐槽，适合形容时间线和设定互相打架。",
+      "aliases": ["过寿也是忌日", "王允忌日"],
+      "tags": ["新三国", "折棒", "评论区梗", "时间线", "吐槽"],
+      "tone": ["黑色幽默", "错位", "离谱"],
+      "language": "zh",
+      "safe": true,
+      "usage": ["时间线乱套", "一个设定同时满足两个相反结论"],
+      "primary_bvid": "BV1rjyYYjEjQ",
+      "source_url": "https://www.bilibili.com/video/BV1rjyYYjEjQ",
+      "source_kind": "bilibili_comment_candidate",
+      "image_status": "generated_card"
     }
   ]
 }
-

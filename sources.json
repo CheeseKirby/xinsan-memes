@@ -26,6 +26,9 @@
     },
     "reaction": {
       "tags_any": ["反应图", "回复", "吐槽"]
+    },
+    "title-candidates": {
+      "tags_any": ["标题挖掘", "候选梗"]
     }
   },
   "sources": [
@@ -33,6 +36,11 @@
       "id": "curated_xin_sanguo_memes",
       "type": "curated_json",
       "file": "data/xin-sanguo-memes.json"
+    },
+    {
+      "id": "title_mined_xin_sanguo_memes",
+      "type": "curated_json",
+      "file": "data/title-candidates.json"
     },
     {
       "id": "zhebang_bilibili_series",

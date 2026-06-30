@@ -39,16 +39,18 @@ B 站视频 BVID
 当前索引生成结果：
 
 ```text
-总条目：325
-梗条目：28
+总条目：419
+梗条目：122
 折棒视频来源：297
 ```
 
 也就是说，现在库里主要是：
 
 ```text
-28 个整理过的新三国梗
+32 个整理过的新三国梗
+90 个从视频标题挖出的候选梗
 297 个折棒《吐槽新三国》系列视频出处
+122 张仓库生成的原创 SVG 文字梗图卡
 ```
 
 ## 在线地址
@@ -96,6 +98,18 @@ data/comment-candidates.json
 评论区候选梗统计。只保存关键词命中次数，不保存大量评论原文。
 
 ```text
+data/title-candidates.json
+```
+
+从折棒系列视频标题中自动挖出的候选梗。
+
+```text
+assets/cards/
+```
+
+仓库自动生成的原创 SVG 文字梗图卡，不是视频截图。
+
+```text
 scripts/update_bilibili_series.py
 ```
 
@@ -106,6 +120,18 @@ scripts/update_index.py
 ```
 
 根据人工梗底稿和 B 站来源生成 `index.json` 和分包。
+
+```text
+scripts/mine_title_candidates.py
+```
+
+从折棒系列视频标题里挖候选梗。
+
+```text
+scripts/generate_meme_cards.py
+```
+
+给梗条目生成原创 SVG 文字梗图卡。
 
 ```text
 scripts/collect_bilibili_candidates.py
@@ -121,6 +147,7 @@ packs/quotes.json       台词梗、短句梗
 packs/characters.json   人物梗、角色梗
 packs/episodes.json     折棒视频来源
 packs/reaction.json     可当回复/反应图用的梗
+packs/title-candidates.json  从视频标题自动挖出的候选梗
 ```
 
 ## skill 怎么用
@@ -189,7 +216,9 @@ GitHub Actions 每天运行：
 
 ```bash
 python scripts/update_bilibili_series.py
+python scripts/mine_title_candidates.py
 python scripts/update_index.py
+python scripts/generate_meme_cards.py
 ```
 
 作用是：

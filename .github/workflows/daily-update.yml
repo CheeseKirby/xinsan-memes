@@ -25,14 +25,20 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/update_bilibili_series.py
 
+      - name: Mine title candidates
+        run: python scripts/mine_title_candidates.py
+
       - name: Update index
         run: python scripts/update_index.py
+
+      - name: Generate meme cards
+        run: python scripts/generate_meme_cards.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.json packs/*.json data/bilibili-series.json
+          git add index.json packs/*.json data/bilibili-series.json data/title-candidates.json assets/cards/*.svg
           if git diff --cached --quiet; then
             echo "No index changes."
           else

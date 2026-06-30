@@ -55,6 +55,26 @@ data/comment-candidates.json
 
 它只保存关键词命中次数，不保存大量评论原文。
 
+## 视频标题候选
+
+`scripts/mine_title_candidates.py` 会从折棒系列视频标题里提取看起来像梗的短句，并写入：
+
+```text
+data/title-candidates.json
+```
+
+这些条目会进入主索引，但会标记为 `curation_status: title_mined`，意思是“标题挖掘候选”，后续仍然建议人工复核。
+
+## 文字梗图卡
+
+`scripts/generate_meme_cards.py` 会给 `item_type: meme` 的条目生成 SVG 文字卡：
+
+```text
+assets/cards/*.svg
+```
+
+这些卡片是仓库生成的原创文字图，不是 B 站视频截图。
+
 ## 梗图怎么补
 
 不要批量截取视频画面提交进仓库。
@@ -70,4 +90,3 @@ data/comment-candidates.json
 ## 为什么这么做
 
 这样做可以让 skills 找到梗和出处，同时避免把视频画面、评论原文、版权素材批量搬进仓库。
-
