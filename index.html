@@ -1,30 +1,37 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>新三国梗库</title>
     <style>
       :root {
-        color-scheme: light dark;
-        --bg: #f6f5f2;
-        --text: #181817;
-        --muted: #65625d;
-        --line: #d8d3ca;
-        --panel: #fffdfa;
-        --accent: #0f766e;
-        --accent-text: #ffffff;
+        color-scheme: light;
+        --bg: #f5f3ee;
+        --surface: #fffdf8;
+        --surface-2: #ede7dc;
+        --text: #1c1915;
+        --muted: #6c6258;
+        --line: #d8cec0;
+        --accent: #8f241d;
+        --accent-2: #0f766e;
+        --accent-soft: #f2dfd4;
+        --shadow: 0 10px 30px rgba(54, 38, 23, 0.08);
       }
 
       @media (prefers-color-scheme: dark) {
         :root {
-          --bg: #171717;
-          --text: #f3f1ec;
-          --muted: #aaa39a;
-          --line: #34312d;
-          --panel: #20201f;
-          --accent: #2dd4bf;
-          --accent-text: #06201d;
+          color-scheme: dark;
+          --bg: #151514;
+          --surface: #20201e;
+          --surface-2: #2c2a27;
+          --text: #f5f1e8;
+          --muted: #b3a99e;
+          --line: #3b3833;
+          --accent: #f07666;
+          --accent-2: #4fd1c5;
+          --accent-soft: #3a241f;
+          --shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
         }
       }
 
@@ -36,133 +43,373 @@
         margin: 0;
         background: var(--bg);
         color: var(--text);
-        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
         line-height: 1.5;
       }
 
-      main {
-        width: min(1120px, calc(100vw - 32px));
-        margin: 0 auto;
-        padding: 32px 0 48px;
+      button,
+      input,
+      select {
+        font: inherit;
       }
 
-      header {
+      button {
+        cursor: pointer;
+      }
+
+      main {
+        width: min(1360px, calc(100vw - 28px));
+        margin: 0 auto;
+        padding: 22px 0 48px;
+      }
+
+      .topbar {
         display: grid;
+        grid-template-columns: minmax(240px, 1fr) auto;
         gap: 16px;
-        margin-bottom: 24px;
+        align-items: end;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--line);
       }
 
       h1 {
         margin: 0;
-        font-size: clamp(2rem, 7vw, 4.5rem);
-        line-height: 0.95;
+        font-size: clamp(1.8rem, 4vw, 3rem);
+        line-height: 1.05;
         letter-spacing: 0;
       }
 
-      .toolbar {
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--muted);
+        max-width: 740px;
+      }
+
+      .stats {
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto auto;
+        grid-template-columns: repeat(4, minmax(86px, 1fr));
         gap: 8px;
-        align-items: center;
+        min-width: min(520px, 100%);
       }
 
-      input,
-      select,
-      button {
-        min-height: 44px;
+      .stat {
         border: 1px solid var(--line);
-        border-radius: 6px;
-        background: var(--panel);
-        color: var(--text);
-        font: inherit;
+        border-radius: 8px;
+        background: var(--surface);
+        padding: 10px 12px;
       }
 
-      input {
+      .stat strong {
+        display: block;
+        font-size: 1.35rem;
+        line-height: 1.1;
+      }
+
+      .stat span {
+        display: block;
+        color: var(--muted);
+        font-size: 0.82rem;
+        margin-top: 3px;
+      }
+
+      .controls {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: grid;
+        gap: 10px;
+        padding: 12px 0;
+        background: color-mix(in srgb, var(--bg) 92%, transparent);
+        backdrop-filter: blur(10px);
+      }
+
+      .search-row {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 150px 112px;
+        gap: 8px;
+      }
+
+      .search-row input,
+      .search-row select,
+      .search-row button {
+        min-height: 42px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--text);
+      }
+
+      .search-row input {
         width: 100%;
         padding: 0 12px;
       }
 
-      select {
-        padding: 0 32px 0 10px;
+      .search-row select {
+        padding: 0 10px;
       }
 
-      button {
-        padding: 0 14px;
+      .search-row button {
         background: var(--accent);
-        color: var(--accent-text);
-        border-color: transparent;
-        cursor: pointer;
+        border-color: var(--accent);
+        color: #fffdf8;
       }
 
-      .meta {
+      .filters {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        padding-bottom: 2px;
+      }
+
+      .filter {
+        flex: 0 0 auto;
+        min-height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--text);
+        padding: 0 12px;
+      }
+
+      .filter.active {
+        border-color: var(--accent);
+        background: var(--accent-soft);
+        color: var(--accent);
+      }
+
+      .result-line {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 8px 14px;
+        justify-content: space-between;
         color: var(--muted);
-        font-size: 0.95rem;
+        font-size: 0.92rem;
       }
 
       .grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
         gap: 14px;
       }
 
-      article {
+      .card {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        min-height: 100%;
         border: 1px solid var(--line);
         border-radius: 8px;
-        background: var(--panel);
+        background: var(--surface);
         overflow: hidden;
+        box-shadow: var(--shadow);
       }
 
-      article a {
-        color: inherit;
-        text-decoration: none;
-      }
-
-      .thumb {
-        display: block;
+      .card-image {
         width: 100%;
-        aspect-ratio: 1 / 1;
+        aspect-ratio: 16 / 9;
+        background: var(--surface-2);
         object-fit: cover;
-        background: var(--line);
+        display: block;
       }
 
-      .body {
+      .card-body {
         display: grid;
-        gap: 8px;
+        gap: 10px;
         padding: 12px;
       }
 
-      h2 {
+      .card-title {
         margin: 0;
-        font-size: 1rem;
-        line-height: 1.3;
+        font-size: 1.02rem;
+        line-height: 1.35;
+        letter-spacing: 0;
       }
 
-      .tags {
+      .summary {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .badges,
+      .actions {
         display: flex;
         flex-wrap: wrap;
         gap: 6px;
       }
 
-      .tag {
+      .badge {
         border: 1px solid var(--line);
-        border-radius: 999px;
-        padding: 2px 8px;
+        border-radius: 8px;
         color: var(--muted);
-        font-size: 0.8rem;
+        padding: 2px 7px;
+        font-size: 0.78rem;
+        background: color-mix(in srgb, var(--surface) 70%, var(--surface-2));
+      }
+
+      .badge.kind {
+        border-color: color-mix(in srgb, var(--accent-2) 42%, var(--line));
+        color: var(--accent-2);
+      }
+
+      .actions {
+        margin-top: 2px;
+      }
+
+      .actions button,
+      .actions a,
+      .more-button {
+        min-height: 34px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--text);
+        text-decoration: none;
+        padding: 0 10px;
+        font-size: 0.86rem;
+      }
+
+      .actions button.primary,
+      .more-button {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+
+      .more-wrap {
+        display: flex;
+        justify-content: center;
+        padding: 22px 0 0;
       }
 
       .empty {
         border: 1px dashed var(--line);
         border-radius: 8px;
-        padding: 24px;
+        padding: 30px;
         color: var(--muted);
+        background: var(--surface);
       }
 
-      @media (max-width: 700px) {
-        .toolbar {
+      dialog {
+        width: min(980px, calc(100vw - 28px));
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 0;
+        background: var(--surface);
+        color: var(--text);
+        box-shadow: var(--shadow);
+      }
+
+      dialog::backdrop {
+        background: rgba(0, 0, 0, 0.45);
+      }
+
+      .dialog-body {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+        gap: 0;
+      }
+
+      .dialog-media {
+        background: var(--surface-2);
+      }
+
+      .dialog-media img {
+        width: 100%;
+        height: 100%;
+        min-height: 320px;
+        object-fit: contain;
+        display: block;
+      }
+
+      .dialog-info {
+        display: grid;
+        gap: 12px;
+        align-content: start;
+        padding: 18px;
+      }
+
+      .dialog-info h2 {
+        margin: 0;
+        font-size: 1.45rem;
+        line-height: 1.25;
+      }
+
+      .field {
+        display: grid;
+        gap: 4px;
+      }
+
+      .field-label {
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      .usage-list {
+        margin: 0;
+        padding-left: 18px;
+      }
+
+      .close-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        border-top: 1px solid var(--line);
+        padding: 12px 18px;
+      }
+
+      .close-row button,
+      .close-row a {
+        min-height: 36px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--surface);
+        color: var(--text);
+        padding: 0 12px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+      }
+
+      .close-row a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 900px) {
+        .topbar {
+          grid-template-columns: 1fr;
+        }
+
+        .stats {
+          min-width: 0;
+        }
+
+        .dialog-body {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 640px) {
+        main {
+          width: min(100vw - 18px, 1360px);
+          padding-top: 14px;
+        }
+
+        .stats {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .search-row {
+          grid-template-columns: 1fr;
+        }
+
+        .grid {
           grid-template-columns: 1fr;
         }
       }
@@ -170,142 +417,353 @@
   </head>
   <body>
     <main>
-      <header>
-        <h1>新三国梗库</h1>
-        <div class="toolbar">
-          <input id="query" type="search" placeholder="搜索梗名、标签、语气或用途" autocomplete="off">
-          <select id="type" aria-label="Type">
-            <option value="">全部</option>
-            <option value="meme">梗</option>
-            <option value="source_episode">视频来源</option>
-          </select>
-          <button id="shuffle" type="button">随机</button>
+      <section class="topbar">
+        <div>
+          <h1>新三国梗库</h1>
+          <p class="subtitle">按图卡浏览、搜索和筛选折棒《吐槽新三国》相关梗；正式梗优先，标题候选和视频出处也能查看。</p>
         </div>
-        <div class="meta" id="meta"></div>
-      </header>
-      <section class="grid" id="grid"></section>
+        <div class="stats" id="stats"></div>
+      </section>
+
+      <section class="controls" aria-label="筛选">
+        <div class="search-row">
+          <input id="query" type="search" placeholder="搜：天意、曹操、反应图、轮回、忠心耿耿" autocomplete="off">
+          <select id="sort" aria-label="排序">
+            <option value="default">默认排序</option>
+            <option value="title">按梗名</option>
+            <option value="episode">按视频集数</option>
+          </select>
+          <button id="shuffle" type="button">随机看看</button>
+        </div>
+        <div class="filters" id="filters"></div>
+        <div class="result-line">
+          <span id="resultCount">加载中</span>
+          <span id="sourceNote"></span>
+        </div>
+      </section>
+
+      <section class="grid" id="grid" aria-live="polite"></section>
+      <div class="more-wrap">
+        <button class="more-button" id="more" type="button" hidden>再看一些</button>
+      </div>
     </main>
 
+    <dialog id="detailDialog">
+      <div class="dialog-body">
+        <div class="dialog-media">
+          <img id="detailImage" alt="">
+        </div>
+        <div class="dialog-info">
+          <h2 id="detailTitle"></h2>
+          <div class="badges" id="detailBadges"></div>
+          <p class="summary" id="detailSummary"></p>
+          <div class="field">
+            <span class="field-label">适用场景</span>
+            <ul class="usage-list" id="detailUsage"></ul>
+          </div>
+          <div class="field">
+            <span class="field-label">条目 ID</span>
+            <span id="detailId"></span>
+          </div>
+        </div>
+      </div>
+      <div class="close-row">
+        <button id="closeDialog" type="button">关闭</button>
+        <div class="actions">
+          <button id="copyId" type="button">复制 ID</button>
+          <a id="openImage" href="#" target="_blank" rel="noreferrer">打开图卡</a>
+          <a id="openSource" href="#" target="_blank" rel="noreferrer">打开出处</a>
+        </div>
+      </div>
+    </dialog>
+
     <script>
+      const RAW_INDEX_URL = "https://raw.githubusercontent.com/CheeseKirby/memes/main/index.json";
+      const PAGE_SIZE = 96;
+
+      const filters = [
+        { id: "curated", label: "正式梗", match: (item) => item.item_type === "meme" && item.curation_status !== "title_mined" },
+        { id: "reaction", label: "反应图/回复", match: (item) => item.item_type === "meme" && hasAny(item, ["反应图", "回复"]) },
+        { id: "worldview", label: "世界观/天意", match: (item) => item.item_type === "meme" && hasAny(item, ["世界观", "理论梗", "天意学", "轮回"]) },
+        { id: "characters", label: "人物梗", match: (item) => item.item_type === "meme" && hasAny(item, ["人物梗", "角色梗"]) },
+        { id: "comments", label: "评论区梗", match: (item) => item.item_type === "meme" && (item.source_kind || "").includes("comment") },
+        { id: "candidates", label: "标题候选", match: (item) => item.curation_status === "title_mined" },
+        { id: "memes", label: "全部梗", match: (item) => item.item_type === "meme" },
+        { id: "episodes", label: "视频来源", match: (item) => item.item_type === "source_episode" },
+        { id: "all", label: "全部条目", match: () => true }
+      ];
+
       const state = {
         items: [],
+        filter: "curated",
         query: "",
-        type: ""
+        sort: "default",
+        limit: PAGE_SIZE,
+        currentDetail: null
       };
 
       const grid = document.querySelector("#grid");
-      const meta = document.querySelector("#meta");
+      const stats = document.querySelector("#stats");
+      const filterBar = document.querySelector("#filters");
       const queryInput = document.querySelector("#query");
-      const typeSelect = document.querySelector("#type");
+      const sortSelect = document.querySelector("#sort");
       const shuffleButton = document.querySelector("#shuffle");
+      const resultCount = document.querySelector("#resultCount");
+      const sourceNote = document.querySelector("#sourceNote");
+      const moreButton = document.querySelector("#more");
+      const dialog = document.querySelector("#detailDialog");
 
-      function textFor(item) {
-        return [
-          item.title || "",
-          item.summary || "",
+      function indexUrl() {
+        const host = window.location.hostname;
+        if (window.location.protocol === "file:" || host.includes("htmlpreview.github.io") || host.includes("raw.githack.com")) {
+          return RAW_INDEX_URL;
+        }
+        return "index.json";
+      }
+
+      function normalize(value) {
+        return String(value || "").toLowerCase();
+      }
+
+      function haystack(item) {
+        return normalize([
+          item.title,
+          item.summary,
           ...(item.aliases || []),
           ...(item.tags || []),
           ...(item.tone || []),
           ...(item.usage || []),
-          item.episode_title || ""
-        ].join(" ").toLowerCase();
+          item.episode_title,
+          item.primary_bvid
+        ].join(" "));
+      }
+
+      function hasAny(item, tokens) {
+        const values = [...(item.tags || []), ...(item.tone || []), item.source_kind || ""].join(" ");
+        return tokens.some((token) => values.includes(token));
+      }
+
+      function kindLabel(item) {
+        if (item.item_type === "source_episode") return "视频来源";
+        if (item.curation_status === "title_mined") return "标题候选";
+        if ((item.source_kind || "").includes("comment")) return "评论区正式梗";
+        if ((item.source_kind || "").includes("title_promoted")) return "标题正式梗";
+        return "正式梗";
       }
 
       function filteredItems() {
-        const query = state.query.trim().toLowerCase();
-        return state.items.filter((item) => {
-          if (state.type && item.item_type !== state.type) return false;
-          if (!query) return true;
-          return query.split(/\s+/).every((part) => textFor(item).includes(part));
-        });
+        const active = filters.find((filter) => filter.id === state.filter) || filters[0];
+        const terms = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+        let items = state.items.filter((item) => item.safe !== false && active.match(item));
+        if (terms.length) {
+          items = items.filter((item) => {
+            const text = haystack(item);
+            return terms.every((term) => text.includes(term));
+          });
+        }
+        if (state.sort === "title") {
+          items = [...items].sort((a, b) => String(a.title || "").localeCompare(String(b.title || ""), "zh-Hans-CN"));
+        } else if (state.sort === "episode") {
+          items = [...items].sort((a, b) => Number(a.episode || 9999) - Number(b.episode || 9999));
+        }
+        return items;
       }
 
-      function render(items) {
-        meta.textContent = `${items.length} shown / ${state.items.length} indexed`;
-        grid.innerHTML = "";
+      function renderStats() {
+        const total = state.items.length;
+        const memes = state.items.filter((item) => item.item_type === "meme").length;
+        const curated = state.items.filter((item) => item.item_type === "meme" && item.curation_status !== "title_mined").length;
+        const candidates = state.items.filter((item) => item.curation_status === "title_mined").length;
+        const data = [
+          ["总条目", total],
+          ["梗条目", memes],
+          ["正式梗", curated],
+          ["标题候选", candidates]
+        ];
+        stats.replaceChildren(...data.map(([label, value]) => {
+          const block = document.createElement("div");
+          block.className = "stat";
+          const strong = document.createElement("strong");
+          strong.textContent = new Intl.NumberFormat("zh-CN").format(value);
+          const span = document.createElement("span");
+          span.textContent = label;
+          block.append(strong, span);
+          return block;
+        }));
+      }
 
+      function renderFilters() {
+        filterBar.replaceChildren(...filters.map((filter) => {
+          const button = document.createElement("button");
+          button.className = `filter${filter.id === state.filter ? " active" : ""}`;
+          button.type = "button";
+          button.textContent = filter.label;
+          button.addEventListener("click", () => {
+            state.filter = filter.id;
+            state.limit = PAGE_SIZE;
+            render();
+          });
+          return button;
+        }));
+      }
+
+      function imageFor(item) {
+        return item.image_url || item.thumbnail_url || "";
+      }
+
+      function renderCard(item) {
+        const card = document.createElement("article");
+        card.className = "card";
+
+        const img = document.createElement("img");
+        img.className = "card-image";
+        img.loading = "lazy";
+        img.alt = item.title || "新三国梗图";
+        img.src = imageFor(item);
+        img.addEventListener("error", () => {
+          img.removeAttribute("src");
+          img.alt = "";
+        });
+
+        const body = document.createElement("div");
+        body.className = "card-body";
+
+        const title = document.createElement("h2");
+        title.className = "card-title";
+        title.textContent = item.title || "未命名条目";
+
+        const badges = document.createElement("div");
+        badges.className = "badges";
+        const kind = document.createElement("span");
+        kind.className = "badge kind";
+        kind.textContent = kindLabel(item);
+        badges.appendChild(kind);
+        for (const tag of [...(item.tags || []), ...(item.tone || [])].slice(0, 5)) {
+          const badge = document.createElement("span");
+          badge.className = "badge";
+          badge.textContent = tag;
+          badges.appendChild(badge);
+        }
+
+        const summary = document.createElement("p");
+        summary.className = "summary";
+        summary.textContent = item.summary || "";
+
+        const actions = document.createElement("div");
+        actions.className = "actions";
+        const detail = document.createElement("button");
+        detail.className = "primary";
+        detail.type = "button";
+        detail.textContent = "看详情";
+        detail.addEventListener("click", () => openDetail(item));
+        actions.appendChild(detail);
+        if (item.source_url || item.bilibili_url) {
+          const source = document.createElement("a");
+          source.href = item.source_url || item.bilibili_url;
+          source.target = "_blank";
+          source.rel = "noreferrer";
+          source.textContent = "出处";
+          actions.appendChild(source);
+        }
+
+        body.append(title, badges, summary, actions);
+        card.append(img, body);
+        return card;
+      }
+
+      function render() {
+        renderFilters();
+        const items = filteredItems();
+        const shown = items.slice(0, state.limit);
+        resultCount.textContent = `显示 ${shown.length} / ${items.length} 条`;
+        sourceNote.textContent = "图卡为仓库生成的 SVG，不是 B 站截图";
+        moreButton.hidden = state.limit >= items.length;
+        grid.replaceChildren(...shown.map(renderCard));
         if (!items.length) {
           const empty = document.createElement("div");
           empty.className = "empty";
-          empty.textContent = "No memes matched.";
+          empty.textContent = "没搜到。换个词试试，比如“天意”“曹操”“轮回”“反应图”。";
           grid.appendChild(empty);
-          return;
         }
+      }
 
-        for (const item of items.slice(0, 80)) {
-          const article = document.createElement("article");
-          const link = document.createElement("a");
-          link.href = item.image_url || item.source_url || item.bilibili_url || "#";
-          link.target = "_blank";
-          link.rel = "noreferrer";
-
-          const preview = item.thumbnail_url || item.image_url;
-          if (preview) {
-            const img = document.createElement("img");
-            img.className = "thumb";
-            img.loading = "lazy";
-            img.alt = item.title || "Meme";
-            img.src = preview;
-            link.appendChild(img);
-          }
-
-          const body = document.createElement("div");
-          body.className = "body";
-
-          const title = document.createElement("h2");
-          title.textContent = item.title || "Untitled meme";
-
-          const tags = document.createElement("div");
-          tags.className = "tags";
-          for (const tag of [...(item.tags || []), ...(item.tone || [])].slice(0, 6)) {
-            const badge = document.createElement("span");
-            badge.className = "tag";
-            badge.textContent = tag;
-            tags.appendChild(badge);
-          }
-
-          body.append(title, tags);
-          if (item.summary) {
-            const summary = document.createElement("p");
-            summary.textContent = item.summary;
-            summary.style.margin = "0";
-            summary.style.color = "var(--muted)";
-            summary.style.fontSize = "0.9rem";
-            body.appendChild(summary);
-          }
-          link.appendChild(body);
-          article.appendChild(link);
-          grid.appendChild(article);
+      function openDetail(item) {
+        state.currentDetail = item;
+        document.querySelector("#detailTitle").textContent = item.title || "未命名条目";
+        document.querySelector("#detailSummary").textContent = item.summary || "";
+        document.querySelector("#detailId").textContent = item.id || "";
+        const detailImage = document.querySelector("#detailImage");
+        detailImage.src = imageFor(item);
+        detailImage.alt = item.title || "新三国梗图";
+        const detailBadges = document.querySelector("#detailBadges");
+        detailBadges.replaceChildren();
+        for (const value of [kindLabel(item), ...(item.tags || []), ...(item.tone || [])].slice(0, 10)) {
+          const badge = document.createElement("span");
+          badge.className = "badge";
+          badge.textContent = value;
+          detailBadges.appendChild(badge);
         }
+        const usage = document.querySelector("#detailUsage");
+        usage.replaceChildren(...(item.usage || ["暂无"]).slice(0, 6).map((text) => {
+          const li = document.createElement("li");
+          li.textContent = text;
+          return li;
+        }));
+        const openImage = document.querySelector("#openImage");
+        const image = imageFor(item);
+        openImage.href = image || "#";
+        openImage.hidden = !image;
+        const openSource = document.querySelector("#openSource");
+        openSource.href = item.source_url || item.bilibili_url || "#";
+        openSource.hidden = !(item.source_url || item.bilibili_url);
+        dialog.showModal();
       }
 
       queryInput.addEventListener("input", (event) => {
         state.query = event.target.value;
-        render(filteredItems());
+        state.limit = PAGE_SIZE;
+        render();
       });
 
-      typeSelect.addEventListener("change", (event) => {
-        state.type = event.target.value;
-        render(filteredItems());
+      sortSelect.addEventListener("change", (event) => {
+        state.sort = event.target.value;
+        render();
       });
 
       shuffleButton.addEventListener("click", () => {
         const items = filteredItems();
         for (let index = items.length - 1; index > 0; index -= 1) {
-          const swapIndex = Math.floor(Math.random() * (index + 1));
-          [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
+          const swap = Math.floor(Math.random() * (index + 1));
+          [items[index], items[swap]] = [items[swap], items[index]];
         }
-        render(items);
+        grid.replaceChildren(...items.slice(0, state.limit).map(renderCard));
+        resultCount.textContent = `随机显示 ${Math.min(state.limit, items.length)} / ${items.length} 条`;
       });
 
-      fetch("index.json", { cache: "no-store" })
-        .then((response) => response.json())
-        .then((index) => {
-          state.items = (index.items || []).filter((item) => item.safe !== false);
-          render(filteredItems());
+      moreButton.addEventListener("click", () => {
+        state.limit += PAGE_SIZE;
+        render();
+      });
+
+      document.querySelector("#closeDialog").addEventListener("click", () => dialog.close());
+      document.querySelector("#copyId").addEventListener("click", async () => {
+        if (!state.currentDetail) return;
+        await navigator.clipboard.writeText(state.currentDetail.id || "");
+      });
+
+      fetch(indexUrl(), { cache: "no-store" })
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
         })
-        .catch(() => {
-          meta.textContent = "Failed to load index.json";
+        .then((index) => {
+          state.items = index.items || [];
+          renderStats();
+          render();
+        })
+        .catch((error) => {
+          resultCount.textContent = `加载失败：${error.message}`;
+          sourceNote.textContent = "请确认 index.json 可以访问";
         });
     </script>
   </body>

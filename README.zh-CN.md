@@ -149,6 +149,12 @@ packs/title-candidates.json  从视频标题自动挖出的候选梗，当前 18
 
 ## skill 怎么用
 
+如果只是想直接看库里有哪些梗，可以打开可视化浏览页：
+
+```text
+https://cheesekirby.github.io/memes/
+```
+
 skill 读取这个地址：
 
 ```text

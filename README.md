@@ -55,6 +55,12 @@ B 站视频 BVID
 
 ## 在线地址
 
+可视化浏览页：
+
+```text
+https://cheesekirby.github.io/memes/
+```
+
 skills 推荐读取主索引：
 
 ```text
