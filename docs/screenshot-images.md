@@ -1,6 +1,6 @@
 # 截图入库说明
 
-这个仓库会给一批明确的新三国梗配真实截图。
+这个仓库会给一批明确的新三国梗配复核截图。
 
 ## 相关文件
 
@@ -20,7 +20,13 @@ data/screenshot-candidates.json
 data/screenshot-selections.json
 ```
 
-自动裁图时选中的预览帧格子。以后如果想人工换图，可以参考这里定位。
+实际生成图片时使用的封面或预览帧格子。以后如果想人工换图，可以参考这里定位。
+
+```text
+data/screenshot-decisions.json
+```
+
+人工复核后的截图取舍。找不到准确画面的条目会标记为 `withhold`，页面回到 SVG 兜底。
 
 ```text
 assets/screenshots/
@@ -28,7 +34,7 @@ assets/screenshots/
 
 真正被 `index.json` 使用的截图文件。
 
-## 自动生成截图
+## 生成复核截图
 
 运行：
 
@@ -47,7 +53,21 @@ image_url    = assets/screenshots/<item_id>.jpg 的 GitHub raw URL
 
 ## 人工替换更准的图
 
-如果自动裁出来的图不够准，直接替换：
+如果图片不够准，先改：
+
+```text
+data/screenshot-decisions.json
+```
+
+可选取舍：
+
+```text
+cover       使用 B 站视频封面
+storyboard  使用指定预览帧格子
+withhold    暂不配图，回到 SVG 兜底
+```
+
+也可以直接替换：
 
 ```text
 assets/screenshots/<item_id>.jpg

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Generate screenshot assets from Bilibili videoshot storyboards.
+"""Generate reviewed screenshot assets.
 
-The script reads data/screenshot-candidates.json, crops one representative
-cell from each Bilibili videoshot storyboard, and saves it under
-assets/screenshots/<item_id>.jpg. Manual replacements can overwrite those
-files later without changing the index shape.
+The script reads data/screenshot-decisions.json. Reviewed entries can use a
+Bilibili cover image, a specific videoshot storyboard cell, or be withheld when
+no accurate image has been found yet. This avoids publishing visually busy but
+semantically wrong frames.
 """
 
 from __future__ import annotations
@@ -25,6 +25,7 @@ from PIL import Image, ImageFilter, ImageOps, ImageStat
 
 ROOT = Path(__file__).resolve().parents[1]
 SCREENSHOT_DIR = ROOT / "assets" / "screenshots"
+DECISIONS_PATH = ROOT / "data" / "screenshot-decisions.json"
 SELECTIONS_PATH = ROOT / "data" / "screenshot-selections.json"
 DEFAULT_USER_AGENT = "Mozilla/5.0 CheeseKirby-xin-sanguo-index/0.1"
 
@@ -59,6 +60,16 @@ def fetch_image(url: str, referer: str, user_agent: str) -> Image.Image:
     with urllib.request.urlopen(request, timeout=30) as response:
         payload = response.read()
     return Image.open(io.BytesIO(payload)).convert("RGB")
+
+
+def load_episode_map(path: Path) -> dict[str, dict[str, Any]]:
+    payload = load_json(path, {"episodes": []})
+    return {episode["bvid"]: episode for episode in payload.get("episodes", []) if episode.get("bvid")}
+
+
+def normalize_image(image: Image.Image, size: tuple[int, int] = (960, 540)) -> Image.Image:
+    image = ImageOps.fit(image.convert("RGB"), size, method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+    return image
 
 
 def entropy(gray: Image.Image) -> float:
@@ -170,16 +181,23 @@ def choose_cell(item: dict[str, Any], scored: list[dict[str, Any]], used_by_bvid
 
 def build_screenshots(
     candidates_path: Path,
+    decisions_path: Path,
+    series_path: Path,
     output_dir: Path,
     selections_path: Path,
     user_agent: str,
     overwrite: bool,
+    auto: bool,
 ) -> int:
     payload = load_json(candidates_path, {"items": []})
+    decisions_payload = load_json(decisions_path, {"items": []})
+    decisions = {item["item_id"]: item for item in decisions_payload.get("items", []) if item.get("item_id")}
+    episodes_by_bvid = load_episode_map(series_path)
     output_dir.mkdir(parents=True, exist_ok=True)
     used_by_bvid: dict[str, set[tuple[int, int, int]]] = {}
     selections: list[dict[str, Any]] = []
     count = 0
+    withheld_count = 0
 
     for item in payload.get("items", []):
         item_id = item.get("item_id")
@@ -187,31 +205,98 @@ def build_screenshots(
         output_path = ROOT / repository_path
         if not item_id:
             continue
+        decision = decisions.get(item_id, {"action": "auto" if auto else "withhold", "reason": "未人工复核"})
+        action = decision.get("action", "withhold")
+        if action == "withhold":
+            if output_path.exists():
+                output_path.unlink()
+            withheld_count += 1
+            selections.append(
+                {
+                    "item_id": item_id,
+                    "title": item.get("title"),
+                    "bvid": item.get("bvid"),
+                    "repository_image_path": repository_path,
+                    "action": "withhold",
+                    "reason": decision.get("reason", "未找到足够准确的截图"),
+                }
+            )
+            continue
         if output_path.exists() and not overwrite:
             count += 1
+            selections.append(
+                {
+                    "item_id": item_id,
+                    "title": item.get("title"),
+                    "bvid": item.get("bvid"),
+                    "repository_image_path": repository_path,
+                    "action": action,
+                    "reason": decision.get("reason", "已存在截图"),
+                }
+            )
             continue
 
         storyboard = item.get("storyboard") or {}
-        image_urls = storyboard.get("image_urls") or []
-        if not image_urls:
-            print(f"Skipped {item_id}: no storyboard images", file=sys.stderr)
-            continue
-
         referer = item.get("source_url") or f"https://www.bilibili.com/video/{item.get('bvid', '')}"
-        sprite_images: list[tuple[str, Image.Image]] = []
-        for image_url in image_urls:
-            try:
-                sprite_images.append((image_url, fetch_image(image_url, referer, user_agent)))
-            except Exception as exc:
-                print(f"Failed to fetch {item_id} storyboard {image_url}: {exc}", file=sys.stderr)
-
-        if not sprite_images:
+        selected: dict[str, Any]
+        try:
+            if action == "cover":
+                episode = episodes_by_bvid.get(item.get("bvid", ""))
+                cover_url = decision.get("url") or (episode or {}).get("cover_url")
+                if not cover_url:
+                    raise ValueError("no cover URL")
+                crop = normalize_image(fetch_image(cover_url, referer, user_agent))
+                selected = {
+                    "action": "cover",
+                    "cover_url": cover_url,
+                }
+            elif action == "storyboard":
+                image_urls = storyboard.get("image_urls") or []
+                sprite_index = int(decision.get("sprite_index", 0))
+                row = int(decision["row"])
+                column = int(decision["column"])
+                if sprite_index < 0 or sprite_index >= len(image_urls):
+                    raise ValueError("storyboard sprite_index out of range")
+                sprite_url = image_urls[sprite_index]
+                sprite = fetch_image(sprite_url, referer, user_agent)
+                crop = normalize_image(crop_cell(sprite, storyboard.get("grid") or {}, row, column))
+                selected = {
+                    "action": "storyboard",
+                    "sprite_url": sprite_url,
+                    "sprite_index": sprite_index,
+                    "row": row,
+                    "column": column,
+                }
+            elif action == "auto":
+                image_urls = storyboard.get("image_urls") or []
+                if not image_urls:
+                    raise ValueError("no storyboard images")
+                sprite_images: list[tuple[str, Image.Image]] = []
+                for image_url in image_urls:
+                    sprite_images.append((image_url, fetch_image(image_url, referer, user_agent)))
+                scored = candidate_cells(item, sprite_images)
+                selected = choose_cell(item, scored, used_by_bvid)
+                sprite = sprite_images[selected["sprite_index"]][1]
+                crop = normalize_image(crop_cell(sprite, storyboard.get("grid") or {}, selected["row"], selected["column"]))
+            else:
+                raise ValueError(f"unknown action: {action}")
+        except Exception as exc:
+            print(f"Skipped {item_id}: {exc}", file=sys.stderr)
+            if output_path.exists():
+                output_path.unlink()
+            withheld_count += 1
+            selections.append(
+                {
+                    "item_id": item_id,
+                    "title": item.get("title"),
+                    "bvid": item.get("bvid"),
+                    "repository_image_path": repository_path,
+                    "action": "withhold",
+                    "reason": f"生成失败：{exc}",
+                }
+            )
             continue
 
-        scored = candidate_cells(item, sprite_images)
-        selected = choose_cell(item, scored, used_by_bvid)
-        sprite = sprite_images[selected["sprite_index"]][1]
-        crop = crop_cell(sprite, storyboard.get("grid") or {}, selected["row"], selected["column"])
         output_path.parent.mkdir(parents=True, exist_ok=True)
         crop.save(output_path, "JPEG", quality=88, optimize=True)
         count += 1
@@ -222,12 +307,8 @@ def build_screenshots(
                 "title": item.get("title"),
                 "bvid": item.get("bvid"),
                 "repository_image_path": repository_path,
-                "sprite_url": selected["sprite_url"],
-                "sprite_index": selected["sprite_index"],
-                "row": selected["row"],
-                "column": selected["column"],
-                "cell_index": selected["cell_index"],
-                "score": round(float(selected["score"]), 4),
+                "reason": decision.get("reason", ""),
+                **selected,
             }
         )
 
@@ -236,7 +317,8 @@ def build_screenshots(
         {
             "schema": "https://github.com/CheeseKirby/memes/schema/screenshot-selections/v1",
             "updated_at": utc_now(),
-            "item_count": len(selections),
+            "item_count": count,
+            "withheld_count": withheld_count,
             "items": selections,
         },
     )
@@ -244,20 +326,26 @@ def build_screenshots(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Generate screenshot assets from Bilibili storyboard images.")
+    parser = argparse.ArgumentParser(description="Generate reviewed screenshot assets.")
     parser.add_argument("--candidates", default=str(ROOT / "data" / "screenshot-candidates.json"))
+    parser.add_argument("--decisions", default=str(DECISIONS_PATH))
+    parser.add_argument("--series", default=str(ROOT / "data" / "bilibili-series.json"))
     parser.add_argument("--output-dir", default=str(SCREENSHOT_DIR))
     parser.add_argument("--selections", default=str(SELECTIONS_PATH))
     parser.add_argument("--user-agent", default=DEFAULT_USER_AGENT)
     parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument("--auto", action="store_true", help="Use the old automatic storyboard heuristic for undecided items.")
     args = parser.parse_args()
 
     count = build_screenshots(
         candidates_path=Path(args.candidates),
+        decisions_path=Path(args.decisions),
+        series_path=Path(args.series),
         output_dir=Path(args.output_dir),
         selections_path=Path(args.selections),
         user_agent=args.user_agent,
         overwrite=args.overwrite,
+        auto=args.auto,
     )
     print(f"Generated {count} screenshot assets")
     return 0

@@ -86,6 +86,12 @@ data/screenshot-candidates.json
 
 它保存 BVID、出处、建议截图画面和 B 站预览帧网格 URL。
 
+截图是否入库由人工复核文件决定：
+
+```text
+data/screenshot-decisions.json
+```
+
 要生成仓库截图，运行：
 
 ```bash
@@ -99,9 +105,10 @@ python scripts/generate_screenshots.py --overwrite
 1. 在 `data/xin-sanguo-memes.json` 里先建梗条目。
 2. 填 `primary_bvid` 和 `source_url`。
 3. 在 `data/screenshot-targets.json` 里补截图提示。
-4. 运行 `python scripts/update_screenshot_candidates.py`。
-5. 运行 `python scripts/generate_screenshots.py --overwrite`。
-6. 运行 `python scripts/update_index.py` 重新生成索引。
+4. 在 `data/screenshot-decisions.json` 里决定使用封面、指定预览帧，或暂不配图。
+5. 运行 `python scripts/update_screenshot_candidates.py`。
+6. 运行 `python scripts/generate_screenshots.py --overwrite`。
+7. 运行 `python scripts/update_index.py` 重新生成索引。
 
 ## 为什么这么做
 

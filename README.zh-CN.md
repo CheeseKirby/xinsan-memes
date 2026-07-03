@@ -31,19 +31,19 @@ B 站 BVID
 ## 当前内容
 
 ```text
-总条目：561
-梗条目：264
+总条目：569
+梗条目：272
 折棒视频来源：297
-已配真实截图：33
-当前索引用 SVG 兜底：231
-仓库保留 SVG 文字卡：264
+已配复核截图：19
+当前索引用 SVG 兜底：253
+仓库保留 SVG 文字卡：272
 ```
 
 说明：
 
 ```text
-33 个比较明确的梗已经配了 assets/screenshots/ 里的截图。
-其他 231 个梗条目现在用 assets/cards/ 里的 SVG 文字卡兜底。
+19 个比较明确的梗已经配了 assets/screenshots/ 里的复核截图。
+其他 253 个梗条目现在用 assets/cards/ 里的 SVG 文字卡兜底。
 ```
 
 ## 在线查看
@@ -99,16 +99,22 @@ data/screenshot-candidates.json
 明确梗的截图来源清单，记录 BVID、建议画面和 B 站预览帧网格。
 
 ```text
+data/screenshot-decisions.json
+```
+
+人工复核后的截图取舍。找不到准图的条目会撤回截图，改用 SVG 兜底。
+
+```text
 data/screenshot-selections.json
 ```
 
-自动裁图时选中的预览帧格子，方便以后人工换更准的截图。
+实际生成图片时使用的封面或预览帧格子，方便以后人工复核。
 
 ```text
 assets/screenshots/
 ```
 
-已经入库的真实梗截图。
+已经入库的复核梗截图。
 
 ```text
 assets/cards/
@@ -187,7 +193,7 @@ python scripts/generate_meme_cards.py
 重新生成 SVG 文字卡
 ```
 
-手动重新生成截图：
+手动重新生成复核截图：
 
 ```bash
 python scripts/generate_screenshots.py --overwrite

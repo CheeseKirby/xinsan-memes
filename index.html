@@ -484,6 +484,7 @@
 
       const filters = [
         { id: "curated", label: "正式梗", match: (item) => item.item_type === "meme" && item.curation_status !== "title_mined" },
+        { id: "screenshots", label: "已配截图", match: (item) => item.item_type === "meme" && isScreenshot(item) },
         { id: "reaction", label: "反应图/回复", match: (item) => item.item_type === "meme" && hasAny(item, ["反应图", "回复"]) },
         { id: "worldview", label: "世界观/天意", match: (item) => item.item_type === "meme" && hasAny(item, ["世界观", "理论梗", "天意学", "轮回"]) },
         { id: "characters", label: "人物梗", match: (item) => item.item_type === "meme" && hasAny(item, ["人物梗", "角色梗"]) },

@@ -1,0 +1,196 @@
+{
+  "schema": "https://github.com/CheeseKirby/memes/schema/screenshot-decisions/v1",
+  "notes": [
+    "人工复核后的截图生成决策。",
+    "cover 表示使用 B 站视频封面；storyboard 表示使用指定预览帧格子；withhold 表示暂不配图，避免错图误导。",
+    "没有足够明确画面时宁可回到 SVG 兜底。"
+  ],
+  "items": [
+    {
+      "item_id": "xsg-worldview-tianyi-erosion",
+      "action": "cover",
+      "reason": "封面直接出现“开局就被天意侵蚀”。"
+    },
+    {
+      "item_id": "xsg-character-chen-gong-bug-master",
+      "action": "cover",
+      "reason": "封面围绕蛐蟮/陈宫主题，比自动预览帧更贴近梗。"
+    },
+    {
+      "item_id": "xsg-character-hua-xiong-centaur",
+      "action": "cover",
+      "reason": "封面直接出现“华雄进化半人马”。"
+    },
+    {
+      "item_id": "xsg-episode-liu-guan-zhang-missing",
+      "action": "cover",
+      "reason": "封面直接出现“刘关张去哪了”。"
+    },
+    {
+      "item_id": "xsg-episode-dong-zhuo-ten-attendants",
+      "action": "storyboard",
+      "sprite_index": 0,
+      "row": 7,
+      "column": 5,
+      "reason": "预览帧是解释董卓/十常侍关系的文字页。"
+    },
+    {
+      "item_id": "xsg-episode-liu-bei-emperor",
+      "action": "cover",
+      "reason": "封面出现“刘关张称帝震群雄”，与开局称帝梗相关。"
+    },
+    {
+      "item_id": "xsg-episode-manchu-soldiers",
+      "action": "cover",
+      "reason": "封面直接出现“满洲兵”。"
+    },
+    {
+      "item_id": "xsg-episode-bright-future",
+      "action": "withhold",
+      "reason": "现有封面和预览帧都没有直指“光明的未来”。"
+    },
+    {
+      "item_id": "xsg-episode-cao-cao-fadian",
+      "action": "withhold",
+      "reason": "现有自动帧不是曹操发癫画面，先撤回。"
+    },
+    {
+      "item_id": "xsg-episode-new-three-theory",
+      "action": "cover",
+      "reason": "封面强调重生视野和诸多谜团，适合作为新三学理论入口图。"
+    },
+    {
+      "item_id": "xsg-episode-tutorial",
+      "action": "withhold",
+      "reason": "现有封面和预览帧没有明确“新手教程”。"
+    },
+    {
+      "item_id": "xsg-episode-guan-yu-stand-in",
+      "action": "withhold",
+      "reason": "现有封面更像泛剧情图，没有明确“关羽替身”。"
+    },
+    {
+      "item_id": "xsg-episode-grind-sword",
+      "action": "withhold",
+      "reason": "现有封面偏大结局，不直接表达“磨剑十几年”。"
+    },
+    {
+      "item_id": "xsg-title-normal-person",
+      "action": "withhold",
+      "reason": "现有封面不直接表达“没有正常人”。"
+    },
+    {
+      "item_id": "xsg-title-cao-murder-maniac",
+      "action": "cover",
+      "reason": "封面写到“曹孟德笑杀吕伯奢”，贴近变态杀人狂吐槽。"
+    },
+    {
+      "item_id": "xsg-title-strongest-military-theory",
+      "action": "cover",
+      "reason": "封面直接出现“新三国最强军事理论”。"
+    },
+    {
+      "item_id": "xsg-title-yuan-gonglu-delicious",
+      "action": "cover",
+      "reason": "封面直接出现“袁公路鲜美无比”。"
+    },
+    {
+      "item_id": "xsg-title-earthling-fight",
+      "action": "cover",
+      "reason": "封面对比三英战吕布和关张战吕刘，贴近打戏离谱吐槽。"
+    },
+    {
+      "item_id": "xsg-title-qin-shihuang-ancestor",
+      "action": "withhold",
+      "reason": "现有封面是称帝梗，不是拜秦始皇。"
+    },
+    {
+      "item_id": "xsg-title-space-jump-tech",
+      "action": "storyboard",
+      "sprite_index": 0,
+      "row": 3,
+      "column": 0,
+      "reason": "预览帧是空间跃迁相关文字分析页。"
+    },
+    {
+      "item_id": "xsg-title-giant-script-kill",
+      "action": "storyboard",
+      "sprite_index": 0,
+      "row": 6,
+      "column": 9,
+      "reason": "预览帧是剧本杀理论相关文字页。"
+    },
+    {
+      "item_id": "xsg-title-game-unplayable",
+      "action": "storyboard",
+      "sprite_index": 1,
+      "row": 0,
+      "column": 5,
+      "reason": "预览帧是身份混乱相关文字页。"
+    },
+    {
+      "item_id": "xsg-title-parallel-clones",
+      "action": "withhold",
+      "reason": "现有封面和预览帧不能明确表达平行宇宙/多重分身。"
+    },
+    {
+      "item_id": "xsg-title-loyal-cao",
+      "action": "withhold",
+      "reason": "现有封面不直接表达“忠心耿耿”。"
+    },
+    {
+      "item_id": "xsg-title-spring-autumn-nonsense",
+      "action": "withhold",
+      "reason": "现有封面不直接表达“春秋胡言乱语”。"
+    },
+    {
+      "item_id": "xsg-title-negative-age",
+      "action": "storyboard",
+      "sprite_index": 1,
+      "row": 3,
+      "column": 7,
+      "reason": "预览帧是年龄时间线相关文字页。"
+    },
+    {
+      "item_id": "xsg-title-dongxi-tianyi",
+      "action": "cover",
+      "reason": "封面直接出现“天意”，适合作为洞悉天意条目图。"
+    },
+    {
+      "item_id": "xsg-title-void-soldiers",
+      "action": "withhold",
+      "reason": "现有封面偏“拥兵自重”，不直接表达虚空炼兵。"
+    },
+    {
+      "item_id": "xsg-title-wield-tianyi",
+      "action": "withhold",
+      "reason": "现有封面不直接表达“驭使天意”。"
+    },
+    {
+      "item_id": "xsg-title-sima-deep-power",
+      "action": "withhold",
+      "reason": "现有封面和预览帧不能明确表达“功力深不可测”。"
+    },
+    {
+      "item_id": "xsg-title-zhuge-shu-lord",
+      "action": "withhold",
+      "reason": "现有封面不直接表达“蜀汉之主”。"
+    },
+    {
+      "item_id": "xsg-title-heavenly-soldiers",
+      "action": "storyboard",
+      "sprite_index": 0,
+      "row": 9,
+      "column": 4,
+      "reason": "预览帧是天兵天将相关文字页。"
+    },
+    {
+      "item_id": "xsg-title-seven-eight-ten",
+      "action": "storyboard",
+      "sprite_index": 1,
+      "row": 2,
+      "column": 2,
+      "reason": "预览帧是七门八卦阵相关文字页。"
+    }
+  ]
+}

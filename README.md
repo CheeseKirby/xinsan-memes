@@ -13,12 +13,12 @@ README.zh-CN.md
 ## 当前内容
 
 ```text
-总条目：561
-梗条目：264
+总条目：569
+梗条目：272
 折棒视频来源：297
-已配真实截图：33
-当前索引用 SVG 兜底：231
-仓库保留 SVG 文字卡：264
+已配复核截图：19
+当前索引用 SVG 兜底：253
+仓库保留 SVG 文字卡：272
 ```
 
 这个库主要存：
@@ -68,7 +68,8 @@ data/bilibili-series.json          折棒系列视频来源数据
 data/title-candidates.json         从视频标题挖出的候选梗
 data/comment-candidates.json       评论区候选梗统计
 data/screenshot-candidates.json    明确梗的截图来源清单
-data/screenshot-selections.json    自动裁图选中的预览帧格子
+data/screenshot-decisions.json     人工复核后的截图取舍
+data/screenshot-selections.json    实际生成图片时使用的封面或预览帧
 assets/screenshots/                已入库截图
 assets/cards/                      SVG 文字卡兜底
 ```
@@ -98,7 +99,7 @@ episode_title
 常见图片状态：
 
 ```text
-screenshot       已配真实截图
+screenshot       已配复核截图
 generated_card   SVG 文字卡
 screenshot_target  适合继续补截图
 ```
@@ -125,7 +126,7 @@ python scripts/update_index.py
 python scripts/generate_meme_cards.py
 ```
 
-手动重新生成截图：
+手动重新生成复核截图：
 
 ```bash
 python scripts/generate_screenshots.py --overwrite

@@ -11,7 +11,7 @@
       "有截图的条目优先使用 assets/screenshots/，没有截图的条目使用 assets/cards/ SVG 文字卡兜底。"
     ]
   },
-  "updated_at": "2026-07-03T06:25:50Z",
+  "updated_at": "2026-07-03T07:03:40Z",
   "pack": "quotes",
   "item_count": 11,
   "items": [
@@ -48,8 +48,8 @@
       "image_status": "generated_card",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-comment-little-glutton.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-comment-little-glutton.svg",
       "image_refs": [
@@ -110,13 +110,13 @@
       ],
       "primary_bvid": "BV1eEDaYmENQ",
       "source_url": "https://www.bilibili.com/video/BV1eEDaYmENQ",
-      "image_status": "screenshot",
+      "image_status": "screenshot_target",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
-      "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/screenshots/xsg-episode-bright-future.jpg",
-      "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/screenshots/xsg-episode-bright-future.jpg",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
+      "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-episode-bright-future.svg",
+      "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-episode-bright-future.svg",
       "image_refs": [
         {
           "kind": "bilibili_cover",
@@ -142,11 +142,11 @@
           "note": "用于定位和复核截图的 B 站预览帧网格。"
         },
         {
-          "kind": "repository_screenshot",
-          "status": "repo_asset",
-          "path": "assets/screenshots/xsg-episode-bright-future.jpg",
-          "url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/screenshots/xsg-episode-bright-future.jpg",
-          "note": "仓库中的新三国梗截图。"
+          "kind": "generated_card",
+          "status": "repo_owned",
+          "path": "assets/cards/xsg-episode-bright-future.svg",
+          "url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-episode-bright-future.svg",
+          "note": "仓库生成的文字梗图卡，不是视频截图。"
         }
       ],
       "bilibili_url": "https://www.bilibili.com/video/BV1eEDaYmENQ",
@@ -194,8 +194,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-event-golden-uprising.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-event-golden-uprising.svg",
       "image_refs": [
@@ -238,8 +238,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-law-shi-bu-guo-san.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-law-shi-bu-guo-san.svg",
       "image_refs": [
@@ -283,8 +283,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-dont-be-angry.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-dont-be-angry.svg",
       "image_refs": [
@@ -328,8 +328,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-good-fire.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-good-fire.svg",
       "image_refs": [
@@ -373,8 +373,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-impossible.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-impossible.svg",
       "image_refs": [
@@ -417,8 +417,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-listen-like-wine.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-listen-like-wine.svg",
       "image_refs": [
@@ -462,8 +462,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-music-dance.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-music-dance.svg",
       "image_refs": [
@@ -507,8 +507,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-this-not-strange.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-this-not-strange.svg",
       "image_refs": [
@@ -553,8 +553,8 @@
       "image_status": "needs_curated_image",
       "schema": "https://github.com/CheeseKirby/memes/schema/xin-sanguo/v1",
       "source": "curated_xin_sanguo_memes",
-      "added_at": "2026-07-03T06:25:50Z",
-      "updated_at": "2026-07-03T06:25:50Z",
+      "added_at": "2026-07-03T07:03:40Z",
+      "updated_at": "2026-07-03T07:03:40Z",
       "image_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-yes-eat-what.svg",
       "thumbnail_url": "https://raw.githubusercontent.com/CheeseKirby/memes/main/assets/cards/xsg-quote-yes-eat-what.svg",
       "image_refs": [
