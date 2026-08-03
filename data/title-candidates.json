@@ -2156,6 +2156,34 @@
       "image_status": "generated_card"
     },
     {
+      "id": "xsg-title-5140bd72cc",
+      "title": "今日端午佳节，大雪纷飞，可喜可贺",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 75 期标题中挖掘出的候选梗：今日端午佳节，大雪纷飞，可喜可贺",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV1osXTYWE2h",
+      "source_url": "https://www.bilibili.com/video/BV1osXTYWE2h",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 21,
+      "image_status": "generated_card"
+    },
+    {
       "id": "xsg-title-1684e82538",
       "title": "主公生气了，称帝有望了",
       "item_type": "meme",
@@ -5290,36 +5318,6 @@
       ],
       "primary_bvid": "BV1oRCaYqEiJ",
       "source_url": "https://www.bilibili.com/video/BV1oRCaYqEiJ",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 16,
-      "image_status": "generated_card"
-    },
-    {
-      "id": "xsg-title-0ddfe6da1b",
-      "title": "哥们，你要装壁别带上我啊",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 195 期标题中挖掘出的候选梗：哥们，你要装壁别带上我啊",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "回复",
-        "反应图"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1TQCEBkEX2",
-      "source_url": "https://www.bilibili.com/video/BV1TQCEBkEX2",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 16,
