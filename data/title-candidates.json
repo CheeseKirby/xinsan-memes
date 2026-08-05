@@ -1213,6 +1213,36 @@
       "image_status": "generated_card"
     },
     {
+      "id": "xsg-title-65acc8f2d0",
+      "title": "普天同庆！张飞归天了",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 235 期标题中挖掘出的候选梗：普天同庆！张飞归天了",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗",
+        "人物梗",
+        "角色梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV1cy6HBPE6a",
+      "source_url": "https://www.bilibili.com/video/BV1cy6HBPE6a",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 24,
+      "image_status": "generated_card"
+    },
+    {
       "id": "xsg-title-31568fd6e3",
       "title": "我曹操，绝非，他们猜忌的，那种人",
       "item_type": "meme",
@@ -2776,36 +2806,6 @@
       ],
       "primary_bvid": "BV1KmrWYsEVS",
       "source_url": "https://www.bilibili.com/video/BV1KmrWYsEVS",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 19,
-      "image_status": "generated_card"
-    },
-    {
-      "id": "xsg-title-65acc8f2d0",
-      "title": "普天同庆！张飞归天了",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 235 期标题中挖掘出的候选梗：普天同庆！张飞归天了",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1cy6HBPE6a",
-      "source_url": "https://www.bilibili.com/video/BV1cy6HBPE6a",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 19,
