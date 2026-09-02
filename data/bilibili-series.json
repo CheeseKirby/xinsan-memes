@@ -1,6 +1,6 @@
 {
   "schema": "https://github.com/CheeseKirby/memes/schema/bilibili-series/v1",
-  "updated_at": "2026-09-01T10:10:31Z",
+  "updated_at": "2026-09-02T09:41:15Z",
   "seed_bvid": "BV1dzRqYVEcR",
   "series": {
     "id": 4058111,
@@ -12,15 +12,15 @@
     "url": "https://www.bilibili.com/video/BV1dzRqYVEcR",
     "stat": {
       "season_id": 4058111,
-      "view": 545963764,
-      "danmaku": 4062776,
-      "reply": 983509,
-      "fav": 1523525,
-      "coin": 5576535,
-      "share": 460187,
+      "view": 546570783,
+      "danmaku": 4065234,
+      "reply": 983761,
+      "fav": 1524612,
+      "coin": 5578325,
+      "share": 460460,
       "now_rank": 0,
       "his_rank": 0,
-      "like": 13014284,
+      "like": 13022063,
       "vt": 0,
       "vv": 0
     }
@@ -39,13 +39,13 @@
       "duration": 716,
       "pubdate": "2024-10-21T02:00:00Z",
       "stat": {
-        "view": 8898539,
-        "danmaku": 22351,
-        "reply": 12071,
-        "favorite": 68683,
-        "coin": 48521,
-        "share": 99549,
-        "like": 161469
+        "view": 8905747,
+        "danmaku": 22380,
+        "reply": 12082,
+        "favorite": 68739,
+        "coin": 48571,
+        "share": 99627,
+        "like": 161588
       }
     },
     {
@@ -61,13 +61,13 @@
       "duration": 680,
       "pubdate": "2024-10-22T02:00:00Z",
       "stat": {
-        "view": 4170585,
-        "danmaku": 11712,
-        "reply": 2004,
-        "favorite": 9982,
-        "coin": 16938,
-        "share": 3552,
-        "like": 76341
+        "view": 4173567,
+        "danmaku": 11715,
+        "reply": 2007,
+        "favorite": 9988,
+        "coin": 16942,
+        "share": 3557,
+        "like": 76381
       }
     },
     {
@@ -83,13 +83,13 @@
       "duration": 703,
       "pubdate": "2024-10-26T02:00:00Z",
       "stat": {
-        "view": 3716787,
-        "danmaku": 11841,
+        "view": 3719615,
+        "danmaku": 11850,
         "reply": 1730,
-        "favorite": 7557,
-        "coin": 11186,
-        "share": 2705,
-        "like": 59493
+        "favorite": 7559,
+        "coin": 11194,
+        "share": 2708,
+        "like": 59528
       }
     },
     {
@@ -105,13 +105,13 @@
       "duration": 701,
       "pubdate": "2024-10-27T02:00:00Z",
       "stat": {
-        "view": 3396863,
-        "danmaku": 13805,
-        "reply": 1805,
-        "favorite": 7621,
-        "coin": 11173,
+        "view": 3399526,
+        "danmaku": 13811,
+        "reply": 1806,
+        "favorite": 7627,
+        "coin": 11175,
         "share": 4131,
-        "like": 56910
+        "like": 56935
       }
     },
     {
@@ -127,13 +127,13 @@
       "duration": 739,
       "pubdate": "2024-10-31T02:00:00Z",
       "stat": {
-        "view": 3255228,
-        "danmaku": 14564,
-        "reply": 1650,
-        "favorite": 7852,
-        "coin": 17655,
-        "share": 5224,
-        "like": 61121
+        "view": 3257731,
+        "danmaku": 14575,
+        "reply": 1651,
+        "favorite": 7859,
+        "coin": 17660,
+        "share": 5226,
+        "like": 61148
       }
     },
     {
@@ -149,13 +149,13 @@
       "duration": 771,
       "pubdate": "2024-11-02T02:00:00Z",
       "stat": {
-        "view": 3486367,
-        "danmaku": 12438,
-        "reply": 1887,
-        "favorite": 7566,
-        "coin": 20700,
-        "share": 2688,
-        "like": 66623
+        "view": 3489177,
+        "danmaku": 12443,
+        "reply": 1890,
+        "favorite": 7570,
+        "coin": 20701,
+        "share": 2689,
+        "like": 66658
       }
     },
     {
@@ -171,13 +171,13 @@
       "duration": 741,
       "pubdate": "2024-11-03T02:00:25Z",
       "stat": {
-        "view": 3155039,
-        "danmaku": 16633,
+        "view": 3157657,
+        "danmaku": 16636,
         "reply": 1512,
-        "favorite": 6368,
-        "coin": 14116,
-        "share": 2478,
-        "like": 55604
+        "favorite": 6371,
+        "coin": 14122,
+        "share": 2480,
+        "like": 55635
       }
     },
     {
@@ -193,13 +193,13 @@
       "duration": 793,
       "pubdate": "2024-11-05T02:00:00Z",
       "stat": {
-        "view": 3276752,
-        "danmaku": 18249,
+        "view": 3279369,
+        "danmaku": 18261,
         "reply": 2182,
-        "favorite": 7662,
-        "coin": 27175,
-        "share": 3556,
-        "like": 70325
+        "favorite": 7671,
+        "coin": 27180,
+        "share": 3557,
+        "like": 70358
       }
     },
     {
@@ -215,13 +215,13 @@
       "duration": 721,
       "pubdate": "2024-11-07T02:00:00Z",
       "stat": {
-        "view": 3268244,
-        "danmaku": 10868,
+        "view": 3270828,
+        "danmaku": 10877,
         "reply": 2237,
         "favorite": 7473,
-        "coin": 18903,
+        "coin": 18907,
         "share": 2459,
-        "like": 65028
+        "like": 65056
       }
     },
     {
@@ -237,13 +237,13 @@
       "duration": 799,
       "pubdate": "2024-11-09T02:00:00Z",
       "stat": {
-        "view": 2929327,
-        "danmaku": 11184,
+        "view": 2931842,
+        "danmaku": 11190,
         "reply": 1405,
-        "favorite": 6287,
-        "coin": 16152,
-        "share": 1695,
-        "like": 55506
+        "favorite": 6293,
+        "coin": 16155,
+        "share": 1696,
+        "like": 55533
       }
     },
     {
@@ -259,13 +259,13 @@
       "duration": 738,
       "pubdate": "2024-11-10T02:00:00Z",
       "stat": {
-        "view": 3379946,
-        "danmaku": 12634,
-        "reply": 2642,
-        "favorite": 7878,
-        "coin": 15459,
-        "share": 2980,
-        "like": 60052
+        "view": 3382751,
+        "danmaku": 12640,
+        "reply": 2643,
+        "favorite": 7883,
+        "coin": 15465,
+        "share": 2983,
+        "like": 60084
       }
     },
     {
@@ -281,13 +281,13 @@
       "duration": 821,
       "pubdate": "2024-11-12T02:00:00Z",
       "stat": {
-        "view": 3022274,
-        "danmaku": 16721,
+        "view": 3024975,
+        "danmaku": 16744,
         "reply": 1577,
-        "favorite": 6475,
-        "coin": 13868,
-        "share": 2611,
-        "like": 52761
+        "favorite": 6478,
+        "coin": 13876,
+        "share": 2615,
+        "like": 52806
       }
     },
     {
@@ -303,13 +303,13 @@
       "duration": 735,
       "pubdate": "2024-11-14T02:00:00Z",
       "stat": {
-        "view": 3026673,
+        "view": 3029100,
         "danmaku": 11284,
         "reply": 2671,
-        "favorite": 6806,
-        "coin": 15102,
-        "share": 4970,
-        "like": 55405
+        "favorite": 6811,
+        "coin": 15105,
+        "share": 4974,
+        "like": 55432
       }
     },
     {
@@ -325,13 +325,13 @@
       "duration": 790,
       "pubdate": "2024-11-16T02:00:00Z",
       "stat": {
-        "view": 2877411,
-        "danmaku": 9600,
+        "view": 2879938,
+        "danmaku": 9604,
         "reply": 1395,
-        "favorite": 5911,
-        "coin": 14116,
+        "favorite": 5917,
+        "coin": 14122,
         "share": 1342,
-        "like": 53167
+        "like": 53197
       }
     },
     {
@@ -347,13 +347,13 @@
       "duration": 753,
       "pubdate": "2024-11-18T02:00:00Z",
       "stat": {
-        "view": 2730829,
-        "danmaku": 13440,
+        "view": 2733113,
+        "danmaku": 13449,
         "reply": 1772,
-        "favorite": 5395,
+        "favorite": 5400,
         "coin": 12994,
         "share": 1637,
-        "like": 50247
+        "like": 50269
       }
     },
     {
@@ -369,13 +369,13 @@
       "duration": 833,
       "pubdate": "2024-11-20T02:00:00Z",
       "stat": {
-        "view": 3150289,
-        "danmaku": 19349,
+        "view": 3152837,
+        "danmaku": 19353,
         "reply": 3176,
-        "favorite": 8047,
-        "coin": 18795,
-        "share": 3734,
-        "like": 61001
+        "favorite": 8049,
+        "coin": 18805,
+        "share": 3736,
+        "like": 61030
       }
     },
     {
@@ -391,13 +391,13 @@
       "duration": 836,
       "pubdate": "2024-11-22T02:00:00Z",
       "stat": {
-        "view": 2767719,
-        "danmaku": 10211,
+        "view": 2770191,
+        "danmaku": 10213,
         "reply": 1712,
-        "favorite": 5809,
-        "coin": 14603,
+        "favorite": 5814,
+        "coin": 14605,
         "share": 1359,
-        "like": 52766
+        "like": 52792
       }
     },
     {
@@ -413,13 +413,13 @@
       "duration": 779,
       "pubdate": "2024-11-24T02:00:00Z",
       "stat": {
-        "view": 2653831,
-        "danmaku": 8288,
+        "view": 2656075,
+        "danmaku": 8295,
         "reply": 1493,
-        "favorite": 5114,
-        "coin": 12813,
-        "share": 1094,
-        "like": 49019
+        "favorite": 5126,
+        "coin": 12815,
+        "share": 1095,
+        "like": 49041
       }
     },
     {
@@ -435,13 +435,13 @@
       "duration": 843,
       "pubdate": "2024-11-26T02:00:00Z",
       "stat": {
-        "view": 2656933,
-        "danmaku": 19252,
+        "view": 2659078,
+        "danmaku": 19262,
         "reply": 3036,
-        "favorite": 5089,
-        "coin": 10931,
-        "share": 1455,
-        "like": 46793
+        "favorite": 5097,
+        "coin": 10936,
+        "share": 1456,
+        "like": 46812
       }
     },
     {
@@ -457,13 +457,13 @@
       "duration": 717,
       "pubdate": "2024-11-28T02:00:00Z",
       "stat": {
-        "view": 2503728,
-        "danmaku": 6638,
-        "reply": 1140,
-        "favorite": 4356,
-        "coin": 9951,
+        "view": 2505818,
+        "danmaku": 6642,
+        "reply": 1143,
+        "favorite": 4360,
+        "coin": 9955,
         "share": 787,
-        "like": 42315
+        "like": 42336
       }
     },
     {
@@ -479,13 +479,13 @@
       "duration": 800,
       "pubdate": "2024-11-30T02:00:00Z",
       "stat": {
-        "view": 2488735,
-        "danmaku": 15352,
+        "view": 2490851,
+        "danmaku": 15361,
         "reply": 1930,
-        "favorite": 4884,
-        "coin": 9860,
-        "share": 1160,
-        "like": 43835
+        "favorite": 4894,
+        "coin": 9866,
+        "share": 1162,
+        "like": 43864
       }
     },
     {
@@ -501,13 +501,13 @@
       "duration": 787,
       "pubdate": "2024-12-02T02:00:00Z",
       "stat": {
-        "view": 2427487,
-        "danmaku": 13324,
+        "view": 2429609,
+        "danmaku": 13330,
         "reply": 2591,
-        "favorite": 7623,
-        "coin": 55170,
+        "favorite": 7627,
+        "coin": 55200,
         "share": 1812,
-        "like": 68821
+        "like": 68859
       }
     },
     {
@@ -523,13 +523,13 @@
       "duration": 1380,
       "pubdate": "2024-12-04T02:00:00Z",
       "stat": {
-        "view": 2469204,
-        "danmaku": 18685,
+        "view": 2471293,
+        "danmaku": 18696,
         "reply": 2742,
-        "favorite": 6620,
-        "coin": 33234,
+        "favorite": 6618,
+        "coin": 33250,
         "share": 1526,
-        "like": 66267
+        "like": 66244
       }
     },
     {
@@ -545,13 +545,13 @@
       "duration": 1460,
       "pubdate": "2024-12-06T02:00:00Z",
       "stat": {
-        "view": 2504334,
-        "danmaku": 19947,
-        "reply": 2399,
-        "favorite": 6217,
-        "coin": 26686,
-        "share": 1449,
-        "like": 62983
+        "view": 2506380,
+        "danmaku": 19954,
+        "reply": 2402,
+        "favorite": 6220,
+        "coin": 26692,
+        "share": 1450,
+        "like": 63014
       }
     },
     {
@@ -567,13 +567,13 @@
       "duration": 859,
       "pubdate": "2024-12-08T02:00:00Z",
       "stat": {
-        "view": 2201086,
-        "danmaku": 11618,
+        "view": 2202999,
+        "danmaku": 11622,
         "reply": 2055,
-        "favorite": 4339,
-        "coin": 10956,
+        "favorite": 4341,
+        "coin": 10962,
         "share": 1086,
-        "like": 43068
+        "like": 43091
       }
     },
     {
@@ -589,13 +589,13 @@
       "duration": 857,
       "pubdate": "2024-12-10T02:00:00Z",
       "stat": {
-        "view": 2158114,
-        "danmaku": 11759,
-        "reply": 1643,
-        "favorite": 4208,
-        "coin": 14036,
-        "share": 960,
-        "like": 46368
+        "view": 2160122,
+        "danmaku": 11766,
+        "reply": 1644,
+        "favorite": 4210,
+        "coin": 14040,
+        "share": 961,
+        "like": 46398
       }
     },
     {
@@ -611,13 +611,13 @@
       "duration": 893,
       "pubdate": "2024-12-12T02:00:00Z",
       "stat": {
-        "view": 2320673,
-        "danmaku": 10447,
-        "reply": 1983,
-        "favorite": 4481,
-        "coin": 12459,
+        "view": 2322723,
+        "danmaku": 10454,
+        "reply": 1984,
+        "favorite": 4478,
+        "coin": 12467,
         "share": 872,
-        "like": 46615
+        "like": 46640
       }
     },
     {
@@ -633,13 +633,13 @@
       "duration": 1001,
       "pubdate": "2024-12-14T02:00:28Z",
       "stat": {
-        "view": 2290933,
-        "danmaku": 16033,
-        "reply": 2310,
-        "favorite": 4837,
-        "coin": 11869,
-        "share": 1025,
-        "like": 45759
+        "view": 2292974,
+        "danmaku": 16045,
+        "reply": 2311,
+        "favorite": 4839,
+        "coin": 11871,
+        "share": 1027,
+        "like": 45780
       }
     },
     {
@@ -655,13 +655,13 @@
       "duration": 1300,
       "pubdate": "2024-12-16T02:00:05Z",
       "stat": {
-        "view": 3231350,
-        "danmaku": 21555,
+        "view": 3235015,
+        "danmaku": 21573,
         "reply": 3375,
-        "favorite": 9538,
-        "coin": 22746,
-        "share": 4409,
-        "like": 66512
+        "favorite": 9547,
+        "coin": 22753,
+        "share": 4412,
+        "like": 66552
       }
     },
     {
@@ -677,13 +677,13 @@
       "duration": 977,
       "pubdate": "2024-12-18T02:00:00Z",
       "stat": {
-        "view": 2475632,
-        "danmaku": 10305,
+        "view": 2478115,
+        "danmaku": 10313,
         "reply": 2344,
-        "favorite": 5298,
-        "coin": 18519,
-        "share": 1127,
-        "like": 54358
+        "favorite": 5296,
+        "coin": 18521,
+        "share": 1129,
+        "like": 54382
       }
     },
     {
@@ -699,13 +699,13 @@
       "duration": 1005,
       "pubdate": "2024-12-20T02:00:00Z",
       "stat": {
-        "view": 2501500,
-        "danmaku": 10273,
-        "reply": 2731,
-        "favorite": 5685,
-        "coin": 17602,
+        "view": 2503836,
+        "danmaku": 10277,
+        "reply": 2732,
+        "favorite": 5688,
+        "coin": 17617,
         "share": 1081,
-        "like": 52085
+        "like": 52113
       }
     },
     {
@@ -721,13 +721,13 @@
       "duration": 1243,
       "pubdate": "2024-12-22T02:00:00Z",
       "stat": {
-        "view": 2556690,
-        "danmaku": 16499,
+        "view": 2559004,
+        "danmaku": 16510,
         "reply": 2178,
-        "favorite": 6153,
-        "coin": 22923,
-        "share": 1367,
-        "like": 58565
+        "favorite": 6152,
+        "coin": 22938,
+        "share": 1368,
+        "like": 58593
       }
     },
     {
@@ -743,13 +743,13 @@
       "duration": 1176,
       "pubdate": "2024-12-24T02:00:00Z",
       "stat": {
-        "view": 2643706,
-        "danmaku": 16174,
+        "view": 2646115,
+        "danmaku": 16178,
         "reply": 2677,
-        "favorite": 6972,
-        "coin": 23393,
-        "share": 1919,
-        "like": 60625
+        "favorite": 6981,
+        "coin": 23403,
+        "share": 1920,
+        "like": 60647
       }
     },
     {
@@ -765,13 +765,13 @@
       "duration": 1120,
       "pubdate": "2024-12-26T02:00:00Z",
       "stat": {
-        "view": 2393304,
-        "danmaku": 12836,
+        "view": 2395572,
+        "danmaku": 12838,
         "reply": 1638,
-        "favorite": 4807,
+        "favorite": 4808,
         "coin": 12329,
-        "share": 965,
-        "like": 45607
+        "share": 967,
+        "like": 45628
       }
     },
     {
@@ -787,13 +787,13 @@
       "duration": 1186,
       "pubdate": "2024-12-28T02:00:00Z",
       "stat": {
-        "view": 2291961,
-        "danmaku": 14998,
+        "view": 2294072,
+        "danmaku": 15003,
         "reply": 1691,
         "favorite": 4848,
         "coin": 11231,
-        "share": 913,
-        "like": 43251
+        "share": 914,
+        "like": 43273
       }
     },
     {
@@ -809,13 +809,13 @@
       "duration": 969,
       "pubdate": "2024-12-30T02:00:00Z",
       "stat": {
-        "view": 2282155,
-        "danmaku": 9012,
-        "reply": 1983,
-        "favorite": 5056,
+        "view": 2284126,
+        "danmaku": 9016,
+        "reply": 1984,
+        "favorite": 5059,
         "coin": 19864,
-        "share": 752,
-        "like": 53202
+        "share": 753,
+        "like": 53228
       }
     },
     {
@@ -831,13 +831,13 @@
       "duration": 1319,
       "pubdate": "2025-01-01T02:00:00Z",
       "stat": {
-        "view": 2320340,
-        "danmaku": 16876,
+        "view": 2322394,
+        "danmaku": 16885,
         "reply": 2856,
-        "favorite": 5288,
-        "coin": 16808,
+        "favorite": 5286,
+        "coin": 16811,
         "share": 955,
-        "like": 52776
+        "like": 52800
       }
     },
     {
@@ -853,13 +853,13 @@
       "duration": 1214,
       "pubdate": "2025-01-03T02:00:00Z",
       "stat": {
-        "view": 2255257,
-        "danmaku": 11539,
-        "reply": 2364,
-        "favorite": 5564,
-        "coin": 24234,
+        "view": 2257309,
+        "danmaku": 11544,
+        "reply": 2365,
+        "favorite": 5571,
+        "coin": 24241,
         "share": 843,
-        "like": 54600
+        "like": 54625
       }
     },
     {
@@ -875,13 +875,13 @@
       "duration": 1282,
       "pubdate": "2025-01-05T02:00:00Z",
       "stat": {
-        "view": 2295686,
-        "danmaku": 13588,
-        "reply": 2200,
-        "favorite": 5497,
-        "coin": 16365,
-        "share": 815,
-        "like": 49996
+        "view": 2297867,
+        "danmaku": 13595,
+        "reply": 2202,
+        "favorite": 5498,
+        "coin": 16367,
+        "share": 817,
+        "like": 50014
       }
     },
     {
@@ -897,13 +897,13 @@
       "duration": 1301,
       "pubdate": "2025-01-07T02:00:00Z",
       "stat": {
-        "view": 2347381,
-        "danmaku": 13999,
+        "view": 2349519,
+        "danmaku": 14008,
         "reply": 2378,
-        "favorite": 5566,
-        "coin": 14190,
+        "favorite": 5571,
+        "coin": 14194,
         "share": 872,
-        "like": 47055
+        "like": 47076
       }
     },
     {
@@ -919,13 +919,13 @@
       "duration": 1205,
       "pubdate": "2025-01-09T02:00:00Z",
       "stat": {
-        "view": 2239273,
-        "danmaku": 12813,
-        "reply": 2423,
-        "favorite": 5177,
-        "coin": 18163,
+        "view": 2241262,
+        "danmaku": 12817,
+        "reply": 2424,
+        "favorite": 5185,
+        "coin": 18168,
         "share": 1110,
-        "like": 50423
+        "like": 50445
       }
     },
     {
@@ -941,13 +941,13 @@
       "duration": 1204,
       "pubdate": "2025-01-11T02:00:00Z",
       "stat": {
-        "view": 2313115,
-        "danmaku": 14326,
+        "view": 2315064,
+        "danmaku": 14330,
         "reply": 2550,
-        "favorite": 5114,
-        "coin": 13727,
+        "favorite": 5120,
+        "coin": 13729,
         "share": 1052,
-        "like": 46662
+        "like": 46681
       }
     },
     {
@@ -963,13 +963,13 @@
       "duration": 1122,
       "pubdate": "2025-01-13T02:00:00Z",
       "stat": {
-        "view": 2022460,
+        "view": 2024271,
         "danmaku": 11131,
         "reply": 1745,
-        "favorite": 4662,
-        "coin": 19622,
+        "favorite": 4669,
+        "coin": 19627,
         "share": 639,
-        "like": 49242
+        "like": 49264
       }
     },
     {
@@ -985,13 +985,13 @@
       "duration": 1201,
       "pubdate": "2025-01-15T02:00:00Z",
       "stat": {
-        "view": 2099919,
-        "danmaku": 13355,
-        "reply": 2003,
-        "favorite": 4739,
-        "coin": 15024,
-        "share": 812,
-        "like": 46830
+        "view": 2101779,
+        "danmaku": 13358,
+        "reply": 2005,
+        "favorite": 4737,
+        "coin": 15028,
+        "share": 813,
+        "like": 46854
       }
     },
     {
@@ -1007,13 +1007,13 @@
       "duration": 904,
       "pubdate": "2025-01-17T02:00:23Z",
       "stat": {
-        "view": 2067451,
-        "danmaku": 13139,
+        "view": 2069319,
+        "danmaku": 13150,
         "reply": 1838,
-        "favorite": 4889,
-        "coin": 19749,
+        "favorite": 4888,
+        "coin": 19751,
         "share": 720,
-        "like": 50987
+        "like": 51017
       }
     },
     {
@@ -1029,13 +1029,13 @@
       "duration": 1142,
       "pubdate": "2025-01-19T02:00:00Z",
       "stat": {
-        "view": 2239465,
-        "danmaku": 14438,
-        "reply": 2417,
-        "favorite": 8332,
-        "coin": 57810,
-        "share": 1028,
-        "like": 79527
+        "view": 2241607,
+        "danmaku": 14443,
+        "reply": 2418,
+        "favorite": 8339,
+        "coin": 57837,
+        "share": 1029,
+        "like": 79575
       }
     },
     {
@@ -1051,13 +1051,13 @@
       "duration": 1209,
       "pubdate": "2025-01-21T02:00:00Z",
       "stat": {
-        "view": 2120226,
-        "danmaku": 11888,
+        "view": 2122153,
+        "danmaku": 11894,
         "reply": 1693,
-        "favorite": 5231,
-        "coin": 18362,
-        "share": 791,
-        "like": 49123
+        "favorite": 5233,
+        "coin": 18368,
+        "share": 792,
+        "like": 49151
       }
     },
     {
@@ -1073,13 +1073,13 @@
       "duration": 1213,
       "pubdate": "2025-01-23T02:00:00Z",
       "stat": {
-        "view": 2295235,
-        "danmaku": 12071,
+        "view": 2297306,
+        "danmaku": 12075,
         "reply": 2428,
         "favorite": 6267,
-        "coin": 30468,
-        "share": 1254,
-        "like": 60883
+        "coin": 30476,
+        "share": 1255,
+        "like": 60918
       }
     },
     {
@@ -1095,13 +1095,13 @@
       "duration": 1222,
       "pubdate": "2025-01-25T02:00:00Z",
       "stat": {
-        "view": 2304155,
-        "danmaku": 13639,
+        "view": 2306177,
+        "danmaku": 13646,
         "reply": 2313,
-        "favorite": 5844,
-        "coin": 25120,
+        "favorite": 5843,
+        "coin": 25131,
         "share": 1009,
-        "like": 56501
+        "like": 56534
       }
     },
     {
@@ -1117,13 +1117,13 @@
       "duration": 1227,
       "pubdate": "2025-01-27T02:00:00Z",
       "stat": {
-        "view": 2118412,
-        "danmaku": 13755,
+        "view": 2120351,
+        "danmaku": 13757,
         "reply": 1840,
-        "favorite": 4890,
-        "coin": 16193,
-        "share": 941,
-        "like": 46232
+        "favorite": 4891,
+        "coin": 16199,
+        "share": 942,
+        "like": 46253
       }
     },
     {
@@ -1139,13 +1139,13 @@
       "duration": 1434,
       "pubdate": "2025-01-29T02:00:00Z",
       "stat": {
-        "view": 2405976,
-        "danmaku": 14355,
+        "view": 2408319,
+        "danmaku": 14361,
         "reply": 1945,
-        "favorite": 5768,
-        "coin": 18044,
+        "favorite": 5777,
+        "coin": 18057,
         "share": 1011,
-        "like": 49762
+        "like": 49799
       }
     },
     {
@@ -1161,13 +1161,13 @@
       "duration": 1226,
       "pubdate": "2025-01-31T02:00:00Z",
       "stat": {
-        "view": 1939138,
-        "danmaku": 12319,
-        "reply": 1648,
+        "view": 1941068,
+        "danmaku": 12324,
+        "reply": 1650,
         "favorite": 4441,
-        "coin": 14224,
+        "coin": 14233,
         "share": 826,
-        "like": 41692
+        "like": 41716
       }
     },
     {
@@ -1183,13 +1183,13 @@
       "duration": 1218,
       "pubdate": "2025-02-02T02:00:00Z",
       "stat": {
-        "view": 2060037,
-        "danmaku": 17302,
+        "view": 2062018,
+        "danmaku": 17320,
         "reply": 1727,
-        "favorite": 4786,
-        "coin": 14206,
+        "favorite": 4790,
+        "coin": 14211,
         "share": 822,
-        "like": 43375
+        "like": 43406
       }
     },
     {
@@ -1205,13 +1205,13 @@
       "duration": 1124,
       "pubdate": "2025-02-04T02:00:00Z",
       "stat": {
-        "view": 1969564,
-        "danmaku": 9904,
-        "reply": 1535,
-        "favorite": 4489,
-        "coin": 23055,
+        "view": 1971413,
+        "danmaku": 9906,
+        "reply": 1537,
+        "favorite": 4493,
+        "coin": 23069,
         "share": 606,
-        "like": 50882
+        "like": 50910
       }
     },
     {
@@ -1227,13 +1227,13 @@
       "duration": 1203,
       "pubdate": "2025-02-06T02:00:00Z",
       "stat": {
-        "view": 1991408,
-        "danmaku": 16454,
-        "reply": 2069,
-        "favorite": 4830,
-        "coin": 18699,
+        "view": 1993210,
+        "danmaku": 16461,
+        "reply": 2093,
+        "favorite": 4835,
+        "coin": 18708,
         "share": 841,
-        "like": 47311
+        "like": 47337
       }
     },
     {
@@ -1249,13 +1249,13 @@
       "duration": 1243,
       "pubdate": "2025-02-08T02:00:44Z",
       "stat": {
-        "view": 2008605,
-        "danmaku": 16648,
-        "reply": 2436,
-        "favorite": 4517,
-        "coin": 15094,
+        "view": 2010388,
+        "danmaku": 16664,
+        "reply": 2439,
+        "favorite": 4521,
+        "coin": 15100,
         "share": 973,
-        "like": 44096
+        "like": 44115
       }
     },
     {
@@ -1271,13 +1271,13 @@
       "duration": 1212,
       "pubdate": "2025-02-10T02:00:00Z",
       "stat": {
-        "view": 2038792,
-        "danmaku": 17709,
-        "reply": 2423,
-        "favorite": 5411,
-        "coin": 16199,
-        "share": 1300,
-        "like": 45094
+        "view": 2040786,
+        "danmaku": 17728,
+        "reply": 2424,
+        "favorite": 5413,
+        "coin": 16205,
+        "share": 1301,
+        "like": 45116
       }
     },
     {
@@ -1293,13 +1293,13 @@
       "duration": 1239,
       "pubdate": "2025-02-12T02:00:00Z",
       "stat": {
-        "view": 2017032,
-        "danmaku": 22720,
+        "view": 2018893,
+        "danmaku": 22734,
         "reply": 2643,
-        "favorite": 5963,
-        "coin": 24389,
-        "share": 1675,
-        "like": 53456
+        "favorite": 5967,
+        "coin": 24392,
+        "share": 1678,
+        "like": 53482
       }
     },
     {
@@ -1315,13 +1315,13 @@
       "duration": 1209,
       "pubdate": "2025-02-14T02:00:00Z",
       "stat": {
-        "view": 2068135,
-        "danmaku": 9722,
+        "view": 2070118,
+        "danmaku": 9727,
         "reply": 1786,
-        "favorite": 4475,
-        "coin": 15828,
+        "favorite": 4476,
+        "coin": 15839,
         "share": 646,
-        "like": 45070
+        "like": 45100
       }
     },
     {
@@ -1337,13 +1337,13 @@
       "duration": 1216,
       "pubdate": "2025-02-16T02:00:00Z",
       "stat": {
-        "view": 2056467,
-        "danmaku": 13473,
+        "view": 2058450,
+        "danmaku": 13476,
         "reply": 2093,
-        "favorite": 4566,
-        "coin": 14362,
+        "favorite": 4572,
+        "coin": 14365,
         "share": 727,
-        "like": 42784
+        "like": 42805
       }
     },
     {
@@ -1359,13 +1359,13 @@
       "duration": 1217,
       "pubdate": "2025-02-18T02:00:00Z",
       "stat": {
-        "view": 2040290,
-        "danmaku": 15345,
+        "view": 2042277,
+        "danmaku": 15351,
         "reply": 2583,
-        "favorite": 5050,
+        "favorite": 5056,
         "coin": 15626,
         "share": 1008,
-        "like": 43462
+        "like": 43484
       }
     },
     {
@@ -1381,13 +1381,13 @@
       "duration": 1275,
       "pubdate": "2025-02-20T02:00:00Z",
       "stat": {
-        "view": 2115193,
-        "danmaku": 12890,
+        "view": 2117234,
+        "danmaku": 12902,
         "reply": 2168,
-        "favorite": 6017,
-        "coin": 42341,
+        "favorite": 6019,
+        "coin": 42353,
         "share": 965,
-        "like": 64809
+        "like": 64835
       }
     },
     {
@@ -1403,13 +1403,13 @@
       "duration": 1322,
       "pubdate": "2025-02-22T02:00:00Z",
       "stat": {
-        "view": 2531864,
-        "danmaku": 18361,
-        "reply": 3439,
-        "favorite": 8383,
-        "coin": 38617,
-        "share": 2533,
-        "like": 68378
+        "view": 2534334,
+        "danmaku": 18381,
+        "reply": 3440,
+        "favorite": 8389,
+        "coin": 38631,
+        "share": 2534,
+        "like": 68414
       }
     },
     {
@@ -1425,13 +1425,13 @@
       "duration": 1238,
       "pubdate": "2025-02-24T02:00:00Z",
       "stat": {
-        "view": 2109173,
-        "danmaku": 11583,
+        "view": 2111714,
+        "danmaku": 11591,
         "reply": 1629,
-        "favorite": 4598,
-        "coin": 17346,
+        "favorite": 4605,
+        "coin": 17352,
         "share": 671,
-        "like": 45173
+        "like": 45197
       }
     },
     {
@@ -1447,13 +1447,13 @@
       "duration": 1301,
       "pubdate": "2025-02-26T02:00:17Z",
       "stat": {
-        "view": 2291868,
-        "danmaku": 15433,
+        "view": 2294195,
+        "danmaku": 15443,
         "reply": 2577,
-        "favorite": 6613,
-        "coin": 21214,
+        "favorite": 6615,
+        "coin": 21222,
         "share": 1328,
-        "like": 50994
+        "like": 51025
       }
     },
     {
@@ -1469,13 +1469,13 @@
       "duration": 1216,
       "pubdate": "2025-02-28T02:00:00Z",
       "stat": {
-        "view": 2251621,
-        "danmaku": 11781,
+        "view": 2253823,
+        "danmaku": 11788,
         "reply": 2485,
-        "favorite": 5018,
-        "coin": 15270,
+        "favorite": 5024,
+        "coin": 15272,
         "share": 899,
-        "like": 44904
+        "like": 44922
       }
     },
     {
@@ -1491,13 +1491,13 @@
       "duration": 1264,
       "pubdate": "2025-03-02T02:00:00Z",
       "stat": {
-        "view": 2123760,
-        "danmaku": 10626,
-        "reply": 1786,
-        "favorite": 5204,
-        "coin": 15487,
-        "share": 965,
-        "like": 42241
+        "view": 2125872,
+        "danmaku": 10630,
+        "reply": 1788,
+        "favorite": 5208,
+        "coin": 15491,
+        "share": 966,
+        "like": 42265
       }
     },
     {
@@ -1513,13 +1513,13 @@
       "duration": 1244,
       "pubdate": "2025-03-04T02:00:00Z",
       "stat": {
-        "view": 2020779,
-        "danmaku": 10658,
-        "reply": 2064,
-        "favorite": 5187,
-        "coin": 37597,
+        "view": 2022760,
+        "danmaku": 10662,
+        "reply": 2066,
+        "favorite": 5189,
+        "coin": 37607,
         "share": 610,
-        "like": 58762
+        "like": 58794
       }
     },
     {
@@ -1535,13 +1535,13 @@
       "duration": 1299,
       "pubdate": "2025-03-06T02:00:00Z",
       "stat": {
-        "view": 1884773,
-        "danmaku": 11931,
-        "reply": 2078,
-        "favorite": 4719,
-        "coin": 22072,
-        "share": 625,
-        "like": 46126
+        "view": 1886670,
+        "danmaku": 11938,
+        "reply": 2079,
+        "favorite": 4716,
+        "coin": 22081,
+        "share": 626,
+        "like": 46144
       }
     },
     {
@@ -1557,13 +1557,13 @@
       "duration": 1263,
       "pubdate": "2025-03-08T02:00:00Z",
       "stat": {
-        "view": 1928172,
-        "danmaku": 11584,
+        "view": 1930131,
+        "danmaku": 11594,
         "reply": 1600,
-        "favorite": 4428,
-        "coin": 17816,
+        "favorite": 4430,
+        "coin": 17821,
         "share": 639,
-        "like": 42895
+        "like": 42914
       }
     },
     {
@@ -1579,13 +1579,13 @@
       "duration": 1245,
       "pubdate": "2025-03-10T02:00:00Z",
       "stat": {
-        "view": 2153468,
-        "danmaku": 13806,
+        "view": 2156322,
+        "danmaku": 13814,
         "reply": 2212,
-        "favorite": 4790,
-        "coin": 17201,
+        "favorite": 4789,
+        "coin": 17205,
         "share": 788,
-        "like": 43778
+        "like": 43800
       }
     },
     {
@@ -1601,13 +1601,13 @@
       "duration": 1253,
       "pubdate": "2025-03-12T02:00:00Z",
       "stat": {
-        "view": 1977824,
-        "danmaku": 11366,
+        "view": 1980157,
+        "danmaku": 11372,
         "reply": 1758,
-        "favorite": 4325,
-        "coin": 16389,
+        "favorite": 4334,
+        "coin": 16393,
         "share": 602,
-        "like": 41666
+        "like": 41691
       }
     },
     {
@@ -1623,13 +1623,13 @@
       "duration": 1236,
       "pubdate": "2025-03-14T02:00:00Z",
       "stat": {
-        "view": 1957759,
-        "danmaku": 16350,
+        "view": 1959820,
+        "danmaku": 16367,
         "reply": 1889,
-        "favorite": 4446,
-        "coin": 15697,
-        "share": 691,
-        "like": 40962
+        "favorite": 4448,
+        "coin": 15699,
+        "share": 694,
+        "like": 40976
       }
     },
     {
@@ -1645,13 +1645,13 @@
       "duration": 1406,
       "pubdate": "2025-03-16T02:00:00Z",
       "stat": {
-        "view": 2119200,
-        "danmaku": 16822,
-        "reply": 2315,
-        "favorite": 8791,
-        "coin": 81947,
+        "view": 2121363,
+        "danmaku": 16837,
+        "reply": 2316,
+        "favorite": 8797,
+        "coin": 81974,
         "share": 1206,
-        "like": 83329
+        "like": 83363
       }
     },
     {
@@ -1667,13 +1667,13 @@
       "duration": 1347,
       "pubdate": "2025-03-18T02:00:00Z",
       "stat": {
-        "view": 2079354,
-        "danmaku": 11396,
+        "view": 2081310,
+        "danmaku": 11400,
         "reply": 1935,
-        "favorite": 5159,
-        "coin": 29057,
-        "share": 665,
-        "like": 50522
+        "favorite": 5157,
+        "coin": 29070,
+        "share": 666,
+        "like": 50545
       }
     },
     {
@@ -1689,13 +1689,13 @@
       "duration": 1257,
       "pubdate": "2025-03-20T02:00:00Z",
       "stat": {
-        "view": 1914287,
-        "danmaku": 10564,
-        "reply": 1780,
-        "favorite": 4615,
-        "coin": 29153,
+        "view": 1916210,
+        "danmaku": 10571,
+        "reply": 1779,
+        "favorite": 4623,
+        "coin": 29163,
         "share": 601,
-        "like": 48636
+        "like": 48660
       }
     },
     {
@@ -1711,13 +1711,13 @@
       "duration": 1307,
       "pubdate": "2025-03-22T02:00:00Z",
       "stat": {
-        "view": 1948616,
-        "danmaku": 10663,
-        "reply": 1629,
-        "favorite": 4665,
-        "coin": 27234,
+        "view": 1950510,
+        "danmaku": 10667,
+        "reply": 1630,
+        "favorite": 4664,
+        "coin": 27246,
         "share": 569,
-        "like": 48309
+        "like": 48333
       }
     },
     {
@@ -1733,13 +1733,13 @@
       "duration": 1299,
       "pubdate": "2025-03-24T02:00:00Z",
       "stat": {
-        "view": 2014602,
-        "danmaku": 15391,
-        "reply": 2754,
-        "favorite": 5254,
-        "coin": 29734,
+        "view": 2016447,
+        "danmaku": 15407,
+        "reply": 2755,
+        "favorite": 5258,
+        "coin": 29742,
         "share": 1149,
-        "like": 51577
+        "like": 51600
       }
     },
     {
@@ -1755,13 +1755,13 @@
       "duration": 1261,
       "pubdate": "2025-03-26T02:00:00Z",
       "stat": {
-        "view": 1805811,
-        "danmaku": 10876,
-        "reply": 2409,
-        "favorite": 4388,
-        "coin": 27207,
-        "share": 527,
-        "like": 47518
+        "view": 1807602,
+        "danmaku": 10884,
+        "reply": 2407,
+        "favorite": 4384,
+        "coin": 27211,
+        "share": 528,
+        "like": 47540
       }
     },
     {
@@ -1777,13 +1777,13 @@
       "duration": 1298,
       "pubdate": "2025-03-28T02:00:00Z",
       "stat": {
-        "view": 2175493,
-        "danmaku": 17250,
-        "reply": 2729,
-        "favorite": 5515,
-        "coin": 20707,
+        "view": 2177527,
+        "danmaku": 17263,
+        "reply": 2732,
+        "favorite": 5517,
+        "coin": 20711,
         "share": 1151,
-        "like": 46789
+        "like": 46821
       }
     },
     {
@@ -1799,13 +1799,13 @@
       "duration": 1364,
       "pubdate": "2025-03-30T02:00:00Z",
       "stat": {
-        "view": 1980470,
-        "danmaku": 10894,
-        "reply": 1973,
-        "favorite": 4946,
-        "coin": 24700,
+        "view": 1982505,
+        "danmaku": 10900,
+        "reply": 1976,
+        "favorite": 4951,
+        "coin": 24706,
         "share": 606,
-        "like": 46823
+        "like": 46851
       }
     },
     {
@@ -1821,13 +1821,13 @@
       "duration": 1357,
       "pubdate": "2025-04-01T02:00:00Z",
       "stat": {
-        "view": 2304149,
-        "danmaku": 17129,
+        "view": 2306438,
+        "danmaku": 17145,
         "reply": 2399,
-        "favorite": 6456,
-        "coin": 25538,
+        "favorite": 6460,
+        "coin": 25546,
         "share": 1345,
-        "like": 51435
+        "like": 51460
       }
     },
     {
@@ -1843,13 +1843,13 @@
       "duration": 1320,
       "pubdate": "2025-04-03T02:00:00Z",
       "stat": {
-        "view": 2052246,
-        "danmaku": 17587,
+        "view": 2054299,
+        "danmaku": 17591,
         "reply": 3258,
-        "favorite": 5261,
-        "coin": 24238,
-        "share": 1082,
-        "like": 47366
+        "favorite": 5258,
+        "coin": 24244,
+        "share": 1083,
+        "like": 47398
       }
     },
     {
@@ -1865,13 +1865,13 @@
       "duration": 1373,
       "pubdate": "2025-04-05T02:00:00Z",
       "stat": {
-        "view": 2675715,
-        "danmaku": 24433,
-        "reply": 4944,
-        "favorite": 10180,
-        "coin": 34663,
-        "share": 6673,
-        "like": 61937
+        "view": 2678812,
+        "danmaku": 24452,
+        "reply": 4945,
+        "favorite": 10182,
+        "coin": 34675,
+        "share": 6684,
+        "like": 61971
       }
     },
     {
@@ -1887,13 +1887,13 @@
       "duration": 1378,
       "pubdate": "2025-04-07T02:00:00Z",
       "stat": {
-        "view": 2150707,
-        "danmaku": 19160,
-        "reply": 4050,
-        "favorite": 5500,
-        "coin": 20906,
+        "view": 2152901,
+        "danmaku": 19165,
+        "reply": 4052,
+        "favorite": 5504,
+        "coin": 20922,
         "share": 1879,
-        "like": 46564
+        "like": 46593
       }
     },
     {
@@ -1909,13 +1909,13 @@
       "duration": 1380,
       "pubdate": "2025-04-09T02:00:00Z",
       "stat": {
-        "view": 1903775,
-        "danmaku": 13078,
-        "reply": 2394,
-        "favorite": 4619,
-        "coin": 21507,
-        "share": 702,
-        "like": 43918
+        "view": 1905844,
+        "danmaku": 13084,
+        "reply": 2395,
+        "favorite": 4621,
+        "coin": 21518,
+        "share": 703,
+        "like": 43944
       }
     },
     {
@@ -1931,13 +1931,13 @@
       "duration": 1370,
       "pubdate": "2025-04-11T02:00:00Z",
       "stat": {
-        "view": 1793642,
-        "danmaku": 12117,
-        "reply": 2463,
-        "favorite": 4532,
-        "coin": 21198,
-        "share": 742,
-        "like": 42410
+        "view": 1795554,
+        "danmaku": 12125,
+        "reply": 2464,
+        "favorite": 4538,
+        "coin": 21206,
+        "share": 743,
+        "like": 42439
       }
     },
     {
@@ -1953,13 +1953,13 @@
       "duration": 1325,
       "pubdate": "2025-04-13T02:00:00Z",
       "stat": {
-        "view": 1726842,
+        "view": 1728678,
         "danmaku": 12445,
         "reply": 1952,
         "favorite": 4215,
-        "coin": 21195,
+        "coin": 21199,
         "share": 625,
-        "like": 41944
+        "like": 41969
       }
     },
     {
@@ -1975,13 +1975,13 @@
       "duration": 1341,
       "pubdate": "2025-04-15T02:00:00Z",
       "stat": {
-        "view": 2059682,
-        "danmaku": 15382,
+        "view": 2061713,
+        "danmaku": 15389,
         "reply": 4170,
-        "favorite": 7102,
-        "coin": 26735,
-        "share": 2071,
-        "like": 53370
+        "favorite": 7108,
+        "coin": 26752,
+        "share": 2072,
+        "like": 53405
       }
     },
     {
@@ -1997,13 +1997,13 @@
       "duration": 1388,
       "pubdate": "2025-04-17T02:00:00Z",
       "stat": {
-        "view": 1928421,
-        "danmaku": 14191,
+        "view": 1930444,
+        "danmaku": 14194,
         "reply": 2859,
-        "favorite": 4909,
-        "coin": 19783,
+        "favorite": 4916,
+        "coin": 19789,
         "share": 789,
-        "like": 43933
+        "like": 43956
       }
     },
     {
@@ -2019,13 +2019,13 @@
       "duration": 1377,
       "pubdate": "2025-04-19T02:00:00Z",
       "stat": {
-        "view": 1862777,
-        "danmaku": 10215,
+        "view": 1864687,
+        "danmaku": 10216,
         "reply": 2330,
-        "favorite": 4389,
-        "coin": 20250,
+        "favorite": 4392,
+        "coin": 20256,
         "share": 630,
-        "like": 43245
+        "like": 43264
       }
     },
     {
@@ -2041,13 +2041,13 @@
       "duration": 1340,
       "pubdate": "2025-04-21T02:00:00Z",
       "stat": {
-        "view": 1805760,
-        "danmaku": 13359,
+        "view": 1807722,
+        "danmaku": 13369,
         "reply": 1786,
-        "favorite": 4279,
-        "coin": 18466,
+        "favorite": 4282,
+        "coin": 18473,
         "share": 616,
-        "like": 40300
+        "like": 40326
       }
     },
     {
@@ -2063,13 +2063,13 @@
       "duration": 1330,
       "pubdate": "2025-04-23T02:00:00Z",
       "stat": {
-        "view": 1828822,
-        "danmaku": 13307,
-        "reply": 2087,
-        "favorite": 4277,
+        "view": 1830750,
+        "danmaku": 13317,
+        "reply": 2088,
+        "favorite": 4278,
         "coin": 18775,
         "share": 564,
-        "like": 40505
+        "like": 40519
       }
     },
     {
@@ -2085,13 +2085,13 @@
       "duration": 1322,
       "pubdate": "2025-04-25T02:00:00Z",
       "stat": {
-        "view": 1780364,
-        "danmaku": 14054,
+        "view": 1782255,
+        "danmaku": 14061,
         "reply": 2133,
-        "favorite": 4064,
-        "coin": 18297,
+        "favorite": 4066,
+        "coin": 18303,
         "share": 553,
-        "like": 40066
+        "like": 40089
       }
     },
     {
@@ -2107,13 +2107,13 @@
       "duration": 1324,
       "pubdate": "2025-04-27T02:00:00Z",
       "stat": {
-        "view": 1906707,
-        "danmaku": 15248,
+        "view": 1908702,
+        "danmaku": 15254,
         "reply": 2550,
-        "favorite": 4687,
-        "coin": 19774,
+        "favorite": 4688,
+        "coin": 19779,
         "share": 787,
-        "like": 41870
+        "like": 41890
       }
     },
     {
@@ -2129,13 +2129,13 @@
       "duration": 1386,
       "pubdate": "2025-04-29T02:00:00Z",
       "stat": {
-        "view": 1902356,
-        "danmaku": 12677,
+        "view": 1904481,
+        "danmaku": 12691,
         "reply": 2040,
-        "favorite": 4156,
-        "coin": 18497,
-        "share": 540,
-        "like": 40612
+        "favorite": 4160,
+        "coin": 18500,
+        "share": 541,
+        "like": 40637
       }
     },
     {
@@ -2151,13 +2151,13 @@
       "duration": 1340,
       "pubdate": "2025-05-01T02:00:00Z",
       "stat": {
-        "view": 1830086,
-        "danmaku": 13562,
+        "view": 1831996,
+        "danmaku": 13570,
         "reply": 2390,
-        "favorite": 4085,
+        "favorite": 4091,
         "coin": 18733,
         "share": 639,
-        "like": 40443
+        "like": 40470
       }
     },
     {
@@ -2173,13 +2173,13 @@
       "duration": 1432,
       "pubdate": "2025-05-03T02:00:08Z",
       "stat": {
-        "view": 2008956,
-        "danmaku": 22076,
-        "reply": 2763,
-        "favorite": 5522,
-        "coin": 22121,
-        "share": 1112,
-        "like": 46692
+        "view": 2011020,
+        "danmaku": 22092,
+        "reply": 2764,
+        "favorite": 5526,
+        "coin": 22129,
+        "share": 1113,
+        "like": 46720
       }
     },
     {
@@ -2195,13 +2195,13 @@
       "duration": 1302,
       "pubdate": "2025-05-05T02:00:00Z",
       "stat": {
-        "view": 2013093,
-        "danmaku": 20106,
+        "view": 2015215,
+        "danmaku": 20114,
         "reply": 3095,
         "favorite": 5344,
-        "coin": 22792,
-        "share": 1402,
-        "like": 48433
+        "coin": 22795,
+        "share": 1405,
+        "like": 48459
       }
     },
     {
@@ -2217,13 +2217,13 @@
       "duration": 1429,
       "pubdate": "2025-05-07T02:00:00Z",
       "stat": {
-        "view": 2460782,
-        "danmaku": 25134,
+        "view": 2463411,
+        "danmaku": 25147,
         "reply": 3883,
-        "favorite": 10215,
-        "coin": 62977,
-        "share": 4895,
-        "like": 74798
+        "favorite": 10214,
+        "coin": 63005,
+        "share": 4903,
+        "like": 74843
       }
     },
     {
@@ -2239,13 +2239,13 @@
       "duration": 1503,
       "pubdate": "2025-05-09T02:00:00Z",
       "stat": {
-        "view": 2143846,
-        "danmaku": 21586,
-        "reply": 3358,
-        "favorite": 5652,
-        "coin": 26491,
+        "view": 2146193,
+        "danmaku": 21593,
+        "reply": 3359,
+        "favorite": 5659,
+        "coin": 26501,
         "share": 1052,
-        "like": 50239
+        "like": 50269
       }
     },
     {
@@ -2261,13 +2261,13 @@
       "duration": 1268,
       "pubdate": "2025-05-11T02:00:00Z",
       "stat": {
-        "view": 1995128,
-        "danmaku": 18597,
+        "view": 1997148,
+        "danmaku": 18612,
         "reply": 3546,
-        "favorite": 4726,
-        "coin": 20827,
-        "share": 968,
-        "like": 43570
+        "favorite": 4732,
+        "coin": 20831,
+        "share": 969,
+        "like": 43593
       }
     },
     {
@@ -2283,13 +2283,13 @@
       "duration": 1311,
       "pubdate": "2025-05-13T02:00:00Z",
       "stat": {
-        "view": 1790843,
-        "danmaku": 16668,
+        "view": 1792764,
+        "danmaku": 16677,
         "reply": 3159,
-        "favorite": 4144,
-        "coin": 19295,
-        "share": 819,
-        "like": 41048
+        "favorite": 4147,
+        "coin": 19303,
+        "share": 820,
+        "like": 41073
       }
     },
     {
@@ -2305,13 +2305,13 @@
       "duration": 1304,
       "pubdate": "2025-05-15T02:00:00Z",
       "stat": {
-        "view": 2485735,
-        "danmaku": 15278,
-        "reply": 3844,
-        "favorite": 7284,
-        "coin": 27344,
-        "share": 4120,
-        "like": 54726
+        "view": 2488039,
+        "danmaku": 15288,
+        "reply": 3846,
+        "favorite": 7285,
+        "coin": 27351,
+        "share": 4123,
+        "like": 54750
       }
     },
     {
@@ -2327,13 +2327,13 @@
       "duration": 1304,
       "pubdate": "2025-05-17T02:00:00Z",
       "stat": {
-        "view": 1943102,
-        "danmaku": 14461,
-        "reply": 2567,
-        "favorite": 4496,
+        "view": 1945133,
+        "danmaku": 14466,
+        "reply": 2568,
+        "favorite": 4503,
         "coin": 20702,
-        "share": 781,
-        "like": 43039
+        "share": 783,
+        "like": 43060
       }
     },
     {
@@ -2349,13 +2349,13 @@
       "duration": 1378,
       "pubdate": "2025-05-19T02:00:00Z",
       "stat": {
-        "view": 2059893,
-        "danmaku": 15956,
+        "view": 2062233,
+        "danmaku": 15970,
         "reply": 3347,
-        "favorite": 5337,
-        "coin": 20438,
+        "favorite": 5339,
+        "coin": 20442,
         "share": 952,
-        "like": 43235
+        "like": 43258
       }
     },
     {
@@ -2371,13 +2371,13 @@
       "duration": 1334,
       "pubdate": "2025-05-21T02:00:00Z",
       "stat": {
-        "view": 1985627,
-        "danmaku": 15904,
+        "view": 1987819,
+        "danmaku": 15911,
         "reply": 2859,
-        "favorite": 5214,
-        "coin": 21824,
-        "share": 1220,
-        "like": 44303
+        "favorite": 5221,
+        "coin": 21828,
+        "share": 1221,
+        "like": 44332
       }
     },
     {
@@ -2393,13 +2393,13 @@
       "duration": 1565,
       "pubdate": "2025-05-23T02:00:00Z",
       "stat": {
-        "view": 2071765,
-        "danmaku": 15794,
+        "view": 2074131,
+        "danmaku": 15799,
         "reply": 4041,
         "favorite": 5198,
-        "coin": 23566,
+        "coin": 23571,
         "share": 887,
-        "like": 46202
+        "like": 46232
       }
     },
     {
@@ -2415,13 +2415,13 @@
       "duration": 1582,
       "pubdate": "2025-05-25T02:00:00Z",
       "stat": {
-        "view": 5450084,
-        "danmaku": 40506,
-        "reply": 7153,
-        "favorite": 20929,
-        "coin": 58991,
-        "share": 11561,
-        "like": 108295
+        "view": 5458267,
+        "danmaku": 40563,
+        "reply": 7156,
+        "favorite": 20945,
+        "coin": 59017,
+        "share": 11568,
+        "like": 108376
       }
     },
     {
@@ -2437,13 +2437,13 @@
       "duration": 1453,
       "pubdate": "2025-05-27T02:00:12Z",
       "stat": {
-        "view": 2435293,
-        "danmaku": 18396,
-        "reply": 2356,
-        "favorite": 5747,
-        "coin": 22716,
-        "share": 1107,
-        "like": 49289
+        "view": 2438525,
+        "danmaku": 18409,
+        "reply": 2357,
+        "favorite": 5752,
+        "coin": 22726,
+        "share": 1108,
+        "like": 49324
       }
     },
     {
@@ -2459,13 +2459,13 @@
       "duration": 1405,
       "pubdate": "2025-05-29T02:00:00Z",
       "stat": {
-        "view": 2112524,
-        "danmaku": 16397,
-        "reply": 3510,
-        "favorite": 5001,
-        "coin": 22098,
+        "view": 2115124,
+        "danmaku": 16406,
+        "reply": 3511,
+        "favorite": 5003,
+        "coin": 22110,
         "share": 1013,
-        "like": 45439
+        "like": 45469
       }
     },
     {
@@ -2481,13 +2481,13 @@
       "duration": 1484,
       "pubdate": "2025-05-31T02:00:00Z",
       "stat": {
-        "view": 2422289,
-        "danmaku": 19470,
-        "reply": 3428,
-        "favorite": 5706,
-        "coin": 22576,
+        "view": 2426957,
+        "danmaku": 19477,
+        "reply": 3430,
+        "favorite": 5713,
+        "coin": 22584,
         "share": 1343,
-        "like": 49250
+        "like": 49286
       }
     },
     {
@@ -2503,13 +2503,13 @@
       "duration": 1340,
       "pubdate": "2025-06-02T02:00:00Z",
       "stat": {
-        "view": 2082444,
-        "danmaku": 14782,
-        "reply": 2919,
-        "favorite": 4522,
-        "coin": 19653,
-        "share": 722,
-        "like": 42474
+        "view": 2085512,
+        "danmaku": 14784,
+        "reply": 2920,
+        "favorite": 4527,
+        "coin": 19657,
+        "share": 723,
+        "like": 42497
       }
     },
     {
@@ -2525,13 +2525,13 @@
       "duration": 1372,
       "pubdate": "2025-06-04T02:00:00Z",
       "stat": {
-        "view": 1982755,
-        "danmaku": 17772,
-        "reply": 3400,
-        "favorite": 4626,
-        "coin": 19655,
+        "view": 1985403,
+        "danmaku": 17785,
+        "reply": 3403,
+        "favorite": 4632,
+        "coin": 19663,
         "share": 1003,
-        "like": 41439
+        "like": 41463
       }
     },
     {
@@ -2547,13 +2547,13 @@
       "duration": 1407,
       "pubdate": "2025-06-06T02:00:00Z",
       "stat": {
-        "view": 1872851,
-        "danmaku": 13457,
+        "view": 1875361,
+        "danmaku": 13467,
         "reply": 3026,
-        "favorite": 4249,
-        "coin": 17938,
+        "favorite": 4248,
+        "coin": 17947,
         "share": 609,
-        "like": 40795
+        "like": 40815
       }
     },
     {
@@ -2569,13 +2569,13 @@
       "duration": 1359,
       "pubdate": "2025-06-08T02:00:00Z",
       "stat": {
-        "view": 1777271,
-        "danmaku": 12775,
-        "reply": 2631,
-        "favorite": 3991,
-        "coin": 16473,
+        "view": 1779653,
+        "danmaku": 12785,
+        "reply": 2632,
+        "favorite": 4001,
+        "coin": 16479,
         "share": 586,
-        "like": 37941
+        "like": 37961
       }
     },
     {
@@ -2591,13 +2591,13 @@
       "duration": 1552,
       "pubdate": "2025-06-10T02:00:00Z",
       "stat": {
-        "view": 1781804,
-        "danmaku": 16275,
-        "reply": 2708,
+        "view": 1784035,
+        "danmaku": 16298,
+        "reply": 2710,
         "favorite": 4450,
-        "coin": 20920,
+        "coin": 20936,
         "share": 675,
-        "like": 44159
+        "like": 44187
       }
     },
     {
@@ -2613,13 +2613,13 @@
       "duration": 1423,
       "pubdate": "2025-06-12T02:00:00Z",
       "stat": {
-        "view": 1819604,
-        "danmaku": 20662,
-        "reply": 2817,
-        "favorite": 4238,
-        "coin": 17146,
+        "view": 1821849,
+        "danmaku": 20706,
+        "reply": 2819,
+        "favorite": 4239,
+        "coin": 17150,
         "share": 791,
-        "like": 39388
+        "like": 39409
       }
     },
     {
@@ -2635,13 +2635,13 @@
       "duration": 1380,
       "pubdate": "2025-06-14T02:00:00Z",
       "stat": {
-        "view": 1765362,
-        "danmaku": 14674,
-        "reply": 2730,
-        "favorite": 4066,
-        "coin": 17768,
+        "view": 1767611,
+        "danmaku": 14686,
+        "reply": 2736,
+        "favorite": 4064,
+        "coin": 17776,
         "share": 677,
-        "like": 38458
+        "like": 38481
       }
     },
     {
@@ -2657,13 +2657,13 @@
       "duration": 1368,
       "pubdate": "2025-06-16T02:00:00Z",
       "stat": {
-        "view": 1757159,
-        "danmaku": 14734,
-        "reply": 2785,
-        "favorite": 4169,
-        "coin": 19155,
-        "share": 707,
-        "like": 40141
+        "view": 1759414,
+        "danmaku": 14745,
+        "reply": 2786,
+        "favorite": 4177,
+        "coin": 19160,
+        "share": 708,
+        "like": 40164
       }
     },
     {
@@ -2679,13 +2679,13 @@
       "duration": 1278,
       "pubdate": "2025-06-18T02:00:00Z",
       "stat": {
-        "view": 1758605,
-        "danmaku": 14825,
-        "reply": 2860,
+        "view": 1760813,
+        "danmaku": 14832,
+        "reply": 2861,
         "favorite": 4087,
-        "coin": 20043,
+        "coin": 20048,
         "share": 603,
-        "like": 41858
+        "like": 41879
       }
     },
     {
@@ -2701,13 +2701,13 @@
       "duration": 1323,
       "pubdate": "2025-06-20T02:00:00Z",
       "stat": {
-        "view": 2256801,
-        "danmaku": 18078,
-        "reply": 4260,
-        "favorite": 6668,
-        "coin": 25993,
-        "share": 2964,
-        "like": 51013
+        "view": 2259509,
+        "danmaku": 18087,
+        "reply": 4261,
+        "favorite": 6674,
+        "coin": 26001,
+        "share": 2966,
+        "like": 51053
       }
     },
     {
@@ -2723,13 +2723,13 @@
       "duration": 1420,
       "pubdate": "2025-06-22T02:00:00Z",
       "stat": {
-        "view": 1790503,
-        "danmaku": 15344,
+        "view": 1792775,
+        "danmaku": 15355,
         "reply": 2728,
-        "favorite": 4227,
-        "coin": 19661,
+        "favorite": 4229,
+        "coin": 19663,
         "share": 705,
-        "like": 41633
+        "like": 41661
       }
     },
     {
@@ -2745,13 +2745,13 @@
       "duration": 1389,
       "pubdate": "2025-06-24T02:00:00Z",
       "stat": {
-        "view": 1995795,
-        "danmaku": 34843,
-        "reply": 4653,
-        "favorite": 4817,
-        "coin": 18467,
-        "share": 2540,
-        "like": 43673
+        "view": 1998225,
+        "danmaku": 34863,
+        "reply": 4656,
+        "favorite": 4818,
+        "coin": 18471,
+        "share": 2542,
+        "like": 43694
       }
     },
     {
@@ -2767,13 +2767,13 @@
       "duration": 1394,
       "pubdate": "2025-06-26T02:00:00Z",
       "stat": {
-        "view": 1826912,
-        "danmaku": 15187,
-        "reply": 3459,
-        "favorite": 4223,
-        "coin": 18619,
-        "share": 769,
-        "like": 41012
+        "view": 1829254,
+        "danmaku": 15191,
+        "reply": 3462,
+        "favorite": 4222,
+        "coin": 18627,
+        "share": 771,
+        "like": 41033
       }
     },
     {
@@ -2789,13 +2789,13 @@
       "duration": 1332,
       "pubdate": "2025-06-28T02:00:00Z",
       "stat": {
-        "view": 1764274,
-        "danmaku": 15299,
-        "reply": 2617,
-        "favorite": 4082,
-        "coin": 18053,
+        "view": 1766424,
+        "danmaku": 15304,
+        "reply": 2618,
+        "favorite": 4086,
+        "coin": 18055,
         "share": 724,
-        "like": 39891
+        "like": 39916
       }
     },
     {
@@ -2811,13 +2811,13 @@
       "duration": 1282,
       "pubdate": "2025-06-30T02:00:00Z",
       "stat": {
-        "view": 1905155,
-        "danmaku": 16291,
+        "view": 1907299,
+        "danmaku": 16302,
         "reply": 3228,
-        "favorite": 4549,
-        "coin": 19248,
+        "favorite": 4552,
+        "coin": 19252,
         "share": 996,
-        "like": 42051
+        "like": 42080
       }
     },
     {
@@ -2833,13 +2833,13 @@
       "duration": 1662,
       "pubdate": "2025-07-02T02:00:00Z",
       "stat": {
-        "view": 1971079,
-        "danmaku": 25499,
+        "view": 1973439,
+        "danmaku": 25528,
         "reply": 4000,
-        "favorite": 5533,
-        "coin": 19857,
-        "share": 1882,
-        "like": 44199
+        "favorite": 5530,
+        "coin": 19871,
+        "share": 1883,
+        "like": 44236
       }
     },
     {
@@ -2855,13 +2855,13 @@
       "duration": 1389,
       "pubdate": "2025-07-04T02:00:00Z",
       "stat": {
-        "view": 2098320,
-        "danmaku": 19438,
-        "reply": 4056,
-        "favorite": 6356,
-        "coin": 28373,
-        "share": 1711,
-        "like": 55864
+        "view": 2100805,
+        "danmaku": 19457,
+        "reply": 4057,
+        "favorite": 6361,
+        "coin": 28391,
+        "share": 1713,
+        "like": 55902
       }
     },
     {
@@ -2877,13 +2877,13 @@
       "duration": 1330,
       "pubdate": "2025-07-06T02:00:00Z",
       "stat": {
-        "view": 1783204,
-        "danmaku": 14728,
+        "view": 1785446,
+        "danmaku": 14736,
         "reply": 2831,
-        "favorite": 4605,
-        "coin": 21042,
-        "share": 820,
-        "like": 42521
+        "favorite": 4606,
+        "coin": 21049,
+        "share": 821,
+        "like": 42547
       }
     },
     {
@@ -2899,13 +2899,13 @@
       "duration": 1476,
       "pubdate": "2025-07-08T02:00:30Z",
       "stat": {
-        "view": 1665661,
-        "danmaku": 13070,
+        "view": 1667680,
+        "danmaku": 13072,
         "reply": 3055,
-        "favorite": 4438,
-        "coin": 15348,
+        "favorite": 4439,
+        "coin": 15354,
         "share": 592,
-        "like": 36868
+        "like": 36889
       }
     },
     {
@@ -2921,13 +2921,13 @@
       "duration": 1356,
       "pubdate": "2025-07-10T02:00:00Z",
       "stat": {
-        "view": 1763740,
-        "danmaku": 17209,
+        "view": 1765783,
+        "danmaku": 17223,
         "reply": 3142,
-        "favorite": 5334,
-        "coin": 20372,
-        "share": 2084,
-        "like": 42708
+        "favorite": 5339,
+        "coin": 20381,
+        "share": 2085,
+        "like": 42739
       }
     },
     {
@@ -2943,13 +2943,13 @@
       "duration": 747,
       "pubdate": "2025-07-12T02:00:00Z",
       "stat": {
-        "view": 1471487,
-        "danmaku": 6180,
+        "view": 1473191,
+        "danmaku": 6183,
         "reply": 1639,
-        "favorite": 3456,
-        "coin": 16647,
+        "favorite": 3459,
+        "coin": 16654,
         "share": 670,
-        "like": 37137
+        "like": 37157
       }
     },
     {
@@ -2965,13 +2965,13 @@
       "duration": 755,
       "pubdate": "2025-07-14T02:00:00Z",
       "stat": {
-        "view": 1641314,
-        "danmaku": 8868,
+        "view": 1643033,
+        "danmaku": 8874,
         "reply": 2765,
-        "favorite": 3714,
-        "coin": 16212,
+        "favorite": 3717,
+        "coin": 16220,
         "share": 601,
-        "like": 37923
+        "like": 37944
       }
     },
     {
@@ -2987,13 +2987,13 @@
       "duration": 707,
       "pubdate": "2025-07-16T02:00:00Z",
       "stat": {
-        "view": 1560734,
-        "danmaku": 8906,
+        "view": 1562925,
+        "danmaku": 8910,
         "reply": 2756,
-        "favorite": 3799,
-        "coin": 24300,
+        "favorite": 3801,
+        "coin": 24312,
         "share": 522,
-        "like": 41505
+        "like": 41536
       }
     },
     {
@@ -3009,13 +3009,13 @@
       "duration": 1319,
       "pubdate": "2025-07-18T02:00:00Z",
       "stat": {
-        "view": 1826511,
-        "danmaku": 21746,
+        "view": 1828605,
+        "danmaku": 21753,
         "reply": 3873,
-        "favorite": 9099,
-        "coin": 80017,
-        "share": 1439,
-        "like": 75241
+        "favorite": 9108,
+        "coin": 80064,
+        "share": 1442,
+        "like": 75288
       }
     },
     {
@@ -3031,13 +3031,13 @@
       "duration": 1374,
       "pubdate": "2025-07-20T02:00:00Z",
       "stat": {
-        "view": 1607877,
-        "danmaku": 14147,
+        "view": 1609789,
+        "danmaku": 14150,
         "reply": 3346,
-        "favorite": 3903,
-        "coin": 16885,
+        "favorite": 3905,
+        "coin": 16898,
         "share": 599,
-        "like": 39161
+        "like": 39193
       }
     },
     {
@@ -3053,13 +3053,13 @@
       "duration": 1282,
       "pubdate": "2025-07-22T02:00:00Z",
       "stat": {
-        "view": 1748112,
-        "danmaku": 11317,
-        "reply": 2813,
-        "favorite": 4313,
-        "coin": 18529,
+        "view": 1750301,
+        "danmaku": 11326,
+        "reply": 2814,
+        "favorite": 4317,
+        "coin": 18538,
         "share": 633,
-        "like": 40128
+        "like": 40160
       }
     },
     {
@@ -3075,13 +3075,13 @@
       "duration": 1275,
       "pubdate": "2025-07-24T02:00:00Z",
       "stat": {
-        "view": 1623923,
-        "danmaku": 9609,
+        "view": 1625912,
+        "danmaku": 9620,
         "reply": 2365,
-        "favorite": 3756,
-        "coin": 17038,
+        "favorite": 3755,
+        "coin": 17046,
         "share": 533,
-        "like": 36726
+        "like": 36754
       }
     },
     {
@@ -3097,13 +3097,13 @@
       "duration": 1523,
       "pubdate": "2025-07-26T02:05:29Z",
       "stat": {
-        "view": 2134867,
-        "danmaku": 15891,
-        "reply": 3476,
-        "favorite": 6361,
-        "coin": 21067,
-        "share": 2170,
-        "like": 46373
+        "view": 2137548,
+        "danmaku": 15899,
+        "reply": 3477,
+        "favorite": 6365,
+        "coin": 21080,
+        "share": 2172,
+        "like": 46406
       }
     },
     {
@@ -3119,13 +3119,13 @@
       "duration": 1256,
       "pubdate": "2025-07-28T02:00:03Z",
       "stat": {
-        "view": 1744237,
-        "danmaku": 12164,
-        "reply": 2921,
-        "favorite": 4161,
-        "coin": 18166,
+        "view": 1746327,
+        "danmaku": 12172,
+        "reply": 2923,
+        "favorite": 4165,
+        "coin": 18168,
         "share": 796,
-        "like": 39314
+        "like": 39332
       }
     },
     {
@@ -3141,13 +3141,13 @@
       "duration": 1301,
       "pubdate": "2025-07-30T02:00:00Z",
       "stat": {
-        "view": 1820672,
-        "danmaku": 11332,
-        "reply": 3240,
-        "favorite": 4292,
-        "coin": 19742,
-        "share": 642,
-        "like": 41250
+        "view": 1826269,
+        "danmaku": 11337,
+        "reply": 3243,
+        "favorite": 4303,
+        "coin": 19750,
+        "share": 645,
+        "like": 41293
       }
     },
     {
@@ -3163,13 +3163,13 @@
       "duration": 1374,
       "pubdate": "2025-08-01T02:00:00Z",
       "stat": {
-        "view": 1807861,
-        "danmaku": 16596,
-        "reply": 3169,
-        "favorite": 5231,
-        "coin": 24847,
-        "share": 1029,
-        "like": 46533
+        "view": 1810943,
+        "danmaku": 16611,
+        "reply": 3171,
+        "favorite": 5233,
+        "coin": 24853,
+        "share": 1030,
+        "like": 46564
       }
     },
     {
@@ -3185,13 +3185,13 @@
       "duration": 1362,
       "pubdate": "2025-08-03T02:00:27Z",
       "stat": {
-        "view": 1627845,
-        "danmaku": 10741,
-        "reply": 2510,
-        "favorite": 4108,
-        "coin": 16091,
-        "share": 573,
-        "like": 37167
+        "view": 1630446,
+        "danmaku": 10745,
+        "reply": 2511,
+        "favorite": 4114,
+        "coin": 16093,
+        "share": 575,
+        "like": 37191
       }
     },
     {
@@ -3207,13 +3207,13 @@
       "duration": 1250,
       "pubdate": "2025-08-05T02:00:00Z",
       "stat": {
-        "view": 1589259,
-        "danmaku": 12225,
+        "view": 1591743,
+        "danmaku": 12233,
         "reply": 2623,
-        "favorite": 3852,
-        "coin": 16067,
+        "favorite": 3854,
+        "coin": 16072,
         "share": 607,
-        "like": 35785
+        "like": 35803
       }
     },
     {
@@ -3229,13 +3229,13 @@
       "duration": 1548,
       "pubdate": "2025-08-07T02:00:00Z",
       "stat": {
-        "view": 1813626,
-        "danmaku": 13370,
+        "view": 1816080,
+        "danmaku": 13376,
         "reply": 2617,
-        "favorite": 4820,
-        "coin": 17681,
-        "share": 921,
-        "like": 42207
+        "favorite": 4823,
+        "coin": 17684,
+        "share": 922,
+        "like": 42232
       }
     },
     {
@@ -3251,13 +3251,13 @@
       "duration": 1287,
       "pubdate": "2025-08-09T02:00:00Z",
       "stat": {
-        "view": 1661380,
-        "danmaku": 10223,
+        "view": 1663573,
+        "danmaku": 10227,
         "reply": 2542,
-        "favorite": 3866,
-        "coin": 16414,
+        "favorite": 3874,
+        "coin": 16416,
         "share": 596,
-        "like": 38228
+        "like": 38249
       }
     },
     {
@@ -3273,13 +3273,13 @@
       "duration": 1382,
       "pubdate": "2025-08-11T02:00:00Z",
       "stat": {
-        "view": 1557978,
-        "danmaku": 12818,
-        "reply": 1847,
-        "favorite": 3650,
-        "coin": 14027,
+        "view": 1560040,
+        "danmaku": 12821,
+        "reply": 1848,
+        "favorite": 3653,
+        "coin": 14029,
         "share": 543,
-        "like": 35148
+        "like": 35164
       }
     },
     {
@@ -3295,13 +3295,13 @@
       "duration": 1365,
       "pubdate": "2025-08-13T02:00:00Z",
       "stat": {
-        "view": 1548920,
-        "danmaku": 13144,
+        "view": 1550921,
+        "danmaku": 13157,
         "reply": 2406,
-        "favorite": 3802,
-        "coin": 15901,
-        "share": 601,
-        "like": 36885
+        "favorite": 3803,
+        "coin": 15911,
+        "share": 602,
+        "like": 36911
       }
     },
     {
@@ -3317,13 +3317,13 @@
       "duration": 1285,
       "pubdate": "2025-08-15T02:00:00Z",
       "stat": {
-        "view": 1582944,
-        "danmaku": 11409,
+        "view": 1584949,
+        "danmaku": 11414,
         "reply": 2837,
-        "favorite": 4020,
+        "favorite": 4027,
         "coin": 16225,
         "share": 744,
-        "like": 36316
+        "like": 36335
       }
     },
     {
@@ -3339,13 +3339,13 @@
       "duration": 1539,
       "pubdate": "2025-08-17T02:00:00Z",
       "stat": {
-        "view": 1781357,
-        "danmaku": 15197,
+        "view": 1783425,
+        "danmaku": 15206,
         "reply": 2637,
-        "favorite": 4388,
-        "coin": 16512,
+        "favorite": 4395,
+        "coin": 16518,
         "share": 663,
-        "like": 41278
+        "like": 41307
       }
     },
     {
@@ -3361,13 +3361,13 @@
       "duration": 1264,
       "pubdate": "2025-08-19T02:00:00Z",
       "stat": {
-        "view": 1688912,
-        "danmaku": 11422,
+        "view": 1691020,
+        "danmaku": 11428,
         "reply": 2791,
-        "favorite": 4562,
-        "coin": 24065,
+        "favorite": 4565,
+        "coin": 24070,
         "share": 676,
-        "like": 46411
+        "like": 46432
       }
     },
     {
@@ -3383,13 +3383,13 @@
       "duration": 1309,
       "pubdate": "2025-08-21T02:00:59Z",
       "stat": {
-        "view": 1510952,
-        "danmaku": 12050,
+        "view": 1512972,
+        "danmaku": 12055,
         "reply": 2449,
-        "favorite": 3790,
-        "coin": 16981,
+        "favorite": 3791,
+        "coin": 16982,
         "share": 512,
-        "like": 36727
+        "like": 36748
       }
     },
     {
@@ -3405,13 +3405,13 @@
       "duration": 1465,
       "pubdate": "2025-08-23T02:00:00Z",
       "stat": {
-        "view": 1464772,
-        "danmaku": 9625,
+        "view": 1466735,
+        "danmaku": 9630,
         "reply": 2692,
-        "favorite": 3730,
-        "coin": 15203,
+        "favorite": 3732,
+        "coin": 15208,
         "share": 501,
-        "like": 34772
+        "like": 34800
       }
     },
     {
@@ -3427,13 +3427,13 @@
       "duration": 1305,
       "pubdate": "2025-08-25T02:00:00Z",
       "stat": {
-        "view": 1475861,
-        "danmaku": 11089,
+        "view": 1477778,
+        "danmaku": 11092,
         "reply": 2485,
-        "favorite": 3667,
-        "coin": 17243,
+        "favorite": 3670,
+        "coin": 17246,
         "share": 467,
-        "like": 36886
+        "like": 36913
       }
     },
     {
@@ -3449,13 +3449,13 @@
       "duration": 1377,
       "pubdate": "2025-08-27T02:00:00Z",
       "stat": {
-        "view": 2731453,
-        "danmaku": 20691,
-        "reply": 4715,
-        "favorite": 8930,
-        "coin": 22125,
-        "share": 4200,
-        "like": 56227
+        "view": 2734195,
+        "danmaku": 20706,
+        "reply": 4716,
+        "favorite": 8940,
+        "coin": 22133,
+        "share": 4203,
+        "like": 56254
       }
     },
     {
@@ -3471,13 +3471,13 @@
       "duration": 1340,
       "pubdate": "2025-08-29T02:00:00Z",
       "stat": {
-        "view": 1688774,
-        "danmaku": 18078,
+        "view": 1690891,
+        "danmaku": 18100,
         "reply": 3603,
-        "favorite": 4310,
-        "coin": 17900,
+        "favorite": 4315,
+        "coin": 17904,
         "share": 986,
-        "like": 39203
+        "like": 39223
       }
     },
     {
@@ -3493,13 +3493,13 @@
       "duration": 1439,
       "pubdate": "2025-08-31T02:00:00Z",
       "stat": {
-        "view": 1663028,
-        "danmaku": 15046,
-        "reply": 3558,
-        "favorite": 4747,
-        "coin": 17112,
+        "view": 1665210,
+        "danmaku": 15054,
+        "reply": 3559,
+        "favorite": 4750,
+        "coin": 17114,
         "share": 1062,
-        "like": 39706
+        "like": 39727
       }
     },
     {
@@ -3515,13 +3515,13 @@
       "duration": 1322,
       "pubdate": "2025-09-02T02:00:00Z",
       "stat": {
-        "view": 1552505,
-        "danmaku": 14071,
-        "reply": 3198,
-        "favorite": 3848,
-        "coin": 15503,
+        "view": 1554585,
+        "danmaku": 14081,
+        "reply": 3200,
+        "favorite": 3857,
+        "coin": 15505,
         "share": 681,
-        "like": 35535
+        "like": 35554
       }
     },
     {
@@ -3537,13 +3537,13 @@
       "duration": 1451,
       "pubdate": "2025-09-04T02:00:00Z",
       "stat": {
-        "view": 1487130,
-        "danmaku": 15007,
+        "view": 1489095,
+        "danmaku": 15012,
         "reply": 2563,
-        "favorite": 3637,
-        "coin": 14340,
-        "share": 544,
-        "like": 34226
+        "favorite": 3644,
+        "coin": 14344,
+        "share": 545,
+        "like": 34249
       }
     },
     {
@@ -3559,13 +3559,13 @@
       "duration": 1285,
       "pubdate": "2025-09-06T02:00:00Z",
       "stat": {
-        "view": 1607429,
-        "danmaku": 16005,
+        "view": 1609322,
+        "danmaku": 16010,
         "reply": 3059,
         "favorite": 3856,
-        "coin": 17148,
-        "share": 546,
-        "like": 36730
+        "coin": 17154,
+        "share": 547,
+        "like": 36756
       }
     },
     {
@@ -3581,13 +3581,13 @@
       "duration": 1269,
       "pubdate": "2025-09-08T02:00:00Z",
       "stat": {
-        "view": 1506043,
-        "danmaku": 16316,
-        "reply": 3264,
-        "favorite": 3758,
-        "coin": 15731,
+        "view": 1507885,
+        "danmaku": 16327,
+        "reply": 3267,
+        "favorite": 3765,
+        "coin": 15737,
         "share": 720,
-        "like": 34771
+        "like": 34790
       }
     },
     {
@@ -3603,13 +3603,13 @@
       "duration": 1402,
       "pubdate": "2025-09-10T02:00:00Z",
       "stat": {
-        "view": 1569897,
-        "danmaku": 16853,
-        "reply": 3504,
+        "view": 1571777,
+        "danmaku": 16864,
+        "reply": 3505,
         "favorite": 4091,
-        "coin": 14498,
-        "share": 977,
-        "like": 35534
+        "coin": 14507,
+        "share": 979,
+        "like": 35550
       }
     },
     {
@@ -3625,13 +3625,13 @@
       "duration": 1318,
       "pubdate": "2025-09-12T02:00:00Z",
       "stat": {
-        "view": 1476489,
-        "danmaku": 14627,
-        "reply": 3402,
-        "favorite": 3740,
-        "coin": 14776,
+        "view": 1478248,
+        "danmaku": 14636,
+        "reply": 3406,
+        "favorite": 3739,
+        "coin": 14779,
         "share": 661,
-        "like": 34542
+        "like": 34566
       }
     },
     {
@@ -3647,13 +3647,13 @@
       "duration": 1350,
       "pubdate": "2025-09-14T01:59:46Z",
       "stat": {
-        "view": 1586524,
-        "danmaku": 13695,
-        "reply": 2915,
-        "favorite": 4611,
-        "coin": 17277,
+        "view": 1588331,
+        "danmaku": 13706,
+        "reply": 2917,
+        "favorite": 4609,
+        "coin": 17280,
         "share": 1104,
-        "like": 39172
+        "like": 39191
       }
     },
     {
@@ -3669,13 +3669,13 @@
       "duration": 1349,
       "pubdate": "2025-09-16T02:00:00Z",
       "stat": {
-        "view": 1776458,
-        "danmaku": 14156,
-        "reply": 3251,
-        "favorite": 5072,
-        "coin": 18430,
+        "view": 1778590,
+        "danmaku": 14167,
+        "reply": 3255,
+        "favorite": 5076,
+        "coin": 18432,
         "share": 1291,
-        "like": 41648
+        "like": 41674
       }
     },
     {
@@ -3691,13 +3691,13 @@
       "duration": 1451,
       "pubdate": "2025-09-18T02:00:00Z",
       "stat": {
-        "view": 1756467,
-        "danmaku": 16376,
+        "view": 1758531,
+        "danmaku": 16390,
         "reply": 3436,
-        "favorite": 5057,
-        "coin": 19605,
+        "favorite": 5063,
+        "coin": 19615,
         "share": 1680,
-        "like": 42312
+        "like": 42343
       }
     },
     {
@@ -3713,13 +3713,13 @@
       "duration": 1435,
       "pubdate": "2025-09-20T02:00:00Z",
       "stat": {
-        "view": 1664917,
-        "danmaku": 18742,
+        "view": 1666936,
+        "danmaku": 18753,
         "reply": 3698,
-        "favorite": 4521,
-        "coin": 15234,
+        "favorite": 4525,
+        "coin": 15239,
         "share": 1404,
-        "like": 36972
+        "like": 36998
       }
     },
     {
@@ -3735,13 +3735,13 @@
       "duration": 1400,
       "pubdate": "2025-09-22T02:00:00Z",
       "stat": {
-        "view": 1643684,
-        "danmaku": 17220,
-        "reply": 3136,
-        "favorite": 4512,
-        "coin": 15581,
-        "share": 1168,
-        "like": 37462
+        "view": 1645817,
+        "danmaku": 17225,
+        "reply": 3137,
+        "favorite": 4516,
+        "coin": 15591,
+        "share": 1172,
+        "like": 37488
       }
     },
     {
@@ -3757,13 +3757,13 @@
       "duration": 1316,
       "pubdate": "2025-09-24T02:00:00Z",
       "stat": {
-        "view": 1486253,
-        "danmaku": 8931,
+        "view": 1488171,
+        "danmaku": 8937,
         "reply": 3027,
         "favorite": 3509,
-        "coin": 14778,
-        "share": 459,
-        "like": 34052
+        "coin": 14779,
+        "share": 460,
+        "like": 34068
       }
     },
     {
@@ -3779,13 +3779,13 @@
       "duration": 1340,
       "pubdate": "2025-09-26T02:00:00Z",
       "stat": {
-        "view": 1472074,
-        "danmaku": 9933,
+        "view": 1473924,
+        "danmaku": 9938,
         "reply": 2851,
-        "favorite": 4147,
-        "coin": 18948,
+        "favorite": 4151,
+        "coin": 18949,
         "share": 517,
-        "like": 40476
+        "like": 40503
       }
     },
     {
@@ -3801,13 +3801,13 @@
       "duration": 1381,
       "pubdate": "2025-09-28T02:00:37Z",
       "stat": {
-        "view": 1611526,
-        "danmaku": 12977,
-        "reply": 3727,
-        "favorite": 4678,
-        "coin": 16628,
+        "view": 1613308,
+        "danmaku": 12983,
+        "reply": 3732,
+        "favorite": 4679,
+        "coin": 16635,
         "share": 788,
-        "like": 39605
+        "like": 39633
       }
     },
     {
@@ -3823,13 +3823,13 @@
       "duration": 1345,
       "pubdate": "2025-09-30T02:00:19Z",
       "stat": {
-        "view": 1439144,
-        "danmaku": 12637,
-        "reply": 3270,
-        "favorite": 3795,
-        "coin": 15172,
+        "view": 1440859,
+        "danmaku": 12655,
+        "reply": 3271,
+        "favorite": 3796,
+        "coin": 15177,
         "share": 622,
-        "like": 34551
+        "like": 34574
       }
     },
     {
@@ -3845,13 +3845,13 @@
       "duration": 1383,
       "pubdate": "2025-10-02T02:00:48Z",
       "stat": {
-        "view": 1546151,
-        "danmaku": 14651,
-        "reply": 3617,
-        "favorite": 4299,
-        "coin": 15174,
-        "share": 1087,
-        "like": 36826
+        "view": 1547984,
+        "danmaku": 14667,
+        "reply": 3619,
+        "favorite": 4308,
+        "coin": 15177,
+        "share": 1088,
+        "like": 36848
       }
     },
     {
@@ -3867,13 +3867,13 @@
       "duration": 1379,
       "pubdate": "2025-10-04T02:00:00Z",
       "stat": {
-        "view": 1492479,
-        "danmaku": 14372,
+        "view": 1494242,
+        "danmaku": 14384,
         "reply": 3450,
-        "favorite": 3836,
-        "coin": 14564,
+        "favorite": 3839,
+        "coin": 14567,
         "share": 728,
-        "like": 35117
+        "like": 35136
       }
     },
     {
@@ -3889,13 +3889,13 @@
       "duration": 1327,
       "pubdate": "2025-10-06T02:00:23Z",
       "stat": {
-        "view": 1431280,
-        "danmaku": 9570,
+        "view": 1432960,
+        "danmaku": 9574,
         "reply": 2640,
-        "favorite": 3409,
-        "coin": 15062,
+        "favorite": 3414,
+        "coin": 15067,
         "share": 502,
-        "like": 34450
+        "like": 34472
       }
     },
     {
@@ -3911,13 +3911,13 @@
       "duration": 1338,
       "pubdate": "2025-10-08T02:00:00Z",
       "stat": {
-        "view": 1444229,
-        "danmaku": 15002,
+        "view": 1445973,
+        "danmaku": 15012,
         "reply": 2944,
-        "favorite": 3824,
-        "coin": 14303,
+        "favorite": 3825,
+        "coin": 14311,
         "share": 723,
-        "like": 33940
+        "like": 33958
       }
     },
     {
@@ -3933,13 +3933,13 @@
       "duration": 1254,
       "pubdate": "2025-10-10T02:00:00Z",
       "stat": {
-        "view": 1475721,
-        "danmaku": 10398,
+        "view": 1477539,
+        "danmaku": 10404,
         "reply": 2963,
         "favorite": 3667,
-        "coin": 17141,
+        "coin": 17145,
         "share": 572,
-        "like": 35937
+        "like": 35958
       }
     },
     {
@@ -3955,13 +3955,13 @@
       "duration": 1475,
       "pubdate": "2025-10-12T02:00:00Z",
       "stat": {
-        "view": 1535479,
-        "danmaku": 11687,
-        "reply": 2928,
-        "favorite": 3830,
+        "view": 1537587,
+        "danmaku": 11701,
+        "reply": 2929,
+        "favorite": 3831,
         "coin": 14616,
         "share": 680,
-        "like": 35522
+        "like": 35538
       }
     },
     {
@@ -3977,13 +3977,13 @@
       "duration": 1283,
       "pubdate": "2025-10-14T02:00:00Z",
       "stat": {
-        "view": 1477642,
-        "danmaku": 14290,
+        "view": 1479423,
+        "danmaku": 14298,
         "reply": 2881,
-        "favorite": 3683,
-        "coin": 15205,
-        "share": 556,
-        "like": 34748
+        "favorite": 3685,
+        "coin": 15209,
+        "share": 558,
+        "like": 34765
       }
     },
     {
@@ -3999,13 +3999,13 @@
       "duration": 1481,
       "pubdate": "2025-10-16T02:00:00Z",
       "stat": {
-        "view": 1444063,
-        "danmaku": 11024,
-        "reply": 2683,
-        "favorite": 3709,
+        "view": 1445900,
+        "danmaku": 11027,
+        "reply": 2685,
+        "favorite": 3712,
         "coin": 14234,
-        "share": 659,
-        "like": 33667
+        "share": 661,
+        "like": 33685
       }
     },
     {
@@ -4021,13 +4021,13 @@
       "duration": 1328,
       "pubdate": "2025-10-18T02:00:00Z",
       "stat": {
-        "view": 1386586,
-        "danmaku": 9151,
-        "reply": 2340,
-        "favorite": 3471,
+        "view": 1388315,
+        "danmaku": 9156,
+        "reply": 2341,
+        "favorite": 3478,
         "coin": 14950,
         "share": 431,
-        "like": 32305
+        "like": 32327
       }
     },
     {
@@ -4043,13 +4043,13 @@
       "duration": 1327,
       "pubdate": "2025-10-20T02:00:00Z",
       "stat": {
-        "view": 1334174,
-        "danmaku": 9295,
-        "reply": 3094,
-        "favorite": 3625,
+        "view": 1335825,
+        "danmaku": 9306,
+        "reply": 3095,
+        "favorite": 3626,
         "coin": 19192,
         "share": 509,
-        "like": 36935
+        "like": 36956
       }
     },
     {
@@ -4065,13 +4065,13 @@
       "duration": 1400,
       "pubdate": "2025-10-22T02:00:00Z",
       "stat": {
-        "view": 1482380,
-        "danmaku": 13881,
-        "reply": 3267,
-        "favorite": 3840,
-        "coin": 13978,
-        "share": 761,
-        "like": 34700
+        "view": 1484069,
+        "danmaku": 13885,
+        "reply": 3269,
+        "favorite": 3846,
+        "coin": 13982,
+        "share": 762,
+        "like": 34719
       }
     },
     {
@@ -4087,13 +4087,13 @@
       "duration": 1245,
       "pubdate": "2025-10-24T02:00:00Z",
       "stat": {
-        "view": 1297214,
-        "danmaku": 11417,
+        "view": 1298813,
+        "danmaku": 11425,
         "reply": 2763,
-        "favorite": 3248,
-        "coin": 14270,
-        "share": 482,
-        "like": 32025
+        "favorite": 3247,
+        "coin": 14273,
+        "share": 484,
+        "like": 32051
       }
     },
     {
@@ -4109,13 +4109,13 @@
       "duration": 1405,
       "pubdate": "2025-10-26T02:00:00Z",
       "stat": {
-        "view": 1648540,
-        "danmaku": 14542,
-        "reply": 3319,
-        "favorite": 4625,
-        "coin": 15330,
-        "share": 1091,
-        "like": 38712
+        "view": 1650747,
+        "danmaku": 14557,
+        "reply": 3320,
+        "favorite": 4630,
+        "coin": 15338,
+        "share": 1094,
+        "like": 38740
       }
     },
     {
@@ -4131,13 +4131,13 @@
       "duration": 1451,
       "pubdate": "2025-10-28T02:00:00Z",
       "stat": {
-        "view": 1481507,
-        "danmaku": 9742,
-        "reply": 2664,
-        "favorite": 3749,
-        "coin": 14153,
+        "view": 1483328,
+        "danmaku": 9744,
+        "reply": 2665,
+        "favorite": 3755,
+        "coin": 14161,
         "share": 618,
-        "like": 35264
+        "like": 35297
       }
     },
     {
@@ -4153,13 +4153,13 @@
       "duration": 1311,
       "pubdate": "2025-10-30T02:00:00Z",
       "stat": {
-        "view": 1420812,
-        "danmaku": 8695,
-        "reply": 2908,
-        "favorite": 3866,
-        "coin": 14720,
+        "view": 1422610,
+        "danmaku": 8700,
+        "reply": 2909,
+        "favorite": 3874,
+        "coin": 14730,
         "share": 767,
-        "like": 33858
+        "like": 33884
       }
     },
     {
@@ -4175,13 +4175,13 @@
       "duration": 1421,
       "pubdate": "2025-11-01T02:00:00Z",
       "stat": {
-        "view": 1407685,
-        "danmaku": 10650,
+        "view": 1409358,
+        "danmaku": 10654,
         "reply": 1983,
-        "favorite": 3481,
-        "coin": 14167,
+        "favorite": 3487,
+        "coin": 14173,
         "share": 454,
-        "like": 32558
+        "like": 32582
       }
     },
     {
@@ -4197,13 +4197,13 @@
       "duration": 1382,
       "pubdate": "2025-11-03T02:00:27Z",
       "stat": {
-        "view": 1388159,
-        "danmaku": 10780,
+        "view": 1389854,
+        "danmaku": 10783,
         "reply": 2826,
-        "favorite": 3447,
-        "coin": 14144,
+        "favorite": 3453,
+        "coin": 14148,
         "share": 524,
-        "like": 33963
+        "like": 33985
       }
     },
     {
@@ -4219,13 +4219,13 @@
       "duration": 1228,
       "pubdate": "2025-11-05T02:00:00Z",
       "stat": {
-        "view": 1365397,
-        "danmaku": 13120,
+        "view": 1367066,
+        "danmaku": 13125,
         "reply": 2859,
-        "favorite": 3599,
-        "coin": 16361,
+        "favorite": 3605,
+        "coin": 16365,
         "share": 559,
-        "like": 34388
+        "like": 34409
       }
     },
     {
@@ -4241,13 +4241,13 @@
       "duration": 1310,
       "pubdate": "2025-11-07T02:00:00Z",
       "stat": {
-        "view": 1308051,
-        "danmaku": 10944,
+        "view": 1309685,
+        "danmaku": 10948,
         "reply": 2507,
-        "favorite": 3233,
-        "coin": 13790,
+        "favorite": 3240,
+        "coin": 13798,
         "share": 514,
-        "like": 31074
+        "like": 31094
       }
     },
     {
@@ -4263,13 +4263,13 @@
       "duration": 1342,
       "pubdate": "2025-11-09T02:00:00Z",
       "stat": {
-        "view": 1410565,
-        "danmaku": 9368,
+        "view": 1412238,
+        "danmaku": 9374,
         "reply": 2602,
         "favorite": 3542,
-        "coin": 14012,
+        "coin": 14018,
         "share": 533,
-        "like": 32841
+        "like": 32861
       }
     },
     {
@@ -4285,13 +4285,13 @@
       "duration": 1258,
       "pubdate": "2025-11-11T02:00:00Z",
       "stat": {
-        "view": 1331218,
-        "danmaku": 9369,
-        "reply": 3178,
-        "favorite": 3375,
-        "coin": 14627,
-        "share": 507,
-        "like": 32251
+        "view": 1332857,
+        "danmaku": 9376,
+        "reply": 3179,
+        "favorite": 3377,
+        "coin": 14633,
+        "share": 508,
+        "like": 32270
       }
     },
     {
@@ -4307,13 +4307,13 @@
       "duration": 1350,
       "pubdate": "2025-11-13T02:00:00Z",
       "stat": {
-        "view": 1364443,
-        "danmaku": 11901,
+        "view": 1366014,
+        "danmaku": 11909,
         "reply": 2614,
-        "favorite": 3674,
-        "coin": 14053,
+        "favorite": 3678,
+        "coin": 14057,
         "share": 618,
-        "like": 32299
+        "like": 32324
       }
     },
     {
@@ -4329,13 +4329,13 @@
       "duration": 1254,
       "pubdate": "2025-11-15T02:00:00Z",
       "stat": {
-        "view": 1373853,
+        "view": 1375454,
         "danmaku": 7608,
         "reply": 2904,
         "favorite": 3808,
-        "coin": 18548,
+        "coin": 18554,
         "share": 544,
-        "like": 37798
+        "like": 37826
       }
     },
     {
@@ -4351,13 +4351,13 @@
       "duration": 659,
       "pubdate": "2025-11-17T02:00:00Z",
       "stat": {
-        "view": 1163367,
-        "danmaku": 6112,
+        "view": 1164720,
+        "danmaku": 6114,
         "reply": 2752,
         "favorite": 3136,
-        "coin": 18190,
+        "coin": 18193,
         "share": 368,
-        "like": 35047
+        "like": 35065
       }
     },
     {
@@ -4373,13 +4373,13 @@
       "duration": 734,
       "pubdate": "2025-11-19T02:00:00Z",
       "stat": {
-        "view": 1259429,
-        "danmaku": 6488,
+        "view": 1260950,
+        "danmaku": 6493,
         "reply": 2787,
-        "favorite": 3541,
-        "coin": 22861,
+        "favorite": 3540,
+        "coin": 22863,
         "share": 474,
-        "like": 38105
+        "like": 38128
       }
     },
     {
@@ -4395,13 +4395,13 @@
       "duration": 1363,
       "pubdate": "2025-11-21T02:00:00Z",
       "stat": {
-        "view": 1397464,
-        "danmaku": 7533,
-        "reply": 3473,
-        "favorite": 3591,
-        "coin": 14549,
+        "view": 1398991,
+        "danmaku": 7534,
+        "reply": 3476,
+        "favorite": 3596,
+        "coin": 14551,
         "share": 576,
-        "like": 34128
+        "like": 34148
       }
     },
     {
@@ -4417,13 +4417,13 @@
       "duration": 1396,
       "pubdate": "2025-11-23T02:00:00Z",
       "stat": {
-        "view": 1574470,
-        "danmaku": 13744,
-        "reply": 5453,
-        "favorite": 5854,
-        "coin": 29978,
+        "view": 1575955,
+        "danmaku": 13745,
+        "reply": 5454,
+        "favorite": 5856,
+        "coin": 29980,
         "share": 1462,
-        "like": 53481
+        "like": 53504
       }
     },
     {
@@ -4439,13 +4439,13 @@
       "duration": 1383,
       "pubdate": "2025-11-25T02:00:00Z",
       "stat": {
-        "view": 1463309,
-        "danmaku": 9684,
+        "view": 1464871,
+        "danmaku": 9685,
         "reply": 3093,
-        "favorite": 3748,
-        "coin": 14778,
+        "favorite": 3756,
+        "coin": 14781,
         "share": 573,
-        "like": 35782
+        "like": 35806
       }
     },
     {
@@ -4461,13 +4461,13 @@
       "duration": 1338,
       "pubdate": "2025-11-27T02:00:00Z",
       "stat": {
-        "view": 1356025,
+        "view": 1357525,
         "danmaku": 9647,
         "reply": 2495,
-        "favorite": 3356,
-        "coin": 13424,
-        "share": 544,
-        "like": 32146
+        "favorite": 3361,
+        "coin": 13428,
+        "share": 545,
+        "like": 32162
       }
     },
     {
@@ -4483,13 +4483,13 @@
       "duration": 1424,
       "pubdate": "2025-11-29T02:00:00Z",
       "stat": {
-        "view": 1467409,
-        "danmaku": 11438,
-        "reply": 3228,
-        "favorite": 3890,
-        "coin": 14175,
+        "view": 1468903,
+        "danmaku": 11444,
+        "reply": 3229,
+        "favorite": 3892,
+        "coin": 14179,
         "share": 542,
-        "like": 34423
+        "like": 34437
       }
     },
     {
@@ -4505,13 +4505,13 @@
       "duration": 1394,
       "pubdate": "2025-12-01T02:00:00Z",
       "stat": {
-        "view": 1581424,
-        "danmaku": 14070,
-        "reply": 4111,
-        "favorite": 4314,
-        "coin": 14740,
-        "share": 892,
-        "like": 36651
+        "view": 1583143,
+        "danmaku": 14076,
+        "reply": 4112,
+        "favorite": 4316,
+        "coin": 14744,
+        "share": 893,
+        "like": 36668
       }
     },
     {
@@ -4527,13 +4527,13 @@
       "duration": 1457,
       "pubdate": "2025-12-03T02:00:00Z",
       "stat": {
-        "view": 1465530,
-        "danmaku": 13026,
-        "reply": 3811,
-        "favorite": 4249,
-        "coin": 14576,
+        "view": 1467145,
+        "danmaku": 13031,
+        "reply": 3812,
+        "favorite": 4252,
+        "coin": 14580,
         "share": 804,
-        "like": 35220
+        "like": 35242
       }
     },
     {
@@ -4549,13 +4549,13 @@
       "duration": 1400,
       "pubdate": "2025-12-05T02:00:00Z",
       "stat": {
-        "view": 1702625,
-        "danmaku": 12913,
+        "view": 1704436,
+        "danmaku": 12919,
         "reply": 5155,
         "favorite": 4753,
-        "coin": 14901,
+        "coin": 14903,
         "share": 1240,
-        "like": 38619
+        "like": 38640
       }
     },
     {
@@ -4571,13 +4571,13 @@
       "duration": 1500,
       "pubdate": "2025-12-07T02:00:00Z",
       "stat": {
-        "view": 1521702,
-        "danmaku": 10303,
+        "view": 1523298,
+        "danmaku": 10309,
         "reply": 5566,
         "favorite": 4463,
         "coin": 14604,
         "share": 1093,
-        "like": 37867
+        "like": 37888
       }
     },
     {
@@ -4593,13 +4593,13 @@
       "duration": 1353,
       "pubdate": "2025-12-09T02:00:00Z",
       "stat": {
-        "view": 1404336,
-        "danmaku": 11552,
+        "view": 1405819,
+        "danmaku": 11556,
         "reply": 4283,
-        "favorite": 3967,
-        "coin": 14589,
+        "favorite": 3976,
+        "coin": 14593,
         "share": 833,
-        "like": 35393
+        "like": 35414
       }
     },
     {
@@ -4615,13 +4615,13 @@
       "duration": 1414,
       "pubdate": "2025-12-11T02:00:00Z",
       "stat": {
-        "view": 1591328,
-        "danmaku": 13120,
-        "reply": 4867,
-        "favorite": 4690,
-        "coin": 15349,
+        "view": 1592903,
+        "danmaku": 13124,
+        "reply": 4869,
+        "favorite": 4692,
+        "coin": 15355,
         "share": 1266,
-        "like": 39555
+        "like": 39579
       }
     },
     {
@@ -4637,13 +4637,13 @@
       "duration": 1322,
       "pubdate": "2025-12-13T02:00:00Z",
       "stat": {
-        "view": 1507067,
-        "danmaku": 14277,
-        "reply": 4523,
-        "favorite": 4583,
-        "coin": 19704,
+        "view": 1508689,
+        "danmaku": 14287,
+        "reply": 4525,
+        "favorite": 4592,
+        "coin": 19706,
         "share": 862,
-        "like": 40402
+        "like": 40423
       }
     },
     {
@@ -4659,13 +4659,13 @@
       "duration": 1396,
       "pubdate": "2025-12-15T02:00:00Z",
       "stat": {
-        "view": 1528909,
-        "danmaku": 12034,
+        "view": 1530620,
+        "danmaku": 12037,
         "reply": 4346,
-        "favorite": 4559,
+        "favorite": 4564,
         "coin": 16269,
-        "share": 799,
-        "like": 38883
+        "share": 800,
+        "like": 38901
       }
     },
     {
@@ -4681,13 +4681,13 @@
       "duration": 1395,
       "pubdate": "2025-12-17T02:00:00Z",
       "stat": {
-        "view": 1778363,
-        "danmaku": 12402,
-        "reply": 3971,
-        "favorite": 4826,
+        "view": 1780036,
+        "danmaku": 12409,
+        "reply": 3972,
+        "favorite": 4833,
         "coin": 16253,
         "share": 921,
-        "like": 43027
+        "like": 43045
       }
     },
     {
@@ -4703,13 +4703,13 @@
       "duration": 1300,
       "pubdate": "2025-12-19T02:00:00Z",
       "stat": {
-        "view": 1712287,
-        "danmaku": 13976,
-        "reply": 6096,
-        "favorite": 4927,
-        "coin": 19010,
+        "view": 1714334,
+        "danmaku": 13986,
+        "reply": 6097,
+        "favorite": 4929,
+        "coin": 19012,
         "share": 1006,
-        "like": 41589
+        "like": 41613
       }
     },
     {
@@ -4725,13 +4725,13 @@
       "duration": 1330,
       "pubdate": "2025-12-21T02:00:00Z",
       "stat": {
-        "view": 1648489,
-        "danmaku": 11112,
+        "view": 1650224,
+        "danmaku": 11116,
         "reply": 4661,
-        "favorite": 4081,
-        "coin": 15093,
+        "favorite": 4082,
+        "coin": 15098,
         "share": 804,
-        "like": 37584
+        "like": 37614
       }
     },
     {
@@ -4747,13 +4747,13 @@
       "duration": 1379,
       "pubdate": "2025-12-23T02:00:00Z",
       "stat": {
-        "view": 1626075,
-        "danmaku": 11243,
+        "view": 1627861,
+        "danmaku": 11244,
         "reply": 4397,
-        "favorite": 4364,
-        "coin": 15429,
-        "share": 865,
-        "like": 38082
+        "favorite": 4367,
+        "coin": 15432,
+        "share": 866,
+        "like": 38106
       }
     },
     {
@@ -4769,13 +4769,13 @@
       "duration": 1329,
       "pubdate": "2025-12-25T02:00:00Z",
       "stat": {
-        "view": 1897193,
-        "danmaku": 18119,
-        "reply": 4940,
-        "favorite": 5866,
-        "coin": 17665,
-        "share": 2504,
-        "like": 43810
+        "view": 1899238,
+        "danmaku": 18125,
+        "reply": 4942,
+        "favorite": 5865,
+        "coin": 17675,
+        "share": 2506,
+        "like": 43833
       }
     },
     {
@@ -4791,13 +4791,13 @@
       "duration": 1416,
       "pubdate": "2025-12-27T02:00:00Z",
       "stat": {
-        "view": 1642133,
-        "danmaku": 12774,
+        "view": 1643906,
+        "danmaku": 12776,
         "reply": 5529,
-        "favorite": 4497,
-        "coin": 15624,
-        "share": 1147,
-        "like": 39852
+        "favorite": 4499,
+        "coin": 15635,
+        "share": 1148,
+        "like": 39874
       }
     },
     {
@@ -4813,13 +4813,13 @@
       "duration": 1376,
       "pubdate": "2025-12-29T02:00:00Z",
       "stat": {
-        "view": 1665919,
-        "danmaku": 14735,
-        "reply": 5700,
+        "view": 1667649,
+        "danmaku": 14738,
+        "reply": 5701,
         "favorite": 4382,
-        "coin": 14968,
+        "coin": 14972,
         "share": 1011,
-        "like": 39740
+        "like": 39757
       }
     },
     {
@@ -4835,13 +4835,13 @@
       "duration": 1367,
       "pubdate": "2025-12-31T02:00:00Z",
       "stat": {
-        "view": 1801966,
-        "danmaku": 12725,
+        "view": 1803677,
+        "danmaku": 12728,
         "reply": 6506,
-        "favorite": 5252,
-        "coin": 14625,
+        "favorite": 5257,
+        "coin": 14627,
         "share": 1483,
-        "like": 43212
+        "like": 43234
       }
     },
     {
@@ -4857,13 +4857,13 @@
       "duration": 1370,
       "pubdate": "2026-01-02T02:00:00Z",
       "stat": {
-        "view": 1680628,
-        "danmaku": 21895,
-        "reply": 7667,
-        "favorite": 5754,
-        "coin": 21855,
+        "view": 1682401,
+        "danmaku": 21908,
+        "reply": 7668,
+        "favorite": 5756,
+        "coin": 21859,
         "share": 2315,
-        "like": 48957
+        "like": 48990
       }
     },
     {
@@ -4879,13 +4879,13 @@
       "duration": 1339,
       "pubdate": "2026-01-04T02:00:00Z",
       "stat": {
-        "view": 1743905,
-        "danmaku": 16539,
+        "view": 1745653,
+        "danmaku": 16543,
         "reply": 5962,
-        "favorite": 5258,
-        "coin": 18320,
+        "favorite": 5266,
+        "coin": 18323,
         "share": 1721,
-        "like": 45582
+        "like": 45609
       }
     },
     {
@@ -4901,13 +4901,13 @@
       "duration": 1401,
       "pubdate": "2026-01-06T02:00:00Z",
       "stat": {
-        "view": 1482424,
-        "danmaku": 13535,
-        "reply": 4419,
-        "favorite": 4241,
-        "coin": 15170,
+        "view": 1483957,
+        "danmaku": 13545,
+        "reply": 4423,
+        "favorite": 4246,
+        "coin": 15174,
         "share": 822,
-        "like": 38790
+        "like": 38813
       }
     },
     {
@@ -4923,13 +4923,13 @@
       "duration": 1379,
       "pubdate": "2026-01-08T02:00:00Z",
       "stat": {
-        "view": 2349024,
-        "danmaku": 25401,
+        "view": 2350998,
+        "danmaku": 25407,
         "reply": 6932,
-        "favorite": 8276,
-        "coin": 19669,
-        "share": 3547,
-        "like": 57004
+        "favorite": 8282,
+        "coin": 19671,
+        "share": 3548,
+        "like": 57035
       }
     },
     {
@@ -4945,13 +4945,13 @@
       "duration": 1329,
       "pubdate": "2026-01-10T02:00:00Z",
       "stat": {
-        "view": 1395707,
-        "danmaku": 12343,
-        "reply": 3741,
-        "favorite": 3993,
-        "coin": 15753,
+        "view": 1397153,
+        "danmaku": 12350,
+        "reply": 3742,
+        "favorite": 3996,
+        "coin": 15758,
         "share": 799,
-        "like": 38353
+        "like": 38368
       }
     },
     {
@@ -4967,13 +4967,13 @@
       "duration": 1341,
       "pubdate": "2026-01-12T02:00:00Z",
       "stat": {
-        "view": 1397330,
-        "danmaku": 15781,
+        "view": 1398694,
+        "danmaku": 15787,
         "reply": 5151,
-        "favorite": 4036,
-        "coin": 14123,
+        "favorite": 4039,
+        "coin": 14126,
         "share": 878,
-        "like": 36860
+        "like": 36880
       }
     },
     {
@@ -4989,13 +4989,13 @@
       "duration": 1426,
       "pubdate": "2026-01-14T02:00:00Z",
       "stat": {
-        "view": 1449723,
-        "danmaku": 11195,
-        "reply": 4172,
-        "favorite": 3998,
-        "coin": 14406,
+        "view": 1451130,
+        "danmaku": 11196,
+        "reply": 4159,
+        "favorite": 4000,
+        "coin": 14412,
         "share": 756,
-        "like": 38365
+        "like": 38387
       }
     },
     {
@@ -5011,13 +5011,13 @@
       "duration": 1330,
       "pubdate": "2026-01-16T02:00:00Z",
       "stat": {
-        "view": 1573044,
-        "danmaku": 13135,
-        "reply": 5143,
-        "favorite": 4485,
-        "coin": 14163,
+        "view": 1574409,
+        "danmaku": 13140,
+        "reply": 5144,
+        "favorite": 4487,
+        "coin": 14167,
         "share": 985,
-        "like": 38398
+        "like": 38416
       }
     },
     {
@@ -5033,13 +5033,13 @@
       "duration": 1348,
       "pubdate": "2026-01-18T02:00:00Z",
       "stat": {
-        "view": 1401384,
-        "danmaku": 15851,
+        "view": 1402693,
+        "danmaku": 15857,
         "reply": 4652,
-        "favorite": 4062,
+        "favorite": 4066,
         "coin": 14229,
         "share": 882,
-        "like": 36746
+        "like": 36760
       }
     },
     {
@@ -5055,13 +5055,13 @@
       "duration": 1303,
       "pubdate": "2026-01-20T02:00:00Z",
       "stat": {
-        "view": 1220577,
-        "danmaku": 10336,
-        "reply": 5485,
-        "favorite": 3880,
-        "coin": 14311,
+        "view": 1221827,
+        "danmaku": 10340,
+        "reply": 5487,
+        "favorite": 3884,
+        "coin": 14315,
         "share": 837,
-        "like": 36012
+        "like": 36027
       }
     },
     {
@@ -5077,13 +5077,13 @@
       "duration": 1330,
       "pubdate": "2026-01-22T02:00:00Z",
       "stat": {
-        "view": 1457213,
-        "danmaku": 16496,
+        "view": 1458585,
+        "danmaku": 16504,
         "reply": 6084,
-        "favorite": 4829,
-        "coin": 15508,
+        "favorite": 4831,
+        "coin": 15510,
         "share": 2129,
-        "like": 41605
+        "like": 41618
       }
     },
     {
@@ -5099,13 +5099,13 @@
       "duration": 1342,
       "pubdate": "2026-01-24T02:00:00Z",
       "stat": {
-        "view": 1333764,
-        "danmaku": 14447,
+        "view": 1335192,
+        "danmaku": 14465,
         "reply": 4189,
-        "favorite": 3929,
-        "coin": 13650,
+        "favorite": 3930,
+        "coin": 13652,
         "share": 752,
-        "like": 36543
+        "like": 36562
       }
     },
     {
@@ -5121,13 +5121,13 @@
       "duration": 1357,
       "pubdate": "2026-01-26T02:00:00Z",
       "stat": {
-        "view": 1425367,
-        "danmaku": 12284,
+        "view": 1426754,
+        "danmaku": 12291,
         "reply": 4071,
-        "favorite": 4072,
-        "coin": 13928,
+        "favorite": 4073,
+        "coin": 13930,
         "share": 718,
-        "like": 36909
+        "like": 36924
       }
     },
     {
@@ -5143,13 +5143,13 @@
       "duration": 1374,
       "pubdate": "2026-01-28T02:00:00Z",
       "stat": {
-        "view": 1518304,
-        "danmaku": 14856,
-        "reply": 5491,
-        "favorite": 4357,
-        "coin": 13964,
+        "view": 1519715,
+        "danmaku": 14861,
+        "reply": 5493,
+        "favorite": 4358,
+        "coin": 13969,
         "share": 920,
-        "like": 39331
+        "like": 39355
       }
     },
     {
@@ -5165,13 +5165,13 @@
       "duration": 1363,
       "pubdate": "2026-01-30T02:00:00Z",
       "stat": {
-        "view": 1647666,
-        "danmaku": 12900,
-        "reply": 7261,
-        "favorite": 4875,
-        "coin": 14271,
+        "view": 1649181,
+        "danmaku": 12905,
+        "reply": 7262,
+        "favorite": 4879,
+        "coin": 14273,
         "share": 1036,
-        "like": 39983
+        "like": 40006
       }
     },
     {
@@ -5187,13 +5187,13 @@
       "duration": 1338,
       "pubdate": "2026-02-01T02:00:00Z",
       "stat": {
-        "view": 2070391,
-        "danmaku": 17811,
-        "reply": 8019,
+        "view": 2072211,
+        "danmaku": 17819,
+        "reply": 8020,
         "favorite": 7673,
-        "coin": 26700,
-        "share": 4117,
-        "like": 59567
+        "coin": 26712,
+        "share": 4118,
+        "like": 59602
       }
     },
     {
@@ -5209,13 +5209,13 @@
       "duration": 1315,
       "pubdate": "2026-02-03T02:00:00Z",
       "stat": {
-        "view": 1745552,
-        "danmaku": 15571,
-        "reply": 5673,
-        "favorite": 5015,
-        "coin": 15498,
+        "view": 1747108,
+        "danmaku": 15579,
+        "reply": 5674,
+        "favorite": 5014,
+        "coin": 15504,
         "share": 1389,
-        "like": 44365
+        "like": 44392
       }
     },
     {
@@ -5231,13 +5231,13 @@
       "duration": 1336,
       "pubdate": "2026-02-05T02:00:00Z",
       "stat": {
-        "view": 1358117,
-        "danmaku": 13054,
+        "view": 1359625,
+        "danmaku": 13063,
         "reply": 3771,
-        "favorite": 3938,
+        "favorite": 3939,
         "coin": 13987,
         "share": 783,
-        "like": 36934
+        "like": 36957
       }
     },
     {
@@ -5253,13 +5253,13 @@
       "duration": 1370,
       "pubdate": "2026-02-07T02:00:00Z",
       "stat": {
-        "view": 1266533,
-        "danmaku": 14365,
+        "view": 1267944,
+        "danmaku": 14386,
         "reply": 4156,
-        "favorite": 3786,
-        "coin": 12640,
+        "favorite": 3790,
+        "coin": 12642,
         "share": 755,
-        "like": 33871
+        "like": 33894
       }
     },
     {
@@ -5275,13 +5275,13 @@
       "duration": 1354,
       "pubdate": "2026-02-09T02:00:00Z",
       "stat": {
-        "view": 1260105,
-        "danmaku": 10129,
-        "reply": 3908,
-        "favorite": 3718,
-        "coin": 12607,
+        "view": 1261567,
+        "danmaku": 10137,
+        "reply": 3909,
+        "favorite": 3714,
+        "coin": 12608,
         "share": 581,
-        "like": 33840
+        "like": 33868
       }
     },
     {
@@ -5297,13 +5297,13 @@
       "duration": 1327,
       "pubdate": "2026-02-11T02:00:00Z",
       "stat": {
-        "view": 1375733,
-        "danmaku": 8975,
+        "view": 1377182,
+        "danmaku": 8988,
         "reply": 3765,
-        "favorite": 3945,
+        "favorite": 3952,
         "coin": 12630,
         "share": 712,
-        "like": 35371
+        "like": 35396
       }
     },
     {
@@ -5319,13 +5319,13 @@
       "duration": 1358,
       "pubdate": "2026-02-13T02:00:00Z",
       "stat": {
-        "view": 1336632,
-        "danmaku": 10463,
+        "view": 1338024,
+        "danmaku": 10464,
         "reply": 3933,
-        "favorite": 4029,
-        "coin": 12656,
+        "favorite": 4032,
+        "coin": 12660,
         "share": 726,
-        "like": 35730
+        "like": 35749
       }
     },
     {
@@ -5341,13 +5341,13 @@
       "duration": 1422,
       "pubdate": "2026-02-15T02:00:00Z",
       "stat": {
-        "view": 1234396,
-        "danmaku": 12658,
-        "reply": 3312,
-        "favorite": 3821,
-        "coin": 13783,
+        "view": 1235707,
+        "danmaku": 12667,
+        "reply": 3314,
+        "favorite": 3823,
+        "coin": 13787,
         "share": 724,
-        "like": 34857
+        "like": 34880
       }
     },
     {
@@ -5363,13 +5363,13 @@
       "duration": 1404,
       "pubdate": "2026-02-17T02:00:00Z",
       "stat": {
-        "view": 1332572,
-        "danmaku": 13590,
+        "view": 1333954,
+        "danmaku": 13594,
         "reply": 3750,
-        "favorite": 4700,
+        "favorite": 4706,
         "coin": 18208,
         "share": 822,
-        "like": 42498
+        "like": 42521
       }
     },
     {
@@ -5385,13 +5385,13 @@
       "duration": 1345,
       "pubdate": "2026-02-19T02:00:00Z",
       "stat": {
-        "view": 1682181,
-        "danmaku": 12216,
+        "view": 1684113,
+        "danmaku": 12224,
         "reply": 5203,
-        "favorite": 5096,
-        "coin": 14413,
-        "share": 1531,
-        "like": 39798
+        "favorite": 5102,
+        "coin": 14423,
+        "share": 1532,
+        "like": 39827
       }
     },
     {
@@ -5407,13 +5407,13 @@
       "duration": 1359,
       "pubdate": "2026-02-21T02:00:00Z",
       "stat": {
-        "view": 1420860,
-        "danmaku": 8868,
+        "view": 1422302,
+        "danmaku": 8874,
         "reply": 4119,
-        "favorite": 4200,
-        "coin": 13015,
+        "favorite": 4204,
+        "coin": 13020,
         "share": 714,
-        "like": 37476
+        "like": 37499
       }
     },
     {
@@ -5429,13 +5429,13 @@
       "duration": 1360,
       "pubdate": "2026-02-23T02:00:00Z",
       "stat": {
-        "view": 1360808,
-        "danmaku": 10202,
-        "reply": 3977,
-        "favorite": 4127,
-        "coin": 13052,
+        "view": 1362189,
+        "danmaku": 10207,
+        "reply": 3979,
+        "favorite": 4130,
+        "coin": 13054,
         "share": 724,
-        "like": 36216
+        "like": 36247
       }
     },
     {
@@ -5451,13 +5451,13 @@
       "duration": 1345,
       "pubdate": "2026-02-25T02:00:00Z",
       "stat": {
-        "view": 1242600,
-        "danmaku": 8905,
-        "reply": 3687,
-        "favorite": 3634,
-        "coin": 12491,
+        "view": 1243920,
+        "danmaku": 8906,
+        "reply": 3688,
+        "favorite": 3637,
+        "coin": 12495,
         "share": 601,
-        "like": 34460
+        "like": 34491
       }
     },
     {
@@ -5473,13 +5473,13 @@
       "duration": 1346,
       "pubdate": "2026-02-27T02:00:00Z",
       "stat": {
-        "view": 1347242,
-        "danmaku": 13797,
+        "view": 1348650,
+        "danmaku": 13802,
         "reply": 5170,
-        "favorite": 4297,
-        "coin": 14362,
+        "favorite": 4306,
+        "coin": 14366,
         "share": 1141,
-        "like": 37925
+        "like": 37950
       }
     },
     {
@@ -5495,13 +5495,13 @@
       "duration": 1310,
       "pubdate": "2026-03-01T02:00:00Z",
       "stat": {
-        "view": 1357663,
-        "danmaku": 10365,
-        "reply": 3963,
-        "favorite": 4080,
+        "view": 1358974,
+        "danmaku": 10366,
+        "reply": 3954,
+        "favorite": 4082,
         "coin": 12933,
         "share": 761,
-        "like": 37299
+        "like": 37321
       }
     },
     {
@@ -5517,13 +5517,13 @@
       "duration": 1348,
       "pubdate": "2026-03-03T02:00:00Z",
       "stat": {
-        "view": 1231337,
-        "danmaku": 10630,
+        "view": 1232714,
+        "danmaku": 10635,
         "reply": 6079,
-        "favorite": 3783,
-        "coin": 12694,
+        "favorite": 3788,
+        "coin": 12697,
         "share": 783,
-        "like": 35127
+        "like": 35148
       }
     },
     {
@@ -5539,13 +5539,13 @@
       "duration": 1341,
       "pubdate": "2026-03-05T02:00:00Z",
       "stat": {
-        "view": 1265770,
-        "danmaku": 11102,
-        "reply": 4177,
-        "favorite": 3932,
-        "coin": 12812,
+        "view": 1267157,
+        "danmaku": 11106,
+        "reply": 4179,
+        "favorite": 3934,
+        "coin": 12819,
         "share": 775,
-        "like": 35182
+        "like": 35208
       }
     },
     {
@@ -5561,13 +5561,13 @@
       "duration": 1376,
       "pubdate": "2026-03-07T02:00:00Z",
       "stat": {
-        "view": 1366464,
-        "danmaku": 17217,
-        "reply": 4514,
-        "favorite": 4718,
-        "coin": 17346,
+        "view": 1368413,
+        "danmaku": 17242,
+        "reply": 4516,
+        "favorite": 4721,
+        "coin": 17352,
         "share": 1540,
-        "like": 41069
+        "like": 41108
       }
     },
     {
@@ -5583,13 +5583,13 @@
       "duration": 1336,
       "pubdate": "2026-03-09T02:00:00Z",
       "stat": {
-        "view": 1271942,
-        "danmaku": 10611,
-        "reply": 3317,
-        "favorite": 3666,
-        "coin": 12486,
-        "share": 645,
-        "like": 33669
+        "view": 1273660,
+        "danmaku": 10618,
+        "reply": 3318,
+        "favorite": 3664,
+        "coin": 12488,
+        "share": 646,
+        "like": 33700
       }
     },
     {
@@ -5605,13 +5605,13 @@
       "duration": 1352,
       "pubdate": "2026-03-11T02:00:00Z",
       "stat": {
-        "view": 1175907,
-        "danmaku": 10422,
-        "reply": 3479,
-        "favorite": 3567,
-        "coin": 13106,
+        "view": 1177525,
+        "danmaku": 10427,
+        "reply": 3480,
+        "favorite": 3571,
+        "coin": 13113,
         "share": 629,
-        "like": 32519
+        "like": 32546
       }
     },
     {
@@ -5627,13 +5627,13 @@
       "duration": 1349,
       "pubdate": "2026-03-13T02:00:00Z",
       "stat": {
-        "view": 1329205,
-        "danmaku": 10696,
+        "view": 1331077,
+        "danmaku": 10703,
         "reply": 3785,
-        "favorite": 3885,
-        "coin": 12763,
+        "favorite": 3886,
+        "coin": 12770,
         "share": 690,
-        "like": 34643
+        "like": 34668
       }
     },
     {
@@ -5649,13 +5649,13 @@
       "duration": 1320,
       "pubdate": "2026-03-15T02:00:00Z",
       "stat": {
-        "view": 1332092,
-        "danmaku": 13827,
+        "view": 1334066,
+        "danmaku": 13838,
         "reply": 5799,
-        "favorite": 4254,
-        "coin": 13365,
-        "share": 943,
-        "like": 35209
+        "favorite": 4260,
+        "coin": 13367,
+        "share": 944,
+        "like": 35231
       }
     },
     {
@@ -5671,13 +5671,13 @@
       "duration": 1418,
       "pubdate": "2026-03-17T02:00:00Z",
       "stat": {
-        "view": 1425855,
-        "danmaku": 12415,
-        "reply": 4452,
-        "favorite": 4465,
-        "coin": 14220,
-        "share": 923,
-        "like": 39329
+        "view": 1427896,
+        "danmaku": 12418,
+        "reply": 4475,
+        "favorite": 4471,
+        "coin": 14230,
+        "share": 924,
+        "like": 39365
       }
     },
     {
@@ -5693,13 +5693,13 @@
       "duration": 1402,
       "pubdate": "2026-03-19T02:00:00Z",
       "stat": {
-        "view": 1223339,
-        "danmaku": 10020,
+        "view": 1225046,
+        "danmaku": 10023,
         "reply": 3690,
-        "favorite": 3611,
+        "favorite": 3617,
         "coin": 12449,
         "share": 621,
-        "like": 33103
+        "like": 33125
       }
     },
     {
@@ -5715,13 +5715,13 @@
       "duration": 1558,
       "pubdate": "2026-03-21T02:00:00Z",
       "stat": {
-        "view": 1287736,
-        "danmaku": 15204,
+        "view": 1289625,
+        "danmaku": 15218,
         "reply": 4672,
-        "favorite": 4100,
-        "coin": 13209,
-        "share": 915,
-        "like": 35706
+        "favorite": 4106,
+        "coin": 13216,
+        "share": 916,
+        "like": 35732
       }
     },
     {
@@ -5737,13 +5737,13 @@
       "duration": 1342,
       "pubdate": "2026-03-23T02:00:00Z",
       "stat": {
-        "view": 1340991,
-        "danmaku": 11014,
+        "view": 1342983,
+        "danmaku": 11016,
         "reply": 3759,
-        "favorite": 4214,
-        "coin": 13723,
-        "share": 765,
-        "like": 34657
+        "favorite": 4215,
+        "coin": 13728,
+        "share": 766,
+        "like": 34681
       }
     },
     {
@@ -5759,13 +5759,13 @@
       "duration": 1324,
       "pubdate": "2026-03-25T02:00:00Z",
       "stat": {
-        "view": 1151269,
-        "danmaku": 9086,
-        "reply": 3187,
-        "favorite": 3638,
-        "coin": 12606,
-        "share": 565,
-        "like": 31359
+        "view": 1156513,
+        "danmaku": 9103,
+        "reply": 3191,
+        "favorite": 3654,
+        "coin": 12616,
+        "share": 566,
+        "like": 31404
       }
     },
     {
@@ -5781,13 +5781,13 @@
       "duration": 1330,
       "pubdate": "2026-03-27T02:00:00Z",
       "stat": {
-        "view": 1147297,
-        "danmaku": 9900,
-        "reply": 3408,
-        "favorite": 3616,
+        "view": 1149237,
+        "danmaku": 9905,
+        "reply": 3410,
+        "favorite": 3621,
         "coin": 13370,
         "share": 553,
-        "like": 31912
+        "like": 31932
       }
     },
     {
@@ -5803,13 +5803,13 @@
       "duration": 1353,
       "pubdate": "2026-03-29T02:00:00Z",
       "stat": {
-        "view": 1298084,
-        "danmaku": 10814,
-        "reply": 3343,
-        "favorite": 3663,
+        "view": 1300009,
+        "danmaku": 10818,
+        "reply": 3344,
+        "favorite": 3665,
         "coin": 12322,
         "share": 600,
-        "like": 34561
+        "like": 34585
       }
     },
     {
@@ -5825,13 +5825,13 @@
       "duration": 1352,
       "pubdate": "2026-03-31T02:00:00Z",
       "stat": {
-        "view": 1159209,
-        "danmaku": 11691,
-        "reply": 3388,
-        "favorite": 3415,
-        "coin": 11445,
-        "share": 597,
-        "like": 31615
+        "view": 1161074,
+        "danmaku": 11697,
+        "reply": 3389,
+        "favorite": 3420,
+        "coin": 11447,
+        "share": 598,
+        "like": 31639
       }
     },
     {
@@ -5847,13 +5847,13 @@
       "duration": 1376,
       "pubdate": "2026-04-02T02:00:00Z",
       "stat": {
-        "view": 1252292,
-        "danmaku": 15215,
-        "reply": 4046,
-        "favorite": 4174,
-        "coin": 12889,
-        "share": 1040,
-        "like": 33341
+        "view": 1254587,
+        "danmaku": 15248,
+        "reply": 4047,
+        "favorite": 4185,
+        "coin": 12897,
+        "share": 1041,
+        "like": 33375
       }
     },
     {
@@ -5869,13 +5869,13 @@
       "duration": 1355,
       "pubdate": "2026-04-04T02:00:00Z",
       "stat": {
-        "view": 1081393,
-        "danmaku": 8707,
-        "reply": 2918,
-        "favorite": 3273,
+        "view": 1083158,
+        "danmaku": 8719,
+        "reply": 2921,
+        "favorite": 3282,
         "coin": 12631,
         "share": 437,
-        "like": 30548
+        "like": 30570
       }
     },
     {
@@ -5891,13 +5891,13 @@
       "duration": 1329,
       "pubdate": "2026-04-06T02:00:00Z",
       "stat": {
-        "view": 1234846,
-        "danmaku": 11426,
-        "reply": 3306,
-        "favorite": 3705,
-        "coin": 12451,
-        "share": 608,
-        "like": 32854
+        "view": 1236991,
+        "danmaku": 11433,
+        "reply": 3307,
+        "favorite": 3708,
+        "coin": 12455,
+        "share": 610,
+        "like": 32886
       }
     },
     {
@@ -5913,13 +5913,13 @@
       "duration": 1331,
       "pubdate": "2026-04-08T02:00:00Z",
       "stat": {
-        "view": 1043659,
-        "danmaku": 11297,
+        "view": 1045397,
+        "danmaku": 11302,
         "reply": 2458,
-        "favorite": 3263,
-        "coin": 12276,
+        "favorite": 3267,
+        "coin": 12278,
         "share": 494,
-        "like": 30102
+        "like": 30121
       }
     },
     {
@@ -5935,13 +5935,13 @@
       "duration": 1370,
       "pubdate": "2026-04-10T02:00:00Z",
       "stat": {
-        "view": 1141569,
-        "danmaku": 12599,
+        "view": 1143478,
+        "danmaku": 12604,
         "reply": 3431,
-        "favorite": 3729,
-        "coin": 12394,
+        "favorite": 3734,
+        "coin": 12400,
         "share": 633,
-        "like": 31644
+        "like": 31670
       }
     },
     {
@@ -5957,13 +5957,13 @@
       "duration": 1400,
       "pubdate": "2026-04-12T02:00:00Z",
       "stat": {
-        "view": 1284726,
-        "danmaku": 14486,
-        "reply": 4479,
-        "favorite": 4828,
-        "coin": 13638,
-        "share": 1403,
-        "like": 35900
+        "view": 1287129,
+        "danmaku": 14495,
+        "reply": 4482,
+        "favorite": 4844,
+        "coin": 13644,
+        "share": 1405,
+        "like": 35933
       }
     },
     {
@@ -5979,13 +5979,13 @@
       "duration": 1363,
       "pubdate": "2026-04-14T02:00:00Z",
       "stat": {
-        "view": 1057700,
-        "danmaku": 10228,
+        "view": 1059487,
+        "danmaku": 10230,
         "reply": 2645,
-        "favorite": 3260,
-        "coin": 11938,
-        "share": 548,
-        "like": 30566
+        "favorite": 3267,
+        "coin": 11944,
+        "share": 549,
+        "like": 30586
       }
     },
     {
@@ -6001,13 +6001,13 @@
       "duration": 1374,
       "pubdate": "2026-04-16T02:00:00Z",
       "stat": {
-        "view": 1120508,
-        "danmaku": 10636,
+        "view": 1122378,
+        "danmaku": 10643,
         "reply": 2350,
-        "favorite": 3463,
-        "coin": 12418,
+        "favorite": 3471,
+        "coin": 12427,
         "share": 574,
-        "like": 32086
+        "like": 32111
       }
     },
     {
@@ -6023,13 +6023,13 @@
       "duration": 1375,
       "pubdate": "2026-04-18T02:00:00Z",
       "stat": {
-        "view": 1034534,
-        "danmaku": 12048,
+        "view": 1036126,
+        "danmaku": 12056,
         "reply": 2432,
-        "favorite": 3335,
-        "coin": 13057,
+        "favorite": 3340,
+        "coin": 13063,
         "share": 453,
-        "like": 31152
+        "like": 31164
       }
     },
     {
@@ -6045,13 +6045,13 @@
       "duration": 1333,
       "pubdate": "2026-04-20T02:00:00Z",
       "stat": {
-        "view": 1036674,
-        "danmaku": 8713,
-        "reply": 2843,
-        "favorite": 3259,
-        "coin": 12081,
-        "share": 481,
-        "like": 30358
+        "view": 1038290,
+        "danmaku": 8716,
+        "reply": 2847,
+        "favorite": 3257,
+        "coin": 12083,
+        "share": 482,
+        "like": 30377
       }
     },
     {
@@ -6067,13 +6067,13 @@
       "duration": 1349,
       "pubdate": "2026-04-22T02:00:00Z",
       "stat": {
-        "view": 1142675,
-        "danmaku": 11637,
-        "reply": 3357,
+        "view": 1144484,
+        "danmaku": 11642,
+        "reply": 3359,
         "favorite": 4010,
-        "coin": 12599,
-        "share": 1335,
-        "like": 33085
+        "coin": 12605,
+        "share": 1336,
+        "like": 33091
       }
     },
     {
@@ -6089,13 +6089,13 @@
       "duration": 1456,
       "pubdate": "2026-04-24T02:00:00Z",
       "stat": {
-        "view": 1231149,
-        "danmaku": 11634,
+        "view": 1232997,
+        "danmaku": 11637,
         "reply": 3295,
-        "favorite": 4172,
-        "coin": 13301,
+        "favorite": 4174,
+        "coin": 13303,
         "share": 1038,
-        "like": 36241
+        "like": 36268
       }
     },
     {
@@ -6111,13 +6111,13 @@
       "duration": 1357,
       "pubdate": "2026-04-26T02:00:00Z",
       "stat": {
-        "view": 1091753,
-        "danmaku": 9968,
-        "reply": 3194,
-        "favorite": 3495,
-        "coin": 12559,
-        "share": 570,
-        "like": 31664
+        "view": 1093488,
+        "danmaku": 9974,
+        "reply": 3197,
+        "favorite": 3500,
+        "coin": 12563,
+        "share": 571,
+        "like": 31695
       }
     },
     {
@@ -6133,13 +6133,13 @@
       "duration": 1347,
       "pubdate": "2026-04-28T02:00:00Z",
       "stat": {
-        "view": 1072771,
-        "danmaku": 9521,
-        "reply": 3103,
-        "favorite": 3363,
-        "coin": 12391,
+        "view": 1074572,
+        "danmaku": 9530,
+        "reply": 3105,
+        "favorite": 3369,
+        "coin": 12393,
         "share": 544,
-        "like": 31196
+        "like": 31219
       }
     },
     {
@@ -6155,13 +6155,13 @@
       "duration": 1382,
       "pubdate": "2026-04-30T02:00:00Z",
       "stat": {
-        "view": 993052,
-        "danmaku": 8885,
+        "view": 994596,
+        "danmaku": 8892,
         "reply": 2561,
-        "favorite": 3253,
+        "favorite": 3252,
         "coin": 12511,
         "share": 464,
-        "like": 30007
+        "like": 30026
       }
     },
     {
@@ -6177,13 +6177,13 @@
       "duration": 1358,
       "pubdate": "2026-05-02T02:00:00Z",
       "stat": {
-        "view": 953647,
-        "danmaku": 9899,
+        "view": 955164,
+        "danmaku": 9903,
         "reply": 2864,
-        "favorite": 3118,
-        "coin": 12371,
+        "favorite": 3123,
+        "coin": 12375,
         "share": 421,
-        "like": 29131
+        "like": 29152
       }
     },
     {
@@ -6199,13 +6199,13 @@
       "duration": 1379,
       "pubdate": "2026-05-04T02:00:00Z",
       "stat": {
-        "view": 1051460,
-        "danmaku": 9710,
-        "reply": 3253,
-        "favorite": 3556,
-        "coin": 12486,
+        "view": 1053136,
+        "danmaku": 9721,
+        "reply": 3254,
+        "favorite": 3557,
+        "coin": 12488,
         "share": 696,
-        "like": 33276
+        "like": 33299
       }
     },
     {
@@ -6221,13 +6221,13 @@
       "duration": 1353,
       "pubdate": "2026-05-06T02:00:00Z",
       "stat": {
-        "view": 1083893,
-        "danmaku": 9721,
+        "view": 1085583,
+        "danmaku": 9730,
         "reply": 3961,
-        "favorite": 3564,
-        "coin": 12387,
+        "favorite": 3567,
+        "coin": 12393,
         "share": 552,
-        "like": 32379
+        "like": 32401
       }
     },
     {
@@ -6243,13 +6243,13 @@
       "duration": 1345,
       "pubdate": "2026-05-08T02:00:00Z",
       "stat": {
-        "view": 929505,
+        "view": 930940,
         "danmaku": 8389,
         "reply": 2931,
         "favorite": 3162,
-        "coin": 11978,
+        "coin": 11982,
         "share": 471,
-        "like": 29610
+        "like": 29632
       }
     },
     {
@@ -6265,13 +6265,13 @@
       "duration": 1371,
       "pubdate": "2026-05-10T02:00:00Z",
       "stat": {
-        "view": 1317810,
-        "danmaku": 21630,
+        "view": 1319884,
+        "danmaku": 21660,
         "reply": 5368,
-        "favorite": 5430,
-        "coin": 17635,
-        "share": 2678,
-        "like": 42198
+        "favorite": 5443,
+        "coin": 17643,
+        "share": 2679,
+        "like": 42228
       }
     },
     {
@@ -6287,13 +6287,13 @@
       "duration": 1318,
       "pubdate": "2026-05-12T02:00:00Z",
       "stat": {
-        "view": 1052364,
-        "danmaku": 13710,
+        "view": 1053950,
+        "danmaku": 13726,
         "reply": 4664,
-        "favorite": 3523,
-        "coin": 12010,
+        "favorite": 3527,
+        "coin": 12013,
         "share": 837,
-        "like": 31982
+        "like": 32006
       }
     },
     {
@@ -6309,13 +6309,13 @@
       "duration": 1337,
       "pubdate": "2026-05-14T02:00:00Z",
       "stat": {
-        "view": 1152878,
-        "danmaku": 14985,
-        "reply": 4875,
+        "view": 1154567,
+        "danmaku": 15001,
+        "reply": 4877,
         "favorite": 4067,
-        "coin": 12681,
+        "coin": 12682,
         "share": 1315,
-        "like": 35594
+        "like": 35621
       }
     },
     {
@@ -6331,13 +6331,13 @@
       "duration": 1332,
       "pubdate": "2026-05-16T02:00:00Z",
       "stat": {
-        "view": 997699,
-        "danmaku": 11664,
+        "view": 999411,
+        "danmaku": 11687,
         "reply": 3401,
-        "favorite": 3400,
-        "coin": 12386,
+        "favorite": 3399,
+        "coin": 12389,
         "share": 752,
-        "like": 31875
+        "like": 31906
       }
     },
     {
@@ -6353,13 +6353,13 @@
       "duration": 1335,
       "pubdate": "2026-05-18T02:00:00Z",
       "stat": {
-        "view": 1047957,
-        "danmaku": 13074,
-        "reply": 4057,
-        "favorite": 3593,
-        "coin": 12028,
+        "view": 1049558,
+        "danmaku": 13089,
+        "reply": 4059,
+        "favorite": 3596,
+        "coin": 12030,
         "share": 743,
-        "like": 32563
+        "like": 32590
       }
     },
     {
@@ -6375,13 +6375,13 @@
       "duration": 1343,
       "pubdate": "2026-05-20T02:00:00Z",
       "stat": {
-        "view": 950594,
-        "danmaku": 13792,
-        "reply": 6002,
-        "favorite": 3530,
-        "coin": 13895,
-        "share": 928,
-        "like": 33197
+        "view": 952093,
+        "danmaku": 13817,
+        "reply": 6003,
+        "favorite": 3532,
+        "coin": 13902,
+        "share": 930,
+        "like": 33225
       }
     },
     {
@@ -6397,13 +6397,13 @@
       "duration": 1479,
       "pubdate": "2026-05-22T02:00:00Z",
       "stat": {
-        "view": 2414785,
-        "danmaku": 40151,
+        "view": 2417446,
+        "danmaku": 40171,
         "reply": 26391,
-        "favorite": 27286,
-        "coin": 120045,
-        "share": 13331,
-        "like": 132578
+        "favorite": 27294,
+        "coin": 120102,
+        "share": 13333,
+        "like": 132646
       }
     },
     {
@@ -6419,13 +6419,13 @@
       "duration": 1326,
       "pubdate": "2026-05-24T02:00:00Z",
       "stat": {
-        "view": 2294402,
-        "danmaku": 15379,
+        "view": 2296855,
+        "danmaku": 15383,
         "reply": 7186,
-        "favorite": 15051,
-        "coin": 46457,
-        "share": 13860,
-        "like": 96520
+        "favorite": 15058,
+        "coin": 46470,
+        "share": 13863,
+        "like": 96576
       }
     },
     {
@@ -6441,13 +6441,13 @@
       "duration": 1359,
       "pubdate": "2026-05-26T02:00:00Z",
       "stat": {
-        "view": 1361944,
-        "danmaku": 10967,
-        "reply": 5127,
-        "favorite": 5397,
+        "view": 1363566,
+        "danmaku": 10970,
+        "reply": 5128,
+        "favorite": 5395,
         "coin": 17675,
-        "share": 1230,
-        "like": 47399
+        "share": 1231,
+        "like": 47432
       }
     },
     {
@@ -6463,13 +6463,13 @@
       "duration": 1376,
       "pubdate": "2026-05-28T02:00:00Z",
       "stat": {
-        "view": 1212060,
-        "danmaku": 7861,
+        "view": 1213598,
+        "danmaku": 7866,
         "reply": 3459,
-        "favorite": 4187,
+        "favorite": 4190,
         "coin": 12495,
         "share": 731,
-        "like": 38682
+        "like": 38711
       }
     },
     {
@@ -6485,13 +6485,13 @@
       "duration": 1319,
       "pubdate": "2026-05-30T02:00:00Z",
       "stat": {
-        "view": 1147561,
+        "view": 1148875,
         "danmaku": 7618,
         "reply": 2719,
         "favorite": 3811,
         "coin": 12541,
         "share": 534,
-        "like": 35574
+        "like": 35589
       }
     },
     {
@@ -6507,13 +6507,13 @@
       "duration": 1399,
       "pubdate": "2026-06-01T02:00:00Z",
       "stat": {
-        "view": 1015090,
-        "danmaku": 8668,
+        "view": 1016350,
+        "danmaku": 8671,
         "reply": 2976,
         "favorite": 3304,
         "coin": 9743,
         "share": 509,
-        "like": 31281
+        "like": 31308
       }
     },
     {
@@ -6529,13 +6529,13 @@
       "duration": 1431,
       "pubdate": "2026-06-03T02:00:00Z",
       "stat": {
-        "view": 1001801,
-        "danmaku": 8817,
+        "view": 1003035,
+        "danmaku": 8824,
         "reply": 2987,
-        "favorite": 3251,
+        "favorite": 3247,
         "coin": 9302,
         "share": 567,
-        "like": 30360
+        "like": 30376
       }
     },
     {
@@ -6551,13 +6551,13 @@
       "duration": 1413,
       "pubdate": "2026-06-07T02:00:00Z",
       "stat": {
-        "view": 1180984,
+        "view": 1182776,
         "danmaku": 9388,
         "reply": 3211,
-        "favorite": 3824,
-        "coin": 11009,
+        "favorite": 3826,
+        "coin": 11013,
         "share": 628,
-        "like": 36140
+        "like": 36166
       }
     }
   ]
