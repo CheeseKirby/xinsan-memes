@@ -139,6 +139,38 @@
       "image_status": "generated_card"
     },
     {
+      "id": "xsg-title-653e3a7f33",
+      "title": "听说你家刘备还没死，我深感欣慰啊",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 90 期标题中挖掘出的候选梗：听说你家刘备还没死，我深感欣慰啊",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗",
+        "人物梗",
+        "角色梗",
+        "回复",
+        "反应图"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV1jNogYzEFd",
+      "source_url": "https://www.bilibili.com/video/BV1jNogYzEFd",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 33,
+      "image_status": "generated_card"
+    },
+    {
       "id": "xsg-title-30dd1ee23a",
       "title": "华雄变身人马兽，关羽的酒也没了",
       "item_type": "meme",
@@ -497,6 +529,36 @@
       "image_status": "generated_card"
     },
     {
+      "id": "xsg-title-edddae2f5e",
+      "title": "陈宫陈珪后宫争宠，这剧情有点野",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 52 期标题中挖掘出的候选梗：陈宫陈珪后宫争宠，这剧情有点野",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗",
+        "人物梗",
+        "角色梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV16XFjerEQu",
+      "source_url": "https://www.bilibili.com/video/BV16XFjerEQu",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 28,
+      "image_status": "generated_card"
+    },
+    {
       "id": "xsg-title-2922952652",
       "title": "呱，公子啊，不是我刘备害了你……",
       "item_type": "meme",
@@ -523,38 +585,6 @@
       ],
       "primary_bvid": "BV1pXtVzYE7R",
       "source_url": "https://www.bilibili.com/video/BV1pXtVzYE7R",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 28,
-      "image_status": "generated_card"
-    },
-    {
-      "id": "xsg-title-653e3a7f33",
-      "title": "听说你家刘备还没死，我深感欣慰啊",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 90 期标题中挖掘出的候选梗：听说你家刘备还没死，我深感欣慰啊",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗",
-        "回复",
-        "反应图"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1jNogYzEFd",
-      "source_url": "https://www.bilibili.com/video/BV1jNogYzEFd",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 28,
@@ -1889,36 +1919,6 @@
       "image_status": "generated_card"
     },
     {
-      "id": "xsg-title-edddae2f5e",
-      "title": "陈宫陈珪后宫争宠，这剧情有点野",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 52 期标题中挖掘出的候选梗：陈宫陈珪后宫争宠，这剧情有点野",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV16XFjerEQu",
-      "source_url": "https://www.bilibili.com/video/BV16XFjerEQu",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 23,
-      "image_status": "generated_card"
-    },
-    {
       "id": "xsg-title-6398d4ff69",
       "title": "梅花煮酒论英雄，太有个性了",
       "item_type": "meme",
@@ -2356,6 +2356,36 @@
       "image_status": "generated_card"
     },
     {
+      "id": "xsg-title-9daf9f50e7",
+      "title": "听说你家刘备还没死",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 90 期标题中挖掘出的候选梗：听说你家刘备还没死",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗",
+        "人物梗",
+        "角色梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV1jNogYzEFd",
+      "source_url": "https://www.bilibili.com/video/BV1jNogYzEFd",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 22,
+      "image_status": "generated_card"
+    },
+    {
       "id": "xsg-title-9728726107",
       "title": "先生听说你刘备要来",
       "item_type": "meme",
@@ -2408,6 +2438,36 @@
       ],
       "primary_bvid": "BV1h1w5exEST",
       "source_url": "https://www.bilibili.com/video/BV1h1w5exEST",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 21,
+      "image_status": "generated_card"
+    },
+    {
+      "id": "xsg-title-7e6ee86cf9",
+      "title": "陈宫陈珪后宫争宠",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 52 期标题中挖掘出的候选梗：陈宫陈珪后宫争宠",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗",
+        "人物梗",
+        "角色梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV16XFjerEQu",
+      "source_url": "https://www.bilibili.com/video/BV16XFjerEQu",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 21,
@@ -3052,6 +3112,34 @@
       ],
       "primary_bvid": "BV1dMSnB3E5d",
       "source_url": "https://www.bilibili.com/video/BV1dMSnB3E5d",
+      "source_kind": "bilibili_title_candidate",
+      "curation_status": "title_mined",
+      "candidate_score": 20,
+      "image_status": "generated_card"
+    },
+    {
+      "id": "xsg-title-7c57f55f2f",
+      "title": "破案了，曹豹是金刚狼",
+      "item_type": "meme",
+      "summary": "从吃蛋挞的折棒《吐槽新三国》第 43 期标题中挖掘出的候选梗：破案了，曹豹是金刚狼",
+      "aliases": [],
+      "tags": [
+        "新三国",
+        "折棒",
+        "标题挖掘",
+        "候选梗"
+      ],
+      "tone": [
+        "吐槽"
+      ],
+      "language": "zh",
+      "safe": true,
+      "usage": [
+        "作为新三国语境下的吐槽短句",
+        "需要人工复核后可提升为正式梗条目"
+      ],
+      "primary_bvid": "BV1ujcGeyEr5",
+      "source_url": "https://www.bilibili.com/video/BV1ujcGeyEr5",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 20,
@@ -5192,36 +5280,6 @@
       "image_status": "generated_card"
     },
     {
-      "id": "xsg-title-9daf9f50e7",
-      "title": "听说你家刘备还没死",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 90 期标题中挖掘出的候选梗：听说你家刘备还没死",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1jNogYzEFd",
-      "source_url": "https://www.bilibili.com/video/BV1jNogYzEFd",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 17,
-      "image_status": "generated_card"
-    },
-    {
       "id": "xsg-title-cc84346d18",
       "title": "名不虚传骷髅王",
       "item_type": "meme",
@@ -5244,67 +5302,6 @@
       ],
       "primary_bvid": "BV1TJwTecEpi",
       "source_url": "https://www.bilibili.com/video/BV1TJwTecEpi",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 17,
-      "image_status": "generated_card"
-    },
-    {
-      "id": "xsg-title-3c7a7d1229",
-      "title": "史诗级计策连表计，孔明周瑜自叹不如",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 181 期标题中挖掘出的候选梗：史诗级计策连表计，孔明周瑜自叹不如",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗",
-        "历史梗"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1Wy4qzwE7D",
-      "source_url": "https://www.bilibili.com/video/BV1Wy4qzwE7D",
-      "source_kind": "bilibili_title_candidate",
-      "curation_status": "title_mined",
-      "candidate_score": 17,
-      "image_status": "generated_card"
-    },
-    {
-      "id": "xsg-title-c5d9f59f61",
-      "title": "刘备听令，自绝归天",
-      "item_type": "meme",
-      "summary": "从吃蛋挞的折棒《吐槽新三国》第 252 期标题中挖掘出的候选梗：刘备听令，自绝归天",
-      "aliases": [],
-      "tags": [
-        "新三国",
-        "折棒",
-        "标题挖掘",
-        "候选梗",
-        "人物梗",
-        "角色梗"
-      ],
-      "tone": [
-        "吐槽"
-      ],
-      "language": "zh",
-      "safe": true,
-      "usage": [
-        "作为新三国语境下的吐槽短句",
-        "需要人工复核后可提升为正式梗条目"
-      ],
-      "primary_bvid": "BV1rMPbz5EnJ",
-      "source_url": "https://www.bilibili.com/video/BV1rMPbz5EnJ",
       "source_kind": "bilibili_title_candidate",
       "curation_status": "title_mined",
       "candidate_score": 17,
